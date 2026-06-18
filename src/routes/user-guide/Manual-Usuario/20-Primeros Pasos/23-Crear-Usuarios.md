@@ -2,121 +2,92 @@
 
 <div id="crear-usuarios"></div>
 
-> 🎯 **¿Para qué sirve esto?**  
-> Vas a crear cuentas SOLO para los dueños, encargados y cajeros que van a usar {{BRAND_NAME}}. Cada usuario tendrá su usuario y contraseña personal.
-
-## 📋 **Paso a paso - Crear tu primer usuario**
-
-### **Paso 1: Encontra el menu lateral**
-
-1. Una vez que lo hayas visualizado, Desplega la opcion **Configuracion**
-2. Hacé clic en la opcion **Usuarios Paxapos**
-3. Se va a abrir una ventana
-
-### **Paso 2: Ir a Crear Usuarios**
-
-4. En la ventana que se abrió, buscá la opción **"Crear Usuarios"**
-5. Hacé clic en **"Crear Usuarios"**
-
-### **Paso 3: Completar los datos del nuevo usuario**
-
-Ahora vas a completar la información de la persona que va a usar el sistema:
-
-**📝 Datos del usuario:**
-
-🔹 **Nombre** | Nombre y apellido completo  
-🔹 **Mail** | Email de la persona  
-🔹 **Contraseña** | Una contraseña segura  
-🔹 **Rol** | Qué puede hacer en el sistema
-
-### **Paso 4: Asignar rol**
-
-En **Rol de Dicho Mozo** elegí:
-
-**👥 Roles disponibles:**
-
-**🔹 Mozo**  
-**🔹 Vendedor**  
-**🔹 Encargado**  
-**🔹 Auditor**  
-**🔹 Dueño**
-
-### **Paso 5: Guardar el usuario**
-
-7. Verificá que todos los datos estén correctos
-8. Hacé clic en **"Guardar"** o **"Confirmar"**
-9. ¡Listo! Ya creaste tu primer usuario
+<div class="doc-callout doc-callout-note" style="margin-bottom: 2rem;">
+	<span>🎯</span>
+	<div>
+		<strong>¿Para qué sirve esto?</strong> Vas a crear cuentas individuales y protegidas para los dueños, encargados, cajeros y personal administrativo que van a operar <strong>{{BRAND_NAME}}</strong>. Cada uno ingresará con su propio email y contraseña para mayor seguridad y auditoría.
+	</div>
+</div>
 
 ---
 
-## 🎭 **¿Qué rol tiene que elegir cada persona?**
+## 📋 Paso a paso: Crear tu primer usuario
 
-🔹 **Dueño** | TODO - Control total (Dueño, gerente, encargado)  
-🔹 **Cajero** | Cobrar, facturar, manejar dinero (Personal de caja)  
-🔹 **Mozo** | Tomar pedidos, manejar mesas (Meseros, vendedores)  
-🔹 **Cocinero** | Ver pedidos de cocina solamente (Chef, ayudantes de cocina)
+### **Paso 1: Acceder al módulo de usuarios**
+1. Abrí el menú lateral y buscá la sección **Configuración**.
+2. Hacé clic en la opción **Usuarios**.
+
+### **Paso 2: Iniciar la creación**
+3. En la pantalla del listado de usuarios, hacé clic en el botón destacado **Crear Usuario**.
+
+### **Paso 3: Completar los datos**
+Completá el formulario con la información del nuevo integrante:
+
+| Campo | Descripción |
+| :--- | :--- |
+| **Nombre** | Nombre y apellido completo del empleado (ej. *María Pérez*). |
+| **Mail** | Correo electrónico que usará para iniciar sesión. |
+| **Contraseña** | Clave provisoria y segura para su primer ingreso. |
+| **Rol** | El perfil de permisos que determinará qué puede ver y hacer en el sistema. |
 
 ---
 
-## �� **Consejos importantes para no tener problemas**
+## 🎭 Roles y Permisos Disponibles
 
-- ✅ **Creá usuarios solo para personas que son dueños, encargados y cajeros**
-- ✅ **Usá contraseñas diferentes para cada usuario** (nunca la misma para todos)
-- ✅ **Asigná el rol correcto** - No des permisos de administrador a todos
-- ✅ **Anotá los usuarios y contraseñas** en un lugar seguro
-- ✅ **Probá que cada usuario pueda entrar** antes de cerrar
+Seleccioná el rol adecuado según el puesto de trabajo:
+
+| Rol | Orientado a | Permisos Clave |
+| :--- | :--- | :--- |
+| **Dueño / Administrador** | Propietarios y gerentes | Acceso total a configuraciones, reportes de ventas, costos y gestión de personal. |
+| **Encargado** | Supervisores de turno | Cierre de caja, edición de pedidos, aplicación de descuentos y control operativo. |
+| **Cajero** | Personal de cobro | Operaciones de caja, cobros, facturación electrónica y arqueos de caja diarios. |
+| **Mozo** | Personal de salón | Apertura de mesas, adición de consumos y envío de comandas a cocina. |
+| **Cocinero / Barra** | Personal de producción | Visualización exclusiva de pantallas de comandas y preparación de platos. |
 
 ---
 
-## � **Usuario con PIN (Recomendado para mozos y cocineros)**
-
-> 💡 **¿Para qué sirve esto?**  
-> Es un método más rápido para que los mozos y cocineros accedan al sistema sin tener que recordar usuario y contraseña. Todos usan el mismo PIN (ejemplo: 1111).
-
-### **¿Cuándo usar este método?**
-
-- ✅ **Para mozos que cambian de turno frecuentemente**
-- ✅ **Cuando tenés muchos mozos temporales**
-- ✅ **Para agilizar el cambio de turno**
-
-### **Paso a paso - Configurar usuario con PIN**
+## 📱 Método alternativo: Usuario con PIN (Para mozos y cocineros)
 
 <div id="usuario-con-pin"></div>
 
-#### **Paso 1: Configurar el PIN**
+<div class="doc-callout doc-callout-tip" style="margin-bottom: 1.5rem;">
+	<span>💡</span>
+	<div>
+		<strong>¿Para qué sirve esto?</strong> Es un método ultra rápido diseñado para tablets y terminales comunes de salón. En lugar de escribir un email y clave, el mozo toca su nombre e ingresa un <strong>PIN numérico de 4 dígitos</strong> (ej. <code>1111</code>) para registrar una orden al instante.
+	</div>
+</div>
 
-4. Hacé clic en **"Configuracion"**
-5. Buscá la opción **"Usuarios con PIN"**
-6. Hacé clic en **"Crear Usuario"**
+### **Cómo configurar un usuario con PIN:**
 
-#### **Paso 2: Completar la configuración del PIN**
+1. Dirigite a **Configuración** en el menú lateral.
+2. Seleccioná la opción **Usuarios con PIN**.
+3. Hacé clic en **Crear Usuario**.
+4. Completá la ficha:
+   *   **Nombre de Usuario:** Un alias identificativo (ej. *Turno Noche* o el nombre del mozo).
+   *   **Rol:** Asigná el perfil (usualmente *Mozo* o *Cocinero*).
+   *   **PIN:** Escribí un código numérico de 4 dígitos.
+5. Hacé clic en **Guardar**.
 
-🔹 **Nombre del Usuario Genérico** | Un nombre que identifique el grupo  
-🔹 **Rol** | seleccionar "Mozo" o el rol que quieras que tenga este usuario con pin  
-🔹 **PIN** | Un número fácil de recordar (4 dígitos)
-
-8. Hacé clic en **"Guardar"**
-
-### **¿Cómo van a ingresar los usuarios?**
-
-Una vez configurado, los usuarios van a poder:
-
-1. En la pantalla de login, elegir **"Ingresar con PIN"**
-2. Escribir el PIN (ejemplo: **1111**)
-3. ¡Listo! Ya están dentro de {{BRAND_NAME}}
-
-### **💡 Consejos para el PIN**
-
-- ✅ **Usá un PIN fácil de recordar** pero no obvio (evitá 0000 o 1234)
-- ✅ **Comunicá el PIN solo a los usuarios** autorizados
-- ✅ **Cambiá el PIN periódicamente** si tenés mucha rotación de personal
-- ✅ **Combiná ambos métodos:** PIN para mozos y cocineros, usuario personal para administradores
+### **¿Cómo ingresa el personal?**
+1. En la pantalla principal de login de {{BRAND_NAME}}, seleccionan **"Ingresar con PIN"**.
+2. Digitan su código asignado.
+3. ¡Listo! Ya están operando el salón.
 
 ---
 
+## 💡 Consejos de seguridad y buenas prácticas
 
-## 🚨 **¿Problemas comunes?**
+*   ⚠️ **Cuentas individuales:** Evitá compartir el usuario de Administrador/Dueño con el personal para mantener un registro claro de auditoría.
+*   ⚠️ **PINs no predecibles:** Evitá usar códigos obvios como `0000`, `1234` o el año corriente.
+*   ⚠️ **Esquema híbrido:** Recomendamos usar cuentas con email para roles administrativos (Cajeros, Encargados, Dueño) y el sistema de PIN rápido para los Mozos en el salón.
 
-- **"No me deja guardar"** → Verificá que hayas completado todos los campos obligatorios
-- **"No aparece la opción de PIN en el login"** → Verificá que hayas creado el usuario con PIN correctamente
-- **"El PIN no funciona"** → Asegurate de haber ingresado el pin correctamente
+---
+
+## 🚨 Resolución de problemas comunes
+
+*   **¿El sistema no te permite guardar el usuario?**
+    *   *Solución:* Aseguráse de que el correo electrónico no esté registrado previamente por otro usuario. El campo de email debe ser único en la base de datos.
+*   **¿El mozo no ve la opción de PIN al abrir la aplicación?**
+    *   *Solución:* Aseguráse de que estás en la pantalla de login del punto de venta correcto y que el usuario con PIN fue guardado y activado.
+*   **¿El PIN ingresado da error?**
+    *   *Solución:* Verificá desde la cuenta de administrador que el PIN no se haya modificado o que la cuenta del empleado no esté suspendida.

@@ -2,140 +2,81 @@
 
 <div id="permisos-por-rol"></div>
 
-> 🎯 **¿Para qué sirve esto?**  
-> Vas a configurar qué puede hacer cada tipo de usuario dentro del sistema. Podés decidir si un mozo puede ver reportes, si un cajero puede eliminar productos, etc.
+<div class="doc-callout doc-callout-note" style="margin-bottom: 2rem;">
+	<span>🎯</span>
+	<div>
+		<strong>¿Para qué sirve esto?</strong> Permite delimitar qué acciones puede realizar cada perfil de usuario dentro del sistema, protegiendo la información sensible de facturación y configuraciones críticas.
+	</div>
+</div>
 
-> [!CAUTION] > **⚠️ NO es recomendable modificar este apartado si no entendés del tema**  
-> Si modificás permisos incorrectamente, podés bloquear funciones importantes o dar acceso a información sensible a personas no autorizadas.
-
----
-
-## ⚠️ **MUY IMPORTANTE - Antes de empezar**
-
-> [!WARNING] > **Si vas a modificar permisos, tenés que configurar TODOS los roles**  
-> No podés modificar solo un rol. Si cambiás los permisos del Encargado, también tenés que revisar y configurar los permisos del Dueño, Mozo, Cajero, Adicionista, etc.
-
-**¿Por qué?** Porque el sistema necesita tener todos los roles configurados correctamente para funcionar bien. Si modificás uno solo, podés generar inconsistencias.
-
----
-
-## 📋 **Paso a paso - Configurar permisos de un rol**
-
-<div id="configurar-permisos-rol"></div>
-
-### **Paso 1: Acceder a Roles y Permisos**
-
-1. Hacé clic en la **Configuración** 🔴
-2. Click en **Permisos por rol**
-
-### **Paso 2: Seleccionar el rol a configurar**
-
-1. Vas a ver una lista de todos los roles disponibles:
-    - **Dueño**
-    - **Encargado**
-    - **Cajero**
-    - **Mozo**
-    - **Adicionista**
-    - **Cocinero**
-    - **Auditor**
-2. Hacé clic en el rol que querés configurar
-
-### **Paso 3: Entender los módulos de permisos**
-
-Los permisos están organizados en **6 módulos principales**:
-
-**📊 Módulos disponibles:**
-
-🔹 **Finanzas** | Control de dinero, caja, pagos  
-🔹 **Operaciones** | Gestión diaria del negocio  
-🔹 **Personal** | Empleados, turnos, usuarios  
-🔹 **Reportes** | Informes y estadísticas  
-🔹 **Sistema** | Configuraciones generales  
-🔹 **Ventas** | Pedidos, mesas, facturación
-
-### **Paso 4: Configurar permisos específicos**
-
-Dentro de cada módulo, vas a encontrar diferentes opciones. Para cada opción podés configurar **4 tipos de permisos**:
-
-**🔐 Tipos de permisos:**
-
-✅ **Ver** | Que pueda visualizar la opción  
-✅ **Crear** | Que pueda interactuar y crear nuevos registros  
-✅ **Editar** | Que pueda modificar registros existentes  
-✅ **Eliminar** | Que pueda borrar registros
-
-**Ejemplo práctico:**
-
-- Si querés que un **Cajero** pueda ver los reportes de ventas pero NO modificarlos:
-    - ✅ Marcá **"Ver"** en Reportes → Ventas
-    - ❌ NO marques **"Crear"**, **"Editar"** ni **"Eliminar"**
-
-### **Paso 5: Guardar los cambios**
-
-6. Los cambios se guardan **automáticamente** al marcar o desmarcar cada opción
-7. No necesitás hacer clic en ningún botón de guardar
-8. Repetí el proceso para **TODOS** los roles que necesites configurar
+<div class="doc-callout doc-callout-warning" style="margin-bottom: 2rem;">
+	<span>⚠️</span>
+	<div>
+		<strong>Atención:</strong> Modificar los permisos sin comprender su alcance puede bloquear funciones operativas esenciales o exponer datos confidenciales a personal no autorizado.
+	</div>
+</div>
 
 ---
 
-## 💡 **Configuraciones recomendadas por rol**
+## ⚠️ Requisito importante antes de comenzar
 
-### **Dueño**
-
-**Permisos sugeridos:** ✅ TODO (Ver, Crear, Editar, Eliminar en todos los módulos)  
-**¿Por qué?** Es el administrador principal y necesita acceso completo.
-
-### **Encargado**
-
-**Permisos sugeridos:** ✅ TODO excepto eliminar en Finanzas y Sistema  
-**¿Por qué?** Puede gestionar el día a día pero no borrar información crítica.
-
-### **Cajero**
-
-**Permisos sugeridos:**
-
-- ✅ **Ventas:** Ver, Crear, Editar
-- ✅ **Finanzas:** Ver, Crear (solo cobros)
-- ❌ **Personal, Sistema:** Sin acceso
-- ✅ **Reportes:** Solo Ver
-
-**¿Por qué?** Necesita cobrar y facturar, pero no acceder a configuraciones.
-
-### **Mozo**
-
-**Permisos sugeridos:**
-
-- ✅ **Ventas:** Ver, Crear (pedidos y mesas)
-- ❌ **Finanzas:** Sin acceso
-- ❌ **Personal, Sistema:** Sin acceso
-- ❌ **Reportes:** Sin acceso
-
-**¿Por qué?** Solo necesita tomar pedidos y manejar mesas.
-
-### **Cocinero**
-
-**Permisos sugeridos:**
-
-- ✅ **Operaciones:** Ver pedidos de cocina
-- ❌ **Todos los demás módulos:** Sin acceso
-
-**¿Por qué?** Solo necesita ver qué cocinar.
+Si decidís modificar los permisos de un rol específico, es **obligatorio configurar el esquema completo para el resto de los roles** (Dueño, Encargado, Cajero, Mozo, Cocinero). Modificar un único perfil de forma aislada puede generar inconsistencias operativas en el flujo de trabajo (por ejemplo, permitir que un mozo mande una comanda pero que el cocinero no tenga permiso de visualizarla).
 
 ---
 
-## 🚨 **¿Problemas comunes?**
+## 📋 Paso a paso: Modificar permisos de un rol
 
-- **"No me deja guardar"** → Los cambios se guardan automáticamente, no hay botón de guardar
-- **"Un usuario no puede hacer algo que debería poder"** → Verificá que hayas marcado el permiso correcto (Ver, Crear, Editar o Eliminar)
-- **"Modifiqué un rol y ahora no funciona nada"** → Verificá que hayas configurado TODOS los roles, no solo uno
-- **"No sé qué permisos dar"** → Usá las configuraciones recomendadas de esta guía
+### **Paso 1: Ingresar al panel de seguridad**
+1. Hacé clic en **Configuración** en la barra de menú lateral.
+2. Seleccioná la opción **Permisos por rol**.
+
+### **Paso 2: Seleccionar el perfil**
+3. En pantalla se listarán los roles predefinidos (*Dueño, Encargado, Cajero, Mozo, Adicionista, Cocinero, Auditor*).
+4. Hacé clic sobre el rol que deseás configurar para desplegar su grilla de permisos.
+
+### **Paso 3: Configurar las acciones por módulo**
+Los permisos se estructuran sobre **6 áreas operativas principales**:
+
+| Área | Alcance del Módulo |
+| :--- | :--- |
+| **Finanzas** | Flujo de caja, arqueos, egresos e ingresos de dinero. |
+| **Operaciones** | Gestión general del salón, cocinas y comandas. |
+| **Personal** | Fichas de empleados, turnos de trabajo y cuentas de usuario. |
+| **Reportes** | Estadísticas de ventas, productos más vendidos y auditorías. |
+| **Sistema** | Parámetros generales de la plataforma e impresoras. |
+| **Ventas** | Toma de pedidos, facturación electrónica y manejo de mesas. |
+
+Para cada área, podés tildar o destildar **4 niveles de control**:
+*   👁️ **Ver:** Autoriza a visualizar la pantalla o listado.
+*   ➕ **Crear:** Permite agregar nuevos registros o iniciar transacciones.
+*   ✏️ **Editar:** Habilita la modificación de registros ya existentes.
+*   🗑️ **Eliminar:** Otorga permisos para borrar registros o cancelar operaciones fiscales.
+
+### **Paso 4: Confirmar y Guardar**
+*   Los cambios se aplican y se guardan **automáticamente** al tildar o destildar cada casilla de verificación.
+*   No hay un botón de guardar; los accesos del personal se actualizan en tiempo real al recargar su sesión.
 
 ---
 
-## 🔄 **¿Cómo volver a la configuración por defecto?**
+## 🎭 Matriz de Configuración Recomendada
 
-Si modificaste permisos y querés volver a como estaba antes:
+Te aconsejamos mantener la siguiente distribución de permisos básicos:
 
-1. Contactá al soporte técnico del sistema
-2. Ellos pueden restaurar los permisos predeterminados
-3. **NO intentes hacerlo manualmente** si no estás seguro
+| Rol | Permisos Sugeridos | Propósito Operativo |
+| :--- | :--- | :--- |
+| **Dueño** | 🟢 **Acceso Total** en todos los módulos. | Control administrativo y estratégico absoluto. |
+| **Encargado** | 🟡 **Acceso Total** (excepto Eliminación en Finanzas y Sistema). | Gestión operativa diaria del salón y resolución de conflictos. |
+| **Cajero** | 🔵 **Ventas y Finanzas** (solo Ver/Crear). 🔴 **Sistema/Personal** bloqueado. | Operar la caja diaria, emitir facturas y realizar arqueos de cierre. |
+| **Mozo** | 🔵 **Ventas** (solo Ver/Crear en comandas y mesas). | Registro rápido de pedidos a clientes en el salón. |
+| **Cocinero** | 🔵 **Operaciones** (solo Ver comandas). | Preparación y despacho de platos en la cocina. |
+
+---
+
+## 🚨 Resolución de problemas comunes
+
+*   **¿No encuentro el botón para guardar los cambios?**
+    *   *Respuesta:* El panel de permisos graba las modificaciones de manera automática al marcar la casilla. Solo debés asegurarte de que la conexión a internet sea estable al realizar los cambios.
+*   **¿Un empleado no puede facturar a pesar de tener el permiso asignado?**
+    *   *Solución:* Comprobá si el empleado está asignado al rol correcto de Cajero y si tiene habilitados tanto el permiso de **Ventas** (Crear) como de **Finanzas** (Ver/Crear) para procesar pagos.
+*   **¿Deseás restablecer los permisos por defecto?**
+    *   *Solución:* Si realizaste cambios que afectaron la operatividad del sistema y querés volver al estado inicial, ponete en contacto con nuestro **soporte técnico** para restaurar los perfiles de fábrica. No intentes recrear la configuración manualmente si no estás seguro de la equivalencia de cada opción.

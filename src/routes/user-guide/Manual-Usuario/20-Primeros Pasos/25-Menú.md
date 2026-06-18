@@ -2,233 +2,145 @@
 
 <div id="configurar-menu"></div>
 
-> 🎯 **¿Para qué sirve esto?**  
-> Vas a configurar todo lo que vendés: comidas, bebidas, postres, etc. Sin el menú configurado, no vas a poder tomar pedidos ni vender nada.
+<div class="doc-callout doc-callout-note" style="margin-bottom: 2rem;">
+	<span>🎯</span>
+	<div>
+		<strong>¿Para qué sirve esto?</strong> Vas a configurar toda la oferta comercial de tu negocio: comidas, bebidas, postres, etc. Sin el menú configurado, el sistema no tendrá productos para tomar pedidos ni registrar ventas.
+	</div>
+</div>
 
 ---
 
-## 📚 **Conceptos básicos que necesitás conocer**
+## 📚 Conceptos Básicos
 
-### 🍽️ **1. Menú**
+### 🍽️ 1. El Menú o Carta
+Es la lista de precios o carta digital que ven tus clientes y mozos con los platos y bebidas que ofreces.
 
-**¿Qué es?** La carta que ven tus clientes, con todos los platos, bebidas y precios que ofreces.
+<div class="doc-callout doc-callout-tip">
+	<span>💡</span>
+	<div>
+		<strong>Dato útil:</strong> El nombre "Menú" es completamente configurable. Podés renombrarlo como "Carta", "Lista de Precios" o "Tarifario" según tu conveniencia comercial.
+	</div>
+</div>
 
-> 💡 **¿Sabías que...?**  
-> El nombre "Menú" es configurable. Podés cambiarlo a "Lista de Precios", "Carta", "Tarifario" o como prefieras. Un hotel lo llamó "Tarifario" porque vende comidas, revistas y paquetes turísticos.
+### 🥘 2. Tipos de Productos
+Un producto es cualquier elemento que vendés, fabricás o comprás. Se dividen en:
+*   **Maestro de Productos:** El catálogo completo de todos los ítems existentes en el sistema (insumos, mercaderías de reventa, platos elaborados y subproductos).
+*   **Productos para la Venta:** Los artículos que se muestran en el menú y que el cliente puede pedir (ej. *Pizza Margarita*, *Coca-Cola*).
+*   **Subproductos:** Preparaciones intermedias que **no se venden de forma directa** al cliente pero forman parte de otras recetas (ej. *Salsa Fileto*, *Masa de Pizza*).
 
-### 🥘 **2. Producto**
+### ⚙️ 3. Variantes y Modificadores
+Opciones asociadas a un producto para personalizarlo al tomar el pedido (ej. variante *Punto de Cocción de la Carne*, con opciones *Jugoso*, *A punto*, *Cocido*).
 
-**¿Qué es?** Cualquier cosa que vendes, usas o compras en tu negocio. Se divide en 4 tipos:
+### 🏷️ 4. Categorías y Subcategorías
+Estructura jerárquica para agrupar tus productos de forma visual y ordenada.
 
-#### **📋 Maestro de Productos**
-
-La lista completa de **TODOS** los productos de tu negocio.
-
-- Incluye productos en venta, subproductos y mercaderías
-- Es como el "diccionario" de todo lo que existe
-
-#### **🛒 Productos**
-
-Los que aparecen en tus menús y los clientes pueden pedir.
-
-- **Ejemplos:** Pizza Margarita, Coca-Cola, Helado de Vainilla
-
-#### **🧩 Subproductos**
-
-Productos que **NO se venden ni se compran**. Se usan para preparar otros productos.
-
-- **Ejemplos:** Salsa Fileto (se usa para hacer Pizza Napolitana)
-
-### ⚙️ **3. Variante**
-
-**¿Qué es?** Un grupo de opciones que modifican un producto.
-
-- **Ejemplo:** Variante "Tipo de Salsa" para un plato de pasta
-
-### 🏷️ **5. Categorías**
-
-**¿Qué es?** Secciones para organizar los productos en tus menús. Pueden tener subsecciones (como un árbol).
-
-**Ejemplo de estructura:**
-
-```
+**Ejemplo de árbol de categorías:**
+```text
 Menú Principal
-├── **Entradas**
-├── **Pastas**
+├── Entradas
+├── Pastas
 │   ├── Tallarines
 │   └── Ravioles
-└── **Bebidas**
-    ├── **Con Alcohol**
+└── Bebidas
+    ├── Con Alcohol
     │   └── Cerveza
-    └── **Sin Alcohol**
+    └── Sin Alcohol
         ├── Coca Cola
         └── Sprite
 ```
 
-### 👨‍🍳 **6. Recetas**
-
-**¿Qué es?** La "fórmula" para preparar un producto o subproducto. Detalla qué ingredientes se usan y en qué cantidad.
-
-**¿Dónde se usa?**
-
-🔹 **En Productos en Venta** | Receta de "Pizza Margarita" (masa + salsa + queso)  
-🔹 **En Subproductos** | Receta de "Salsa Fileto" (tomates + cebolla + hierbas)
-
-### 🥕 **7. Ingredientes**
-
-**¿Qué es?** Los productos que se usan en una receta. Pueden ser:
-
-🔹 **Mercaderías** | Harina, leche, aceite  
-🔹 **Subproductos** | "Salsa Fileto" usada para hacer "Salsa Bolognesa"
+### 👨‍🍳 5. Recetas e Ingredientes
+*   **Receta:** La composición exacta para elaborar un producto, detallando cantidades y costos de insumos.
+*   **Ingredientes:** Mercaderías básicas (ej. *harina*, *aceite*) o subproductos (ej. *salsa fileto*) que componen la receta de un plato elaborado.
 
 ---
 
-## 🎯 **Paso a paso - Configurar tu primer menú**
+## 🎯 Guía de Configuración paso a paso
 
-## <div id="configurar-menu"></div>
+### 📂 Etapa 1: Crear tu primer Menú o Carta
 
-### **� ETAPA 1** → **Acceso al sistema de productos**
-
-## 📋 **Paso a paso - Configurar productos en venta**
-
-### **Paso 1: Acceder al Menu de Productos**
-
-1. Hacé clic en el **productos** dentro del menu lateral
-2. Dentro de las opciones, buscá **Menú**
-3. Hacé clic en **Menú**
-
-```
-💻 INSTRUCCIONES:
-┌────────────────────────────────────────────┐
-│ 1️⃣ Presioná "+ Crear Nuevo"               │
-│ 2️⃣ Nombre sugerido: "Menú Principal"      │
-│ 3️⃣ Confirmá con "Guardar"                 │
-└────────────────────────────────────────────┘
-```
-
-> **🎯 Meta:** Crear tu primera carta digital
-
-**💡 Ideas de nombres para menús:**
-
-- **"Menú Principal"** → Carta completa
-- **"Menú Ejecutivo"** → Opciones rápidas
-- **"Carta de Bebidas"** → Solo líquidos
-- **"Menú Delivery"** → Para envío
+1. Hacé clic en **Productos** dentro del menú lateral.
+2. Seleccioná la opción **Menú**.
+3. Presioná el botón **+ Crear Nuevo**.
+4. Nombre recomendado: `Menú Principal`.
+5. Hacé clic en **Guardar**.
 
 ---
 
-### **📋 Cómo crear variantes:**
-
-<div id="variantes"></div>
-
-**Paso 1: Crear la variante**
-
-1. Dentro de Productos, buscá **"Variantes"**
-2. Hacé clic en **"Crear Variante"**
-3. Nombre: "Acompañamiento"
-4. Agregá las opciones:
-    - Papas fritas - $0
-    - Puré de papa - $100
-    - Ensalada mixta - $150
-
-**Paso 2: Asignar variante al producto**
-
-1. Editá tu producto (ej: Milanesa)
-2. Buscá **"Asignar Variante"**
-3. Seleccioná "Acompañamiento"
-4. Guardá
-
-### **� ETAPA 2** → **Configuración de categorías**
+### 🗂️ Etapa 2: Estructurar tus Categorías
 
 <div id="categorias"></div>
 
-💻 INSTRUCCIONES:
-┌────────────────────────────────────────┐
-│ 1️⃣ Navegá a "Categorías" │
-│ 2️⃣ Clic en "Crear Categoría" │
-│ 3️⃣ Escribí nombre: Platos Principales │
-│ 4️⃣ Presioná "Guardar" │
-└────────────────────────────────────────┘
+1. Ingresá a la sección **Categorías** dentro del panel de Productos.
+2. Hacé clic en **Crear Categoría**.
+3. Escribí el nombre (ej. *Platos Principales* o *Bebidas*).
+4. Presioná **Guardar**.
 
-```
-
-**🗂️ Categorías recomendadas para empezar:**
-
-🔹 **🍽️ Entradas** | Platos para empezar → Empanadas, provoleta, tabla de fiambres
-
-🔹 **🥘 Platos Principales** | Comida principal → Milanesas, pastas, carnes a la parrilla
-
-🔹 **🍺 Bebidas con Alcohol** | Cervezas, vinos, tragos → Vino tinto, cerveza artesanal, fernet
-
-🔹 **🥤 Bebidas sin Alcohol** | Gaseosas, jugos, agua → Agua mineral, jugos naturales, gaseosas
-
-🔹 **🧁 Postres** | Dulces y postres → Flan casero, helados, tiramisu
+**Estructura inicial sugerida:**
+*   🥪 **Entradas:** Empanadas, papas fritas, fiambres.
+*   🍝 **Platos Principales:** Carnes, minutas, pastas.
+*   🍷 **Bebidas con Alcohol:** Cervezas, vinos, tragos.
+*   🥤 **Bebidas sin Alcohol:** Aguas, gaseosas, jugos.
+*   🍰 **Postres:** Flan, helado, tortas.
 
 ---
 
+### ⚙️ Etapa 3: Crear Variantes y Guarniciones
 
-### **�️ ETAPA 4** → **Agregando productos**
+<div id="variantes"></div>
+
+1. Dirigite a **Variantes** en el menú.
+2. Seleccioná **Crear Variante** y asignale un nombre (ej. *Guarnición*).
+3. Agregá las opciones disponibles y sus recargos de precio si aplican:
+   *   *Papas fritas* (+$0)
+   *   *Puré de papas* (+$100)
+   *   *Ensalada mixta* (+$150)
+4. Ingresá al producto correspondiente (ej. *Milanesa*), buscá **Asignar Variante** y elegí *Guarnición*.
+
+---
+
+### 🍔 Etapa 4: Agregar Productos al Menú
+
 <div id="agregar-productos"></div>
 
+1. Dentro de tu Menú, seleccioná **Nuevo Producto**.
+2. Completá los campos obligatorios del formulario:
 
-```
-
-� INSTRUCCIONES:
-┌─────────────────────────────────────────┐
-│ 1️⃣ Dentro del menú → "Nuevo Producto" │
-│ 2️⃣ Completá todos los campos requeridos│
-└─────────────────────────────────────────┘
-
-```
-
-**📝 Formulario de producto - Lista de verificación:**
-
-🔹 **�📛 Nombre** | `OBLIGATORIO` → Nombre visible al cliente (ej: "Milanesa Napolitana")
-
-🔹 **�🗂️ Categoría** | `OBLIGATORIO` → Clasificación del producto (ej: "Platos Principales")
-
-🔹 **�💰 Precio** | `OBLIGATORIO` → Costo para el cliente (ej: $2500)
-
-🔹 **🪙 Moneda Local** | `OBLIGATORIO` → Peso argentino
-
-🔹 **🧾 Impuestos** | `OBLIGATORIO` → IVA que corresponde (ej: 21%)
-
-🔹 **🖨️ Impresora** | `OBLIGATORIO` → Dónde se imprime (ej: Cocina)
-
-🔹 **🎫 Nombre en Ticket** | `OPCIONAL` → Nombre corto (ej: "Mila Napo")
-
-🔹 **Variante** | `OPCIONAL` → Asignarle una variante (ej: "Guarnición")
-
+| Campo | Requisito | Propósito |
+| :--- | :--- | :--- |
+| **Nombre** | 🔴 Obligatorio | Nombre comercial que verá el cliente y el mozo (ej. *Milanesa Napolitana*). |
+| **Categoría** | 🔴 Obligatorio | Clasifica el plato dentro del menú (ej. *Platos Principales*). |
+| **Precio** | 🔴 Obligatorio | Precio de venta al público en moneda local. |
+| **Impuestos** | 🔴 Obligatorio | Alícuota de IVA aplicable (ej. *21%* o *10.5%*). |
+| **Impresora de Destino** | 🔴 Obligatorio | Indica por qué ticketera se imprimirá la comanda (ej. *Cocina* o *Barra*). |
+| **Nombre en Ticket** | ⚪ Opcional | Nombre abreviado para la comandera física (ej. *Mila Napo*). |
 
 ---
 
-### **� ETAPA 5** → **Guardado y verificación**
+### 💾 Etapa 5: Guardar y Validar
+1. Revisá los campos cargados en la ficha.
+2. Presioná **Guardar**.
+3. ¡Felicidades! Tu producto ya está listo para ser vendido en el salón.
 
-> **✅ Último paso:** Asegurar que todo esté correcto
-
-```
-
-� INSTRUCCIONES:
-┌────────────────────────────────────────┐
-│ 1️⃣ Revisá todos los datos ingresados │
-│ 2️⃣ Hacé clic en "Guardar" │
-│ 3️⃣ ¡Confirmación exitosa! 🎉 │
-└────────────────────────────────────────┘
-
-```
 ---
 
-## 💡 **Consejos para un menú perfecto**
-- ✅ **Empezá con lo básico** (5-10 productos más vendidos)
-- ✅ **Usá nombres claros** (evitá nombres rebuscados)
-- ✅ **Organizá por categorías** (facilita encontrar productos)
-- ✅ **Configurá bien las impresoras** (cocina, bar, etc.)
-- ✅ **Probá vender** cada producto después de cargarlo
+## 💡 Consejos prácticos para el Menú
 
-## 🚨 **¿Problemas comunes?**
-- **"No me deja guardar"** → Verificá que tengas nombre, categoría y precio
-- **"No aparece en la venta"** → Verificá que esté en el menú correcto
-- **"Sale en la impresora equivocada"** → Configurá la impresora predeterminada
-- **"No sale impreso en la comanda"** → Asignale una impresora
+*   ✔️ **Carga Progresiva:** Empezá cargando tus 10 o 15 productos más vendidos para hacer las primeras pruebas de caja.
+*   ✔️ **Abreviaciones Inteligentes:** El campo **Nombre en Ticket** es de gran ayuda para que el personal de cocina lea las comandas de forma rápida.
+*   ✔️ **Categorías Simples:** No crees demasiadas categorías secundarias; mantiene la navegación en pantallas táctiles lo más limpia posible.
 
-```
+---
+
+## 🚨 Referencia de errores comunes
+
+*   **¿El botón "Guardar" está deshabilitado?**
+    *   *Solución:* Aseguráse de haber completado todos los campos obligatorios del formulario (Nombre, Categoría, Precio e Impuestos).
+*   **¿El producto no aparece en la pantalla de ventas del mozo?**
+    *   *Solución:* Verificá que el producto esté marcado como "Activo" y que pertenezca al Menú que se encuentra actualmente asignado a ese Punto de Venta.
+*   **¿La comanda de este producto no se imprime en cocina?**
+    *   *Solución:* Revisá la ficha del producto y confirmá que tiene seleccionada la impresora destino adecuada (Cocina). Si dice "Ninguna", el sistema no generará el ticket de comandas.
+
+
+

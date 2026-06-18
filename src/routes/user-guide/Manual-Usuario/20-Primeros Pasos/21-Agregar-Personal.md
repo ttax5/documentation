@@ -2,92 +2,96 @@
 
 <div id="agregar-empleado"></div>
 
-> 🎯 **¿Para qué sirve esto?**  
-> Vas a registrar a tus mozos, meseros y vendedores en {{BRAND_NAME}}. Así podés saber quién atendió cada mesa y controlar las ventas por empleado.
+<div class="doc-callout doc-callout-note" style="margin-bottom: 2rem;">
+	<span>🎯</span>
+	<div>
+		<strong>¿Para qué sirve esto?</strong> Vas a registrar a tus mozos, meseros y vendedores en <strong>{{BRAND_NAME}}</strong>. Así podés saber quién atendió cada mesa, controlar la facturación por empleado y gestionar permisos de acceso.
+	</div>
+</div>
 
 ---
 
-## 📋 **Paso a paso - Agregar tu primer empleado**
+## 📋 Paso a paso: Agregar tu primer empleado
 
-### **Paso 1: Acceder al módulo salon**
+### **Paso 1: Acceder al panel de administración**
+1. Hacé clic en el **menú hamburguesa** (el ícono de las tres líneas en la esquina superior izquierda).
+2. Dentro de las opciones laterales, buscá y seleccioná **Administrar Mozos**.
 
-1. Hacé clic en el menu hamburguesa (el icono de 3 lineas)
-2. Dentro de las opciones, buscá **Administrar Mozos**
-3. Hacé clic en **Administrar Mozos**
-
-### **Paso 2: Crear un nuevo empleado**
-
-4. Hacé clic en el botón **Crear Mozo**
-5. Se va a abrir una ventana para completar datos
+### **Paso 2: Crear un nuevo registro**
+3. Hacé clic en el botón destacado **Crear Mozo**. Se desplegará una ventana emergente para completar los datos.
 
 ### **Paso 3: Completar información del empleado**
+Rellená los campos del formulario con la información correspondiente:
 
-**📝 Datos del empleado:**
+| Campo | Requisito | Descripción |
+| :--- | :--- | :--- |
+| **Alias** | 🔴 Obligatorio | Nombre corto y amigable para el sistema (ej. *Juancho* en vez de *Juan Carlos*). |
+| **Nombre** | 🔴 Obligatorio | Nombre real completo del empleado. |
+| **Apellido** | 🔴 Obligatorio | Apellido del empleado. |
+| **Foto** | ⚪ Opcional | Foto del empleado para agilizar su identificación visual en pantallas táctiles. |
+| **Punto de Venta** | 🔴 Obligatorio | El sector físico o caja donde desempeñará sus funciones principales. |
 
-🔹 **Alias** | Nombre corto para el sistema (Obligatorio)  
-🔹 **Nombre** | Nombre real del empleado (Obligatorio)  
-🔹 **Apellido** | Apellido del empleado (Obligatorio)  
-🔹 **Foto** | Foto del empleado (Opcional)  
-🔹 **Punto de Venta** | En qué sector trabaja (obligatorio)
+### **Paso 4: Configurar visibilidad de mesas**
+Este paso es clave para la organización diaria de tu restaurante:
 
-### **Paso 4: Configurar visibilidad (MUY IMPORTANTE)**
+*   **Opción A: Ver todas las mesas (Recomendado para locales pequeños)**
+    *   *Configuración:* Dejar todas las opciones de visibilidad sin marcar.
+    *   *Uso:* Todos los empleados pueden visualizar y atender cualquier mesa.
+*   **Opción B: Solo sus mesas asignadas (Recomendado para locales grandes o con sectores definidos)**
+    *   *Configuración:* Marcar explícitamente los sectores o mesas específicas que atenderá este empleado.
+    *   *Uso:* El mozo solo verá en su pantalla las mesas que le correspondan, evitando confusiones.
 
-Esta parte es clave para organizar tu restaurante:
-
-**Seleccionar Qué Usuarios Puede Ver tu empleado**
-
-**👀 Opciones de visibilidad:**
-
-**🔹 Ver todas las mesas**  
-📌 _Cuándo usarla:_ Todos los empleados pueden atender cualquier mesa (Dejar todas las opciones sin marcar)
-📋 _Ejemplo:_ Restaurante pequeño, todos ayudan
-
-**🔹 Solo sus mesas asignadas**  
-📌 _Cuándo usarla:_ Cada empleado ve solo sus mesas (marcar las opciones correspondientes)
-📋 _Ejemplo:_ Restaurante grande, empleados por sector
-
-### **Paso 5: Guardar**
-
-6. Verificá que todos los datos estén correctos
-7. Hacé clic en **Guardar**
-8. ¡Listo! Tu mozo ya está en el sistema
+### **Paso 5: Guardar cambios**
+4. Verificá que la información del formulario sea correcta.
+5. Hacé clic en **Guardar**. ¡Listo! El empleado ya está registrado y activo.
 
 ---
 
-### **¿Tienes delivery o Take Away?**
+## 🛵 ¿Tenés Delivery o Take Away?
 
-1. Crea un usuario con los anteriores pasos
-2. Nombralo como "Delivery o Take Away"
-3. Configuralo como "Mozo rapido" (Esta opcion hace que no te pida introducir el nombre o cantidad de cubiertos a una mesa)
-4. Listoo!! ya tenes tu usuario solo para delivery o Take Away
+Si gestionás pedidos para llevar o repartos, te recomendamos configurar un "usuario rápido":
 
----
-
-## 👥 **¿Cómo organizar tu equipo?**
-
-### **🏪 Restaurante pequeño (1-15 mesas)**
-
-- ✅ **Todos los mozos ven todas las mesas**
-- ✅ Se ayudan entre todos
-- ✅ Más flexibilidad
-
-### **🏢 Restaurante grande (16+ mesas)**
-
-- ✅ **Cada mozo ve solo su sector**
-- ✅ Mejor control individual
-- ✅ Menos confusión
+<div class="doc-callout doc-callout-tip">
+	<span>💡</span>
+	<div>
+		<strong>Cómo configurar Delivery / Take Away:</strong>
+		<ol style="margin-top: 0.5rem; margin-bottom: 0;">
+			<li>Creá un empleado siguiendo los pasos anteriores.</li>
+			<li>Nombralo como <strong>"Delivery"</strong> o <strong>"Take Away"</strong>.</li>
+			<li>Marcá la opción <strong>"Mozo rápido"</strong>. Esto desactivará la solicitud obligatoria de ingresar el nombre del cliente o la cantidad de cubiertos en cada mesa, haciendo la venta mucho más ágil.</li>
+		</ol>
+	</div>
+</div>
 
 ---
 
-## 💡 **Consejos importantes**
+## 👥 ¿Cómo organizar tu equipo?
 
-- ✅ **Usá alias cortos y fáciles** (Juancho en vez de Juan Carlos)
-- ✅ **Agregá fotos si podés** (facilita identificar quién es quién)
-- ✅ **Asigná bien los roles** (no todos necesitan ser mozos)
-- ✅ **Probá la visibilidad** antes de abrir el restaurante
+Dependiendo del flujo de tu local, te sugerimos dos esquemas de trabajo:
 
-## 🚨 **¿Problemas comunes?**
+### 🏪 Restaurante pequeño (1 a 15 mesas)
+*   **Esquema:** *Visibilidad abierta*. Todos los mozos ven y editan todas las mesas.
+*   **Ventaja:** Mayor dinamismo, el personal se ayuda mutuamente en horas pico.
 
-- **No veo las mesas** → Verificá la configuración de visibilidad
-- **Aparece en todos lados** → Revisá si tiene el rol correcto
-- **No puedo tomar pedidos** → Verificá que tenga permisos de mozo
+### 🏢 Restaurante grande o con terraza (16+ mesas)
+*   **Esquema:** *Visibilidad por sectores*. Cada mozo ve únicamente su rango asignado.
+*   **Ventaja:** Control individual preciso, sin confusiones ni superposición de pedidos en una misma mesa.
+
+---
+
+## 💡 Consejos prácticos
+
+*   ✔️ **Alias amigables:** Usá los nombres con los que se llaman diariamente para facilitar el traspaso de comandas.
+*   ✔️ **Fotos claras:** Subir una foto del perfil ayuda a que el cajero identifique al instante al mozo que tomó el pedido.
+*   ✔️ **Revisá la visibilidad:** Hacé una prueba de visualización en una tablet o comandero antes de abrir el salón para asegurarte de que cada mozo vea lo que corresponde.
+
+---
+
+## 🚨 Resolución de problemas comunes
+
+*   **¿El mozo no ve las mesas en la pantalla?**
+    *   *Solución:* Entrá a la edición del mozo y revisá la configuración de visibilidad. Si tiene sectores asignados incorrectamente, no podrá ver el plano del salón.
+*   **¿El empleado aparece duplicado en la caja?**
+    *   *Solución:* Aseguráse de que no tenga creados un usuario de ingreso y un perfil de mozo por separado de forma redundante.
+*   **¿No puede tomar pedidos en una mesa?**
+    *   *Solución:* Validá que el empleado esté asignado al Punto de Venta (PDV) correcto y tenga asignado el rol operativo de Mozo.
