@@ -120,10 +120,10 @@
 {/if}
 
 <!-- Article + TOC side-by-side -->
-<div style="display: flex; gap: 2rem; align-items: flex-start;">
+<div style="display: flex; gap: 1.5rem; align-items: flex-start;">
 
 	<!-- Main Article -->
-	<article style="flex: 1; min-width: 0;">
+	<article style="flex: 1; min-width: 0; max-width: 100%;">
 
 		<!-- Article Header -->
 		<header class="doc-article-header">

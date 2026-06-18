@@ -2,289 +2,197 @@
 
 <div id="arca-facturacion"></div>
 
-> 🎯 **¿Para qué sirve esto?**  
-> Para poder comenzar a facturar necesitamos que nos conectes con ARCA. Seguí estos pasos una única vez y ya queda configurado.
+<div class="doc-callout doc-callout-note" style="margin-bottom: 2rem;">
+	<span>🎯</span>
+	<div>
+		<strong>¿Para qué sirve esto?</strong> Para comenzar a emitir facturas electrónicas con validez legal ante AFIP/ARCA, debés vincular tu cuenta fiscal con el sistema. Este proceso se realiza una única vez.
+	</div>
+</div>
+
+<div class="doc-callout doc-callout-warning" style="margin-bottom: 2rem;">
+	<span>⚠️</span>
+	<div>
+		<strong>Requisito Obligatorio:</strong> Para realizar este trámite debés poseer **Clave Fiscal de nivel 3** en la plataforma de ARCA.
+	</div>
+</div>
 
 ---
 
-## ⚠️ **REQUISITO OBLIGATORIO**
-
-> **Recordá que para realizar este trámite debés poseer clave fiscal de nivel 3 en ARCA.**
-
----
-
-## 🚀 **1. Habilitar el servicio de factura electrónica por web service**
+## 🚀 1. Habilitar Facturación Electrónica (Web Service)
 
 <div id="habilitar-servicio"></div>
 
-### **🌐 1.1 Ingreso a ARCA y acceso a Administrador**
-
+### 🌐 1.1 Ingreso a ARCA y acceso a Administrador
 <div id="ingreso-arca"></div>
 
-#### **📋 Paso a paso:**
-
-**🔹 PASO 1:** **Ingresar en el sitio de ARCA** (www.afip.gob.ar) y ubicar el botón de acceso directo con la Clave Fiscal, o ingresar a https://auth.afip.gob.ar/contribuyente/
+1. **Ingresá en el portal oficial de ARCA** (www.afip.gob.ar) o directamente en el enlace de acceso: [https://auth.afip.gob.ar/contribuyente/](https://auth.afip.gob.ar/contribuyente/).
+2. Escribí tu **CUIT**, presioná "Siguiente", ingresá tu clave fiscal y hacé clic en **Ingresar**.
+3. En la pantalla de servicios interactivos, buscá y seleccioná la opción **Administrador de Relaciones de Clave Fiscal**.
 
 ![Ingreso a ARCA](images/afip/1-Inicio-sesion.webp)
-_Pantalla de ingreso a ARCA con Clave Fiscal_
-
-**🔹 PASO 2:** **Ingresar el CUIT**, presionar "Siguiente" luego ingresar la clave y seleccionar "Ingresar"
-
-**🔹 PASO 3:** **Seleccionar la opción** "Administrador de Relaciones de Clave Fiscal"
+*Pantalla de ingreso a ARCA con Clave Fiscal.*
 
 ![Administrador de Relaciones](images/afip/2-Administrador-relaciones.webp)
-_Menú principal con opción de Administrador de Relaciones_
+*Menú principal con opción de Administrador de Relaciones.*
 
-**🔹 PASO 4:** **En el caso que tengas más de un CUIT** asociado a tu cuenta de ARCA, aparecerá una pantalla donde tendrás que seleccionar el CUIT con el que deseas emitir facturas electrónicas
+4. **Si administrás más de un CUIT:** Seleccioná el CUIT correspondiente al comercio que deseas dar de alta.
 
 ---
 
-### **🔗 1.2 Crear nueva relación y seleccionar servicio**
-
+### 🔗 1.2 Asociar Servicio
 <div id="crear-relacion"></div>
 
-#### **📋 Paso a paso:**
-
-**🔹 PASO 1:** **Seleccionar** "Nueva Relación"
+1. Hacé clic en el botón **Nueva Relación**.
 
 ![Nueva Relación](images/afip/3-Nueva-relacion.webp)
-_Botón para crear una nueva relación_
+*Botón para crear una nueva relación.*
 
-**🔹 PASO 2:** **Seleccionar** "Buscar" en la opción "Servicio"
+2. En el campo **Servicio**, presioná **Buscar**.
 
 ![Buscar Servicio](images/afip/4-Servicios.webp)
-_Campo de búsqueda de servicios_
+*Campo de búsqueda de servicios.*
 
-**🔹 PASO 3:** **Asegurate** que en el campo "Representado" figure el CUIT al que le estás habilitando el servicio
-
-**🔹 PASO 4:** **Luego abrir** la opción "ARCA" y seleccionar la opción "WebServices"
+3. Verificá que en el campo **Representado** figure correctamente el CUIT de tu comercio.
+4. Desplegá la carpeta **ARCA** ➡️ **WebServices**.
 
 ![WebServices ARCA](images/afip/5-Web-service.webp)
-_Menú desplegable de ARCA mostrando WebServices_
+*Menú desplegable de ARCA mostrando WebServices.*
 
 ---
 
-### **📑 1.3 Elegir servicio según tipo de factura**
-
+### 📑 1.3 Selección de Servicio según Factura
 <div id="elegir-servicio"></div>
 
-#### **🎯 Tipos de servicios disponibles:**
+Seleccioná el Web Service correspondiente según tu operatoria:
 
-| Tipo de Factura                          | Servicio que debés buscar                |
-| ---------------------------------------- | ---------------------------------------- |
-| **Facturas electrónicas A, B, C o M**    | "Facturación Electrónica"                |
-| **Facturas electrónicas de exportación** | "Facturación electrónica de exportación" |
-| **Facturas electrónicas T de turismo**   | "Web Service Comprobantes T"             |
+| Tipo de Comprobante | Web Service a seleccionar |
+| :--- | :--- |
+| **Facturas electrónicas A, B, C o M** | **Facturación Electrónica** |
+| **Facturas de exportación** | **Facturación electrónica de exportación** |
+| **Facturas clase T (Turismo)** | **Web Service Comprobantes T** |
 
-#### **⚠️ Importante:**
-
-_Si necesitás realizar distintos tipos de facturas (por Ej. A y E) debe repetir los pasos del 1.3A al 1.9 seleccionando en cada caso el servicio que corresponda al tipo de factura._
+<div class="doc-callout doc-callout-warning">
+	<span>⚠️</span>
+	<div>
+		<strong>Nota:</strong> Si necesitás emitir diferentes tipos de facturas (ej. locales y exportación), deberás repetir este proceso completo de vinculación para cada uno de los servicios.
+	</div>
+</div>
 
 ---
 
-### **👤 1.4 Buscar y asignar representante**
-
+### 👤 1.4 Asignar Representante de Integración
 <div id="asignar-representante"></div>
 
-#### **📋 Paso a paso:**
-
-**🔹 PASO 1:** **Seleccionar** "Buscar" en la opción "Representante"
+1. En el campo **Representante**, hacé clic en **Buscar**.
 
 ![Buscar Representante](images/afip/6-Buscar-representante.webp)
-_Campo para buscar representante_
+*Campo para buscar representante.*
 
-**🔹 PASO 2:** **Ingresar el CUIT** `20303683268` y presionar "Buscar"
+2. Ingresá el CUIT del desarrollador autorizado: **`20303683268`** y presioná **Buscar**.
 
 ![Ingresar CUIT Representante](images/afip/7-Representante.webp)
-_Ingreso del CUIT del representante autorizado_
+*Ingreso del CUIT del representante autorizado.*
 
-**🔹 PASO 3:** **Se le indicará** que el CUIT pertenece a VILAR ALEJANDRO ERNESTO
+3. El sistema te indicará que el CUIT pertenece a: **VILAR ALEJANDRO ERNESTO**.
 
-#### **⚠️ Nota importante:**
-
-_Ignorá el mensaje de ARCA en rojo sobre el computador fiscal y la "Advertencia del Sistema" que aparece debajo sobre la delegación del servicio._
+<div class="doc-callout doc-callout-note">
+	<span>💡</span>
+	<div>
+		<strong>Advertencia de ARCA:</strong> Podés ignorar cualquier cartel en rojo o advertencia sobre delegación de computadores fiscales y continuar con el paso de confirmación.
+	</div>
+</div>
 
 ---
 
-### **✅ 1.5 Confirmar la relación**
-
+### ✅ 1.5 Confirmar la Delegación
 <div id="confirmar-relacion"></div>
 
-#### **📋 Paso final:**
-
-**🔹 PASO FINAL:** **Presione confirmar** nuevamente
+1. Presioná el botón **Confirmar** para finalizar el enlace de servicio.
 
 ![Confirmar Relación](images/afip/8-Confirmar-representante.webp)
-_Botón de confirmación final de la relación_
+*Botón de confirmación final de la relación.*
 
 ---
 
-## 🏪 **2. Crear un nuevo punto de venta electrónico**
+## Store 2. Crear un nuevo Punto de Venta (PVD) Electrónico
 
 <div id="crear-punto-venta"></div>
 
-### **🎯 Objetivo:**
-
-Habilitar la opción "Administración de puntos de venta y domicilios".
+Este paso sirve para dar de alta el punto de facturación digital en tu cuenta fiscal.
 
 ---
 
-### **⚙️ 2.1 Adherir el servicio desde administrador**
-
+### ⚙️ 2.1 Habilitar Servicio de Administración de Puntos de Venta
 <div id="adherir-servicio"></div>
 
-#### **📋 Paso a paso:**
-
-**🔹 PASO 1:** **Ingresar a** "Administrador de Relaciones de Clave Fiscal"
-
-![Administrador Relaciones](images/afip/2-Administrador-relaciones.webp)
-_Acceso al administrador de relaciones_
-
-**🔹 PASO 2:** **Seleccionar** "Adherir Servicio"
-
-![Adherir Servicio](images/afip/3-Nueva-relacion.webp)
-_Opción para adherir nuevo servicio_
-
-**🔹 PASO 3:** **Abrir la opción** "ARCA", luego la opción "Servicios Interactivos" y buscar el servicio "Administración de puntos de venta y domicilios"
-
-![Servicios Interactivos](images/afip/5-Web-service.webp)
-_Navegación hacia servicios interactivos_
-
-![Puntos de Venta](images/afip/10-Administrador-pdv.webp)
-_Servicio de administración de puntos de venta_
-
-**🔹 PASO 4:** **Confirmar** la operación
-
-![Confirmar Adherir](images/afip/8-Confirmar-representante.webp)
-_Confirmación de adhesión al servicio_
+1. Ingresá nuevamente a **Administrador de Relaciones de Clave Fiscal**.
+2. Seleccioná la opción **Adherir Servicio**.
+3. Desplegá **ARCA** ➡️ **Servicios Interactivos** y buscá el servicio **Administración de puntos de venta y domicilios**.
+4. Confirmá la adhesión y salí del sitio de ARCA para que impacte el cambio.
 
 ---
 
-### **🔄 2.2 Reingresar y acceder a administración**
-
+### 🔄 2.2 Acceder a la Gestión de PVD
 <div id="reingresar-arca"></div>
 
-#### **📋 Paso a paso:**
-
-**🔹 PASO 1:** **Para que este nuevo servicio quede habilitado** deberás salir del sitio de ARCA e ingresar nuevamente en www.afip.gob.ar y ubicar el botón de acceso directo con la Clave Fiscal, o ingresar a https://auth.afip.gob.ar/contribuyente/
-
-![Reingresar ARCA](images/afip/1-Inicio-sesion.webp)
-_Reingreso necesario para activar el nuevo servicio_
-
-**🔹 PASO 2:** **En el buscador**, ingresar la opción "Administración de puntos de venta y domicilios"
-
-![Servicios Habilitados](images/afip/9-Administrar-relaciones.webp)
-_Lista de servicios habilitados mostrando la nueva opción_
-
-**🔹 PASO 3:** **Seleccionar la empresa** e ingresar a "A/B/M de Puntos de Venta"
-
-**🔹 PASO 4:** **Si se presenta un mensaje**, presionar "Cerrar"
+1. Volvé a ingresar al portal de ARCA con tu Clave Fiscal.
+2. En la lista de tus servicios activos, seleccioná **Administración de puntos de venta y domicilios**.
+3. Elegí el nombre de tu empresa fiscal y seleccioná la opción **A/B/M de Puntos de Venta**.
 
 ---
 
-### **➕ 2.3 Crear nuevo punto de venta**
-
+### ➕ 2.3 Dar de alta el Punto de Venta
 <div id="crear-pvd"></div>
 
-#### **📋 Paso a paso:**
+1. En la parte inferior, hacé clic en **Agregar**.
+2. Completá los siguientes parámetros fiscales:
 
-**🔹 PASO 1:** **Seleccionar** "Agregar…"
+| Campo | Configuración | Ejemplo |
+| :--- | :--- | :--- |
+| **Número** | Ingresá un número de punto de venta que no esté en uso. | *3* |
+| **Nombre Fantasía** | Nombre para identificar este canal de venta. | *Factura Electrónica* |
+| **Sistema** | Seleccioná el sistema según tu régimen impositivo (ver tabla abajo). | *RECE para aplicativos y Web Services* |
+| **Domicilio** | Seleccioná el domicilio fiscal asociado al local. | *(Tu dirección registrada)* |
 
-**🔹 PASO 2:** **Ingresar los siguientes datos:**
+#### **Opciones para el campo "Sistema":**
 
-![Formulario Punto Venta](images/afip/11-abm.webp)
-_Formulario completo para crear punto de venta_
+| Tu condición impositiva | Opción a seleccionar |
+| :--- | :--- |
+| **Monotributista** | *Factura Electrónica - Monotributo - Web Services* |
+| **Responsable Inscripto** | *RECE para aplicativos y Web Services* |
+| **Factura de Exportación** | *Comprobantes de Exportación - Web Services* |
 
-| Campo               | Descripción                                                                                           | Ejemplo                   |
-| ------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------- |
-| **Número**          | Código único del punto de venta, debe ser diferente a otros puntos de venta que ya tengas registrados | 3                         |
-| **Nombre Fantasía** | Nombre descriptivo del punto de venta                                                                 | "Factura Electrónica"     |
-| **Sistema**         | Ver tabla de opciones abajo                                                                           | Según tu condición fiscal |
-| **Nuevo domicilio** | Seleccionar el domicilio fiscal asociado al punto de venta                                            | Tu domicilio fiscal       |
-
-#### **🏛️ Opciones para el campo "Sistema":**
-
-| Tu condición fiscal        | Opción que debés seleccionar                       |
-| -------------------------- | -------------------------------------------------- |
-| **MONOTRIBUTISTA**         | "Factura Electrónica - Monotributo - Web Services" |
-| **RESPONSABLE INSCRIPTO**  | "RECE para aplicativos y Web Services"             |
-| **FACTURA DE EXPORTACIÓN** | "Comprobantes de Exportación - Web Services"       |
-
-#### **⚠️ Importante:**
-
-_Asegurate de seleccionar la opción correcta en el campo "Sistema 1":_
-
-**🔸 Si sos MONOTRIBUTISTA:** "Factura Electrónica - Monotributo - Web Services"  
-**🔸 Si sos RESPONSABLE INSCRIPTO:** "RECE para aplicativos y web services"  
-**🔸 Si emites FACTURA DE EXPORTACIÓN:** "Comprobantes de Exportación - Web Services"
+3. Hacé clic en **Aceptar** para confirmar la creación del punto de venta en ARCA.
 
 ---
 
-### **✅ 2.4 Confirmar punto de venta**
-
+### 📞 2.4 Notificación Obligatoria a Soporte Técnico
 <div id="confirmar-pvd"></div>
 
-#### **📋 Paso final:**
+<div class="doc-callout doc-callout-warning">
+	<span>🚨</span>
+	<div>
+		<strong>Paso Crítico:</strong> Una vez creado el Punto de Venta en ARCA, debés informarnos para que carguemos los certificados digitales de facturación en tu servidor. Sin esto, el sistema web arrojará error al intentar facturar.
+	</div>
+</div>
 
-**🔹 PASO FINAL:** **Seleccionar** "Aceptar" para confirmar la operación
+Envianos un mensaje haciendo clic en el enlace directo de WhatsApp:
+👉 [<button class="doc-article-meta-btn" style="cursor: pointer; font-weight: bold;">💬 Enviar mensaje por WhatsApp</button>](https://wa.me/17867553113?text=Hola!%20Ya%20complet%C3%A9%20la%20configuraci%C3%B3n%20en%20ARCA%20y%20necesito%20que%20configuren%20mi%20PVD%20para%20facturaci%C3%B3n%20electr%C3%B3nica.%20Mi%20CUIT%20es:%20__%20y%20el%20punto%20de%20venta%20creado%20es:%20__)
 
----
+**Datos a enviar:**
+*   ✔️ **CUIT** del comercio.
+*   ✔️ **Número** del Punto de Venta creado (ej. `3`).
+*   ✔️ **Régimen** impositivo (Monotributo o Responsable Inscripto).
 
----
-
-### **📞 2.5 Notificar al soporte técnico**
-
-#### **📋 Paso obligatorio:**
-
-**🔹 IMPORTANTE:** **Una vez completados todos los pasos anteriores en ARCA**, deberás **notificarnos inmediatamente** para que podamos configurar el PVD (Punto de Venta) en tu comercio.
-
-#### **📧 ¿Cómo notificar?**
-
-- **WhatsApp:** <a href="https://wa.me/17867553113?text=Hola!%20Ya%20complet%C3%A9%20la%20configuraci%C3%B3n%20en%20ARCA%20y%20necesito%20que%20configuren%20mi%20PVD%20para%20facturaci%C3%B3n%20electr%C3%B3nica.%20Mi%20CUIT%20es:%20__%20y%20el%20punto%20de%20venta%20creado%20es:%20__" target="_blank">+1 (786) 755-3113</a> _¡Click para chatear directamente en nueva pestaña!_
-
-#### **📋 Información que debés proporcionar:**
-
-- ✅ **CUIT del comercio**
-- ✅ **Número del punto de venta creado** (ej: 3)
-- ✅ **Nombre fantasía asignado** (ej: "Factura Electrónica")
-- ✅ **Tipo de sistema seleccionado** (Monotributo/Responsable Inscripto/Exportación)
-
-#### **⏱️ Tiempo de configuración:**
-
-Una vez recibida la notificación, nuestro equipo técnico configurará tu PVD en **24-48 horas hábiles**.
-
-#### **⚠️ Recordá:**
-
-Sin esta notificación, **no podrás comenzar a facturar electrónicamente**, aunque hayas completado todos los pasos en ARCA.
-
-## 🎯 **Resumen del proceso completo**
-
-```
-🏛️ 1. Entrás a ARCA con clave fiscal nivel 3
-   ↓
-🔗 2. Habilitás el servicio de facturación electrónica
-   ↓
-👤 3. Asignás a VILAR ALEJANDRO ERNESTO como representante
-   ↓
-🏪 4. Creás un punto de venta electrónico
-   ↓
-✅ 5. Confirmás toda la configuración
-
-🎉 ¡Ya podés facturar electrónicamente!
-```
+*(La habilitación técnica se procesará en un plazo de 24 a 48 horas hábiles).*
 
 ---
 
-## 🚨 **¿Problemas comunes?**
+## 🚨 Resolución de problemas comunes
 
-- **"No tengo clave fiscal nivel 3"** → Debés tramitarla en ARCA primero
-- **"No aparece el servicio"** → Verificá que estés en la sección correcta de WebServices
-- **"Error al asignar representante"** → Verificá que el CUIT 20306836268 esté bien escrito
-
-### **📞 ¿Necesitás ayuda?**
-
-Este proceso es técnico y específico de ARCA. Si tenés dudas, consultá con:
-
-- **Contador:** Para aspectos fiscales
-- **Soporte técnico:** Para la integración
-- **ARCA:** Para problemas con la plataforma oficial
+*   **¿El CUIT de representante da error o no existe?**
+    *   *Solución:* Aseguráse de copiar el número exactamente sin guiones: `20303683268`.
+*   **¿No aparece el servicio "Administración de puntos de venta" en tu panel?**
+    *   *Solución:* Es necesario cerrar la sesión en el portal de ARCA y volver a ingresar con clave fiscal para que se actualice el menú de servicios adheridos.
+*   **¿El sistema de facturación web da error de "Certificado Vencido"?**
+    *   *Solución:* Esto indica que la relación en ARCA o el certificado cargado en el servidor ha caducado. Ponete en contacto con nuestro equipo para actualizar las credenciales de conexión.

@@ -1,160 +1,116 @@
-# Módulo de Arqueos
+# Módulo de Arqueos de Caja
 
 <div id="arqueos"></div>
 
-> 🎯 **¿Para qué sirve esto?**  
-> Acá controlás el dinero de tu caja: cuánto abriste, cuánto vendiste, cuánto pagaste y cuánto tenés que tener al final del día. Es súper importante para que no te falte (o sobre) plata.
+<div class="doc-callout doc-callout-note" style="margin-bottom: 2rem;">
+	<span>💰</span>
+	<div>
+		<strong>¿Para qué sirve esto?</strong> El panel de Arqueos consolida el control de caja: cuánto efectivo inició el turno, cuánto se cobró por cada medio de pago, qué gastos directos se registraron y cuál es la existencia real de dinero físico. Es la herramienta principal para la prevención de pérdidas.
+	</div>
+</div>
 
 ---
 
-## 🔍 **¿Dónde encuentro los arqueos?**
+## 🔍 Acceso al módulo
 
-1. **Clic en:** "Ventas"
-2. **Click en:** "Arqueo de caja"
-
-## 🔍 **¿Qué vas a ver en Arqueos?**
-
-Cuando entres al módulo, vas a ver todos los **cierres de caja** organizados por día y hora:
-
-### **📊 Información que muestra cada arqueo:**
-
-🔹 **Importe Final** | Con cuánto terminó la caja  
-🔹 **Saldo Arqueo Anterior** | Cuánto quedó del día anterior  
-🔹 **Saldo de Caja** | Cuánto hay ahora en caja  
-🔹 **Cobros** | Cuánto cobraste hoy  
-🔹 **Pagos** | Cuánto pagaste hoy  
-🔹 **Ingresos** | Dinero que entró  
-🔹 **Egresos** | Dinero que salió
+1. En el menú de navegación lateral, dirigite a la sección **Ventas**.
+2. Hacé clic en la opción **Arqueo de caja**.
 
 ---
 
-## 📅 **Arqueo Abierto (del día actual)**
+## 📊 Vista General del Arqueo
 
-### **👀 Lo que ves cuando está abierta la caja:**
+Al ingresar al módulo, visualizarás los **cierres de caja históricos** ordenados de forma cronológica descendente. Cada arqueo consolidará la siguiente información:
 
-- **💵 Dinero inicial:** Con cuánto empezaste el día
-- **💰 Total cobrado:** Cuánto llevás vendido hasta ahora
-- **⏰ Tiempo abierto:** Hace cuánto está abierta la caja
+| Métrica | Descripción |
+| :--- | :--- |
+| **Importe Inicial** | El efectivo declarado al momento de abrir el turno. |
+| **Total de Cobros** | La suma de todas las ventas cobradas durante el turno. |
+| **Total de Pagos** | Egresos directos por gastos a proveedores de caja. |
+| **Ingresos / Egresos** | Aportes o retiros manuales de cambio realizados. |
+| **Importe Teórico** | El dinero neto calculado por el sistema (Inicial + Ventas + Ingresos - Egresos - Gastos). |
+| **Importe Real Declarado** | La cantidad física de dinero declarada al cerrar caja. |
+| **Diferencia** | Desviación de saldo (sobrante o faltante). |
 
-### **🔄 Cómo funciona:**
+---
 
+## 📅 Arqueo en Tiempo Real (Caja Activa)
+
+Durante el transcurso de la jornada, podés realizar un arqueo provisorio (X de caja) para ver las cifras en tiempo real:
+
+```text
+  🌅 Apertura de Caja (ej. $20.000 de cambio)
+               ↓
+  🛒 Registro continuo de ventas y cobros en el salón
+               ↓
+  👁️ Visualizar el estado parcial en tiempo real (monto teórico)
+               ↓
+  🌙 Cierre de Caja y recuento físico (arqueo ciego)
 ```
-🌅 Abrir caja (ej: $5.000)
-   ↓
-💰 Ir cobrando durante el día
-   ↓
-📊 Ver totales en tiempo real
-   ↓
-🌙 Cerrar caja al final del día
-```
 
 ---
 
-## 📥 **Descargar arqueos en Excel**
+## 📥 Exportación de Reportes a Excel
 
-### **📋 Para análisis y auditoría:**
+Para auditoría contable o fiscal, el sistema permite descargar el listado completo de cierres en formato Excel aplicando filtros dinámicos:
 
-Podés descargar un reporte completo en Excel con estos filtros:
-
-🔹 **Caja** | Si tenés varias cajas  
-🔹 **Usuario** | Quién hizo el arqueo  
-🔹 **Fecha Inicio** | Desde cuándo  
-🔹 **Fecha Fin** | Hasta cuándo
-
-### **💡 Cuándo usar esto:**
-
-- ✅ **Análisis mensual** de ventas
-- ✅ **Control de empleados** (quién vendió qué)
-- ✅ **Declaración de impuestos**
-- ✅ **Auditorías contables**
+<div class="doc-callout doc-callout-tip">
+	<span>📊</span>
+	<div>
+		<strong>Filtros disponibles para la descarga:</strong>
+		<ul style="margin-top: 0.5rem; margin-bottom: 0;">
+			<li><strong>Caja específica:</strong> En caso de que administres múltiples cajas en simultáneo.</li>
+			<li><strong>Usuario responsable:</strong> Filtra los cierres hechos por un cajero o encargado particular.</li>
+			<li><strong>Rango de fechas:</strong> Permite delimitar por día, semana o mes cerrado.</li>
+		</ul>
+	</div>
+</div>
 
 ---
 
-## 📂 **Secciones específicas del módulo**
+## 📂 Pestañas de Detalle de Caja
 
-### **🏷️ 1. Zetas**
+Para un análisis minucioso de cada arqueo cerrado, podés navegar a través de sus pestañas secundarias:
 
-- **Qué es:** Informes de cierre de turno/jornada
-- **Para qué:** Control fiscal y contable
-- **Cuándo revisar:** Al final de cada jornada
-
-### **💳 2. Cobros**
-
-- **Qué muestra:** Todos los cobros del día separados por tipo de pago
-- **Ejemplo:**
-    - Efectivo: $30.000
-    - Visa Débito: $15.000
-    - MercadoPago: $8.000
-    - **Total cobrado: $53.000**
-
-### **💸 3. Pagos**
-
-- **Qué muestra:** Todo lo que pagaste (proveedores, gastos)
-- **Incluye:** Tipo de pago y tipo de factura
-- **Ejemplo:**
-    - Verdulería: $5.000 (Efectivo - Factura B)
-    - Luz: $3.000 (Transferencia - Factura A)
-
-### **🔄 4. Traspasos**
-
-- **Qué es:** Dinero que moviste entre cajas
-- **Ejemplo:** Pasaste $10.000 de Caja Principal a Caja Delivery
-- **Para qué:** Organizar dinero entre sucursales o cajas
-
-### **🏪 5. Listado de Mesas**
-
-- **Qué muestra:** Todas las mesas abiertas/cerradas del día
-- **Incluye:** Estado de cada mesa y sus movimientos
-- **Útil para:** Controlar que todas las mesas se hayan cobrado
+*   📑 **1. Zetas (Cierre Diario):** Informes diarios de control fiscal necesarios para la contabilidad oficial.
+*   📑 **2. Cobros:** Desglose detallado de todos los pagos ingresados según el medio (ej. Efectivo: `$30.000`, Tarjeta de Débito: `$15.000`, QR MercadoPago: `$8.000`).
+*   📑 **3. Pagos:** Listado de comprobantes y facturas pagadas directamente desde la caja con su tipo de comprobante asociado (Factura A/B/C).
+*   📑 **4. Traspasos:** Registro de movimientos de valores internos (ej. transferencia de `$10.000` de la caja de Salón a la caja de Delivery).
+*   📑 **5. Listado de Mesas:** El historial completo de las mesas abiertas y cobradas durante el turno para cruce de comandas.
 
 ---
 
-## 🔢 **Cómo hacer un arqueo perfecto**
+## 🔢 Metodología para un Arqueo Perfecto
 
-### **🌅 Al abrir (inicio del día):**
+### 🌅 Al abrir el local (Inicio de Turno)
+1. **Contá físicamente el dinero** del cajón monedero. No confíes a ciegas en el cambio reportado en el sobre anterior.
+2. **Abrí la caja en el sistema** ingresando exactamente ese monto inicial en pesos.
 
-1. **Contá el efectivo** que hay en la caja
-2. **Abrí el arqueo** en el sistema con ese monto
-3. **Anotá el monto** en un papel como respaldo
-
-### **🌙 Al cerrar (fin del día):**
-
-1. **Contá el efectivo** real que hay en la caja
-2. **Comparalo** con lo que dice el sistema
-3. **¿Coincide?** ✅ Perfecto, cerrá el arqueo
-4. **¿No coincide?** 🚨 Revisá dónde está la diferencia
+### 🌙 Al cerrar el local (Fin de Turno)
+1. **Realizá el recuento físico** detallado del dinero en efectivo y separe el monto inicial asignado para el siguiente turno.
+2. **Ingresá la declaración de billetes** denominación por denominación en la ventana de cierre (arqueo ciego).
+3. **Analizá la diferencia:**
+   *   Si la diferencia es **$0 (Cuadrada)** 🟢, procedé a emitir el informe final.
+   *   Si la diferencia es negativa o positiva 🔴, revisá las causales detalladas a continuación.
 
 ---
 
-## ⚠️ **¿Qué hacer si no cierra el arqueo?**
+## ⚠️ ¿Qué hacer si no cuadra el arqueo?
 
-### **🔍 Pasos para encontrar la diferencia:**
+Si el dinero físico declarado no coincide con el importe teórico calculado por el sistema, seguí estos pasos de control:
 
-1. **Revisá las ventas:** ¿Están todas cargadas?
-2. **Revisá los pagos:** ¿Anotaste todos los gastos?
-3. **Revisá las propinas:** ¿Se registraron bien?
-4. **Revisá los descuentos:** ¿Aplicaste alguno sin registrar?
-5. **Revisá cambios:** ¿Diste vuelto correcto?
-
-### **💡 Diferencias comunes:**
-
-- **Te sobra dinero:** Probablemente olvidaste anotar un gasto
-- **Te falta dinero:** Revisá si diste mal el vuelto o se perdió plata
-- **Error de cálculo:** Volvé a contar el efectivo
+1.  **Revisá los comprobantes de Gastos:** Verificá que no hayas olvidado registrar un egreso de caja para un pago menor a un proveedor (ej. un envío o un insumo rápido).
+2.  **Verificá cobros en tarjetas/QR:** Cruzá los cierres de lote físicos de las terminales Posnet o el historial de cobros QR con los listados del sistema. A veces un cobro se registra con tarjeta pero se carga como efectivo por error.
+3.  **Controlá las propinas:** Aseguráse de que los montos destinados a propina se hayan asentado correctamente y no se hayan mezclado con la recaudación.
+4.  **Verificá los descuentos:** Aseguráse de que todas las bonificaciones o invitaciones aplicadas a las mesas cuenten con el descuento correspondiente asentado en el sistema.
 
 ---
 
-## 💡 **Consejos para arqueos perfectos**
+## 🚨 Resolución de problemas comunes
 
-- ✅ **Abrí y cerrá siempre** la caja en el sistema
-- ✅ **Contá el dinero** físico todos los días
-- ✅ **Anotá todos los gastos** al momento
-- ✅ **Revisá diariamente** que coincida todo
-- ✅ **Guardá los reportes** Excel para contabilidad
-
-## 🚨 **¿Problemas comunes?**
-
-- **"No puedo cerrar el arqueo"** → Verificá que no haya mesas abiertas
-- **"No coincide el dinero"** → Seguí los pasos de revisión de arriba
-- **"No aparecen todas las ventas"** → Verificá que se hayan cargado correctamente
-- **"Error al descargar Excel"** → Probá con fechas más específicas
+*   **¿No me permite cerrar el arqueo de caja?**
+    *   *Solución:* El sistema impide cerrar el turno si existen mesas abiertas en el salón. Debés cerrar y cobrar todas las mesas activas o anular las que se hayan abierto por error antes de intentar el cierre.
+*   **¿El reporte de Excel se descarga vacío?**
+    *   *Solución:* Verificá el rango de fechas seleccionado en los filtros. Si definís el mismo día para inicio y fin, aseguráse de que los turnos se hayan cerrado dentro de ese rango horario.
+*   **¿No aparece una venta cobrada en el listado del día?**
+    *   *Solución:* Validá que no se haya procesado la venta en una caja secundaria o punto de venta alternativo por error. Cada arqueo es independiente por caja física.

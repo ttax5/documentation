@@ -1,125 +1,75 @@
-# Comandero
+# Comandero Digital
 
 <div id="comandero"></div>
 
-> 🎯 **¿Para qué sirve esto?**  
-> El Comandero es una pantalla digital para la cocina que reemplaza los papeles. Los pedidos aparecen automáticamente en pantalla y los cocineros pueden marcar cuándo están listos. ¡Adiós al papel en la cocina!
+<div class="doc-callout doc-callout-note" style="margin-bottom: 2rem;">
+	<span>🍳</span>
+	<div>
+		<strong>¿Para qué sirve esto?</strong> El Comandero (KDS) es una pantalla digital para la cocina que reemplaza por completo a las comandas impresas en papel. Los pedidos ingresados por los mozos se muestran inmediatamente y los cocineros pueden notificar el despacho de los platos con un solo toque.
+	</div>
+</div>
 
 ---
 
-## ✨ **¿Por qué usar el Comandero?**
+## ✨ ¿Por qué digitalizar tu cocina?
 
-### **🆚 Antes vs Ahora:**
+El uso de comandas digitales marca un antes y un después en la velocidad del despacho:
 
-**🔹 Antes (con papel)**  
-❌ Papeles se pierden  
-❌ Se manchan con aceite/agua  
-❌ Difícil de leer  
-❌ Desorganizado  
-❌ No sabés cuánto falta  
-❌ Comunicación confusa
-
-**🔹 Ahora (con Comandero)**  
-✅ Todo en pantalla, no se pierde  
-✅ Pantalla resistente  
-✅ Letras grandes y claras  
-✅ Ordenado por tiempo y prioridad  
-✅ Tiempos en pantalla  
-✅ Estados claros (listo/preparando)
+| Operatoria Tradicional (Papel) | Con Comandero (Digital) |
+| :--- | :--- |
+| ❌ Las comandas de papel se pierden, mojan o ensucian con grasa. | 🟢 Registro 100% digital, legible y protegido frente a salpicaduras. |
+| ❌ Caligrafía de mozos difícil de comprender en la prisa del despacho. | 🟢 Tipografía grande, limpia y uniforme para todo el equipo de cocina. |
+| ❌ Desorganización y superposición de comandas manuales. | 🟢 Ordenamiento cronológico automático y alertas visuales de prioridad. |
+| ❌ Sin registro del tiempo que demora cada plato en salir. | 🟢 Cronómetros integrados para medir y optimizar los tiempos de entrega. |
+| ❌ Gritos y malentendidos entre el salón y la cocina. | 🟢 Notificación automática del plato listo en la tablet del mozo. |
 
 ---
 
-## 📊 **Organización inteligente de pedidos**
+## 📊 Organización inteligente de pedidos
 
-### **🏷️ Ruteo automático por estación:**
+### 🏷️ Ruteo automático por Estación de Trabajo
+**{{BRAND_NAME}}** secciona las comandas automáticamente para que cada cocinero reciba únicamente lo que debe preparar:
 
-{{BRAND_NAME}} puede separar los pedidos:
+| Estación / Puesto | Tipo de preparación | Ejemplos de productos |
+| :--- | :--- | :--- |
+| **Puesto Calientes** | Platos elaborados a la plancha, horno o fuegos. | Milanesas, pastas, carnes a la parrilla, guarniciones calientes. |
+| **Puesto Fríos** | Ensaladas, entradas frescas y emplatados. | Ensalada César, tablas de fiambres, carpaccios. |
+| **Postres** | Sección de repostería y helados. | Flan casero, helados, tiramisú. |
+| **Barra / Bar** | Bebidas, coctelería y cafetería. | Gaseosas, licuados, tragos, cafés especiales. |
 
-**🏭 Estaciones de trabajo:**
-
-**🔹 Fríos**  
-🍽️ _Qué aparece:_ Ensaladas, postres fríos  
-📋 _Ejemplo de productos:_ Ensalada César, tiramisu
-
-**� Calientes**  
-🍽️ _Qué aparece:_ Platos cocinados  
-📋 _Ejemplo de productos:_ Milanesas, pastas, parrilla
-
-**🔹 Postres**  
-🍽️ _Qué aparece:_ Solo postres  
-📋 _Ejemplo de productos:_ Flan, helado, tortas
-
-**🔹 Bar**  
-🍽️ _Qué aparece:_ Bebidas y tragos  
-📋 _Ejemplo de productos:_ Cocteles, licuados
-
-### **⏰ Orden por tiempo:**
-
-- Los pedidos más antiguos aparecen **ARRIBA**
-- Los más nuevos aparecen **ABAJO**
+### ⏰ Prioridad por Tiempo de Espera
+*   Los pedidos más antiguos se posicionan **arriba** de la pantalla en color destacado para alertar al jefe de cocina.
+*   Los pedidos nuevos se van encolumnando **abajo** a medida que los mozos los confirman en el salón.
 
 ---
 
-## 💡 **Beneficios para tu cocina**
+## 🔧 Configuración del KDS
 
-### **👨‍🍳 Para los cocineros:**
+### **Requisitos Básicos:**
+1.  **Dispositivo:** Una tablet o monitor táctil ubicado en la cocina.
+2.  **Conexión:** Red Wi-Fi o cableada interna estable.
+3.  **Acceso:** Un navegador web apuntando a la dirección IP local de tu servidor de comandas.
 
-- ✅ **Ven todos los pedidos** de un vistazo
-- ✅ **No se pierden comandas** nunca más
-- ✅ **Mejor organización** del trabajo
-- ✅ **Menos estrés** al tener todo claro
-
-### **🏪 Para el restaurante:**
-
-- ✅ **Servicio más rápido** = clientes más felices
-- ✅ **Menos errores** = menos comida desperdiciada
-- ✅ **Mejor comunicación** entre salón y cocina
+### **Paso a paso para activarlo:**
+1.  Ingresá al módulo **Comandero** desde el panel principal.
+2.  Configurá el puesto de impresión de comandas en la ficha de cada producto del Menú (ej. asigná a la *Cerveza* el puesto *Barra*, y a los *Ravioles* el puesto *Cocina*).
+3.  Hacé una venta de prueba y confirmá que el ítem aparezca en la pantalla correcta.
 
 ---
 
-## 🔧 **¿Cómo configurar el KDS?**
+## 📱 ¿Dónde ubicar la pantalla en la Cocina?
 
-### **📋 Requisitos básicos:**
-
-1. **Pantalla o tablet** para la cocina
-2. **Conexión a internet** estable
-3. **Navegador web**
-4. **Mozos configurados** en {{BRAND_NAME}}
-
-### **⚙️ Pasos para activar:**
-
-1. Acceder al módulo **"Comandero"** desde el menú principal
-2. Configurales un **PUESTO** a cada producto del menu (barra, cocina, parrilla.)
-3. **Probar** con pedidos de prueba
+*   ✔️ **Visibilidad:** Colocá la pantalla a la altura de los ojos del jefe de cocina, centrada en la línea de despacho (*el pase*).
+*   ✔️ **Protección:** Mantené el monitor alejado del fuego directo, hornos o zonas de vapor denso para prolongar su vida útil.
+*   ✔️ **Comodidad:** Aseguráse de que el botón táctil para marcar platos como "Listos" sea de fácil acceso y no interfiera con el área de emplatado.
 
 ---
 
-## 📱 **¿Dónde poner la pantalla del Comandero?**
+## 🚨 Resolución de problemas comunes
 
-### **🎯 Ubicación ideal:**
-
-- **En la cocina** donde todos los cocineros la vean
-- **A la altura de los ojos** de los cocineros
-- **Lejos del fuego y vapor** directo
-- **Con buena iluminación** (que no refleje)
-- **Fácil de tocar** para marcar "listo"
-
-### **📏 Tamaño recomendado:**
-
-- **Cocina pequeña:** Tablet 10-12 pulgadas
-- **Cocina mediana:** Monitor 19-24 pulgadas
-- **Cocina grande:** Monitor 32+ pulgadas o múltiples pantallas
-
----
-
-## 💡 **Consejos para usar el Comandero eficientemente**
-
-- ✅ **Capacitá a todos los cocineros** en el sistema
-- ✅ **Marcá "listo"** apenas termines cada plato
-- ✅ **Mantené la pantalla limpia** y visible
-
-## 🚨 **¿Problemas comunes?**
-
-- **"No aparecen pedidos"** → Verificá la conexión a internet
-- **"Pantalla muy lenta"** → Reiniciá el navegador
-- **"No se marcan como listos"** → Verificá que funcione el touch
+*   **¿La pantalla está en blanco o no carga los pedidos nuevos?**
+    *   *Solución:* Validá la conexión a la red local Wi-Fi. Recargá la página del navegador presionado `F5` o actualizando la pestaña.
+*   **¿Los platos de cocina salen impresos en la barra?**
+    *   *Solución:* Entrá a la edición de los productos del Menú y verificá que tengan asignado el puesto de preparación correspondiente a *Cocina* y no a *Barra*.
+*   **¿La pantalla táctil no responde cuando se marca un plato como "Listo"?**
+    *   *Solución:* Limpiá la superficie táctil con un paño de microfibra seco. Si es un monitor tradicional, podés vincular un mouse común o teclado numérico para operar las comandas con las flechas físicas.
