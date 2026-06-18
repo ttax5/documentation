@@ -2,6 +2,7 @@
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import TableOfContents from '$lib/components/TableOfContents.svelte';
 	import { addLinkIconsToHeaders, highlightTextInHtml, copyToClipboard } from '$lib/utils/contentUtils';
+	import { replaceWithVariables } from '$lib/helpers/textReplacer';
 	import type { PageData } from './$types';
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
@@ -53,7 +54,8 @@
 		}
 
 		// Add anchor link icons to section headers
-		processedContent = addLinkIconsToHeaders(html);
+		let tempContent = addLinkIconsToHeaders(html);
+		processedContent = replaceWithVariables(tempContent);
 	});
 
 	// ── Expose copyLinkToSection globally for inline onclick ──
@@ -101,9 +103,9 @@
 </script>
 
 <SEOHead
-	title={data.seo?.title || data.title}
-	description={data.seo?.description}
-	keywords={data.seo?.keywords}
+	title={replaceWithVariables(data.seo?.title || data.title)}
+	description={data.seo?.description ? replaceWithVariables(data.seo?.description) : undefined}
+	keywords={data.seo?.keywords ? replaceWithVariables(data.seo?.keywords) : undefined}
 	section="Manual de Usuario"
 />
 
@@ -131,11 +133,11 @@
 				<svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
 				</svg>
-				<span style="color: var(--color-text-faint)">{data.title}</span>
+				<span style="color: var(--color-text-faint)">{replaceWithVariables(data.title)}</span>
 			</nav>
 
 			<!-- Title -->
-			<h1 class="doc-article-title">{data.title}</h1>
+			<h1 class="doc-article-title">{replaceWithVariables(data.title)}</h1>
 
 			<!-- Meta actions -->
 			<div class="doc-article-meta">

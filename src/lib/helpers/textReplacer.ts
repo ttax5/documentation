@@ -12,8 +12,8 @@ function getConfig() {
 }
 
 const config = getConfig();
-const REPLACEMENT_WORD = config.BRAND_NAME || '{{BRAND_NAME}}';
-const DEFAULT_SYSTEM_URL = config.SYSTEM_URL || '{{SYSTEM_URL}}';
+const REPLACEMENT_WORD = (config.BRAND_NAME && config.BRAND_NAME !== '{{BRAND_NAME}}') ? config.BRAND_NAME : 'PaxaPOS';
+const DEFAULT_SYSTEM_URL = (config.SYSTEM_URL && config.SYSTEM_URL !== '{{SYSTEM_URL}}') ? config.SYSTEM_URL : 'https://paxapos.com';
 
 const BRAND_VARIABLE = /\{\{BRAND_NAME\}\}/g;
 const SYSTEM_URL_VARIABLE = /\{\{SYSTEM_URL\}\}/g;
@@ -28,8 +28,8 @@ function replaceVariables(content: string, brand: string, url: string): string {
 
 export function replaceWithVariables(content: string, brand?: string, url?: string): string {
 	const cfg = getConfig();
-	const b = brand || cfg.BRAND_NAME || REPLACEMENT_WORD;
-	const u = url || cfg.SYSTEM_URL || DEFAULT_SYSTEM_URL;
+	const b = brand || (cfg.BRAND_NAME && cfg.BRAND_NAME !== '{{BRAND_NAME}}' ? cfg.BRAND_NAME : REPLACEMENT_WORD);
+	const u = url || (cfg.SYSTEM_URL && cfg.SYSTEM_URL !== '{{SYSTEM_URL}}' ? cfg.SYSTEM_URL : DEFAULT_SYSTEM_URL);
 	return replaceVariables(content, b, u);
 }
 
