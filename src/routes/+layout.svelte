@@ -3,18 +3,8 @@
 	import Navigation from '$lib/components/Navigation.svelte';
 	import ChatBotSimple from '$lib/components/ChatBotSimple.svelte';
 	import { autoReplaceBrand } from '$lib/helpers/textReplacer';
-	import { onMount } from 'svelte';
-	import { initThemeStore } from '$lib/stores/theme';
 
 	let { children } = $props();
-
-	// Inicializar el manejo de temas al montar el componente
-	onMount(() => {
-		const cleanup = initThemeStore();
-
-		// Cleanup function
-		return cleanup;
-	});
 </script>
 
 <div
