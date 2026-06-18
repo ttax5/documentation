@@ -1,19 +1,25 @@
 import { browser } from '$app/environment';
 
+// Track whether we've already warned about unresolved config
+let _hasWarned = false;
+
 function getConfig() {
 	if (browser && typeof window !== 'undefined' && (window as any).__APP_CONFIG__) {
 		const config = (window as any).__APP_CONFIG__;
-		if (config.BRAND_NAME && config.BRAND_NAME.includes('{{')) {
-			console.error('❌ ERROR: Variables de configuración no reemplazadas');
+		// Only warn once to avoid console spam
+		if (!_hasWarned && config.BRAND_NAME && config.BRAND_NAME.includes('{{')) {
+			console.warn('⚠️ Config: Variables de configuración sin reemplazar — usando valores por defecto (PaxaPOS).');
+			_hasWarned = true;
 		}
 		return config;
 	}
 	return { BRAND_NAME: '', SYSTEM_URL: '' };
 }
 
-const config = getConfig();
-const REPLACEMENT_WORD = (config.BRAND_NAME && config.BRAND_NAME !== '{{BRAND_NAME}}') ? config.BRAND_NAME : 'PaxaPOS';
-const DEFAULT_SYSTEM_URL = (config.SYSTEM_URL && config.SYSTEM_URL !== '{{SYSTEM_URL}}') ? config.SYSTEM_URL : 'https://paxapos.com';
+// Resolve defaults once at module level
+const _initialConfig = getConfig();
+const REPLACEMENT_WORD = (_initialConfig.BRAND_NAME && !_initialConfig.BRAND_NAME.includes('{{')) ? _initialConfig.BRAND_NAME : 'PaxaPOS';
+const DEFAULT_SYSTEM_URL = (_initialConfig.SYSTEM_URL && !_initialConfig.SYSTEM_URL.includes('{{')) ? _initialConfig.SYSTEM_URL : 'https://paxapos.com';
 
 const BRAND_VARIABLE = /\{\{BRAND_NAME\}\}/g;
 const SYSTEM_URL_VARIABLE = /\{\{SYSTEM_URL\}\}/g;
@@ -28,8 +34,8 @@ function replaceVariables(content: string, brand: string, url: string): string {
 
 export function replaceWithVariables(content: string, brand?: string, url?: string): string {
 	const cfg = getConfig();
-	const b = brand || (cfg.BRAND_NAME && cfg.BRAND_NAME !== '{{BRAND_NAME}}' ? cfg.BRAND_NAME : REPLACEMENT_WORD);
-	const u = url || (cfg.SYSTEM_URL && cfg.SYSTEM_URL !== '{{SYSTEM_URL}}' ? cfg.SYSTEM_URL : DEFAULT_SYSTEM_URL);
+	const b = brand || (cfg.BRAND_NAME && !cfg.BRAND_NAME.includes('{{') ? cfg.BRAND_NAME : REPLACEMENT_WORD);
+	const u = url || (cfg.SYSTEM_URL && !cfg.SYSTEM_URL.includes('{{') ? cfg.SYSTEM_URL : DEFAULT_SYSTEM_URL);
 	return replaceVariables(content, b, u);
 }
 
@@ -87,6 +93,8 @@ export function autoReplaceBrand(node: HTMLElement) {
 	processTextNodes();
 
 	const observer = new MutationObserver((mutations) => {
+		// Disconnect temporarily to prevent re-triggering from our own changes
+		observer.disconnect();
 		mutations.forEach((mutation) => {
 			if (mutation.type === 'childList') {
 				mutation.addedNodes.forEach((addedNode) => {
@@ -96,6 +104,8 @@ export function autoReplaceBrand(node: HTMLElement) {
 				});
 			}
 		});
+		// Re-observe after processing
+		observer.observe(node, { childList: true, subtree: true });
 	});
 
 	observer.observe(node, { childList: true, subtree: true });
