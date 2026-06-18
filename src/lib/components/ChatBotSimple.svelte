@@ -367,11 +367,11 @@ Administra accesos al sistema:
 {#if !isOpen}
 	<button
 		onclick={toggleChat}
-		class="group fixed right-4 bottom-4 z-50 rounded-full bg-gradient-to-r from-blue-600 to-blue-700 p-3 text-white shadow-xl transition-all duration-300 hover:from-blue-700 hover:to-blue-800 hover:shadow-2xl md:right-6 md:bottom-6 md:p-4"
+		class="doc-chatbot-btn group"
 		aria-label="Abrir ChatBot de soporte"
 	>
 		<svg
-			class="h-5 w-5 transition-transform group-hover:scale-110 md:h-6 md:w-6"
+			class="h-6 w-6 transition-transform group-hover:scale-110"
 			fill="currentColor"
 			viewBox="0 0 24 24"
 		>
@@ -379,100 +379,63 @@ Administra accesos al sistema:
 				d="M12 2C6.48 2 2 6.48 2 12c0 1.54.36 2.98.97 4.29L1 23l6.71-1.97C9.02 21.64 10.46 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-2h2v2zm2.07-7.75l-.9.92C11.45 10.9 11 11.5 11 13h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H6c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"
 			/>
 		</svg>
-		<div
-			class="absolute -top-1 -right-1 h-2.5 w-2.5 animate-pulse rounded-full bg-green-400 md:-top-2 md:-right-2 md:h-3 md:w-3"
-		></div>
+		<div class="doc-chatbot-status-dot"></div>
 	</button>
 {/if}
 
 <!-- Ventana del chat -->
 {#if isOpen}
-	<div
-		class="fixed inset-4 z-50 flex flex-col overflow-hidden rounded-xl border border-gray-100 bg-white shadow-2xl md:inset-auto md:right-6 md:bottom-6 md:h-[600px] md:w-96 dark:border-gray-600 dark:bg-gray-800"
-	>
+	<div class="doc-chatbot-window">
 		<!-- Header -->
-		<div
-			class="flex items-center justify-between bg-gradient-to-r from-blue-600 to-blue-700 p-3 text-white md:p-4 dark:from-blue-700 dark:to-blue-800"
-		>
-			<div class="flex items-center space-x-2 md:space-x-3">
-				<div
-					class="flex h-7 w-7 items-center justify-center rounded-full bg-white/20 md:h-8 md:w-8"
-				>
-					<svg class="h-3.5 w-3.5 md:h-4 md:w-4" fill="currentColor" viewBox="0 0 24 24">
-						<path
-							d="M12 2C6.48 2 2 6.48 2 12c0 1.54.36 2.98.97 4.29L1 23l6.71-1.97C9.02 21.64 10.46 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"
-						/>
+		<div class="doc-chatbot-header">
+			<div style="display:flex; align-items:center; gap:0.75rem;">
+				<div class="doc-chatbot-avatar">
+					<svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+						<path d="M12 2C6.48 2 2 6.48 2 12c0 1.54.36 2.98.97 4.29L1 23l6.71-1.97C9.02 21.64 10.46 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"/>
 					</svg>
 				</div>
 				<div>
-					<span class="text-sm font-semibold md:text-base">Asistente Virtual</span>
-					<div class="flex items-center space-x-1 text-xs opacity-90">
-						<div class="h-2 w-2 rounded-full bg-green-400"></div>
+					<span style="font-weight:600; font-size:0.95rem;">Asistente Virtual</span>
+					<div style="display:flex; align-items:center; gap:0.25rem; font-size:0.75rem; opacity:0.9;">
+						<div style="height:6px; width:6px; border-radius:50%; background:#4ade80;"></div>
 						<span>En línea</span>
 					</div>
 				</div>
 			</div>
 			<button
 				onclick={toggleChat}
-				class="rounded-lg p-1.5 transition-colors hover:bg-white/20 md:p-2"
+				class="doc-chatbot-close"
 				aria-label="Cerrar ChatBot"
 			>
-				<svg class="h-4 w-4 md:h-5 md:w-5" fill="currentColor" viewBox="0 0 24 24">
-					<path
-						d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-					/>
+				<svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+					<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
 				</svg>
 			</button>
 		</div>
 
 		<!-- Mensajes -->
-		<div
-			bind:this={chatContainer}
-			class="flex-1 space-y-3 overflow-y-auto bg-gray-50/50 p-3 md:space-y-4 md:p-4 dark:bg-gray-700/50"
-		>
+		<div bind:this={chatContainer} class="doc-chatbot-messages">
 			{#each messages as message}
-				<div class="flex {message.isUser ? 'justify-end' : 'justify-start'}">
+				<div class="doc-chatbot-message-row" style="justify-content: {message.isUser ? 'flex-end' : 'flex-start'}">
 					{#if !message.isUser}
-						<div class="flex max-w-[90%] items-start space-x-2 md:max-w-[85%]">
-							<div
-								class="mt-1 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 to-blue-600 md:h-7 md:w-7 dark:from-blue-600 dark:to-blue-700"
-							>
-								<svg
-									class="h-2.5 w-2.5 text-white md:h-3 md:w-3"
-									fill="currentColor"
-									viewBox="0 0 24 24"
-								>
-									<path
-										d="M12 2C6.48 2 2 6.48 2 12c0 1.54.36 2.98.97 4.29L1 23l6.71-1.97C9.02 21.64 10.46 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"
-									/>
-								</svg>
+						<div class="doc-chatbot-bot-avatar">
+							<svg class="h-3 w-3" fill="currentColor" viewBox="0 0 24 24">
+								<path d="M12 2C6.48 2 2 6.48 2 12c0 1.54.36 2.98.97 4.29L1 23l6.71-1.97C9.02 21.64 10.46 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"/>
+							</svg>
+						</div>
+						<div class="doc-chatbot-bubble bot">
+							<div class="text-sm leading-relaxed">
+								{@html formatBotMessage(message.text)}
 							</div>
-							<div
-								class="rounded-xl rounded-tl-md border border-gray-100 bg-white p-3 shadow-sm md:p-4 dark:border-gray-600 dark:bg-gray-700"
-							>
-								<div
-									class="text-sm leading-relaxed text-gray-800 dark:text-gray-200"
-								>
-									{@html formatBotMessage(message.text)}
-								</div>
-								<p class="mt-2 text-xs text-gray-500 dark:text-gray-400">
-									{message.timestamp.toLocaleTimeString('es-ES', {
-										hour: '2-digit',
-										minute: '2-digit',
-									})}
-								</p>
-							</div>
+							<p class="doc-chatbot-time bot-time">
+								{message.timestamp.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' })}
+							</p>
 						</div>
 					{:else}
-						<div
-							class="max-w-[90%] rounded-xl rounded-tr-md bg-gradient-to-r from-blue-600 to-blue-700 p-3 text-white shadow-sm md:max-w-[85%] md:p-4 dark:from-blue-700 dark:to-blue-800"
-						>
+						<div class="doc-chatbot-bubble user">
 							<p class="text-sm leading-relaxed">{message.text}</p>
-							<p class="mt-2 text-right text-xs opacity-90">
-								{message.timestamp.toLocaleTimeString('es-ES', {
-									hour: '2-digit',
-									minute: '2-digit',
-								})}
+							<p class="doc-chatbot-time user-time">
+								{message.timestamp.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' })}
 							</p>
 						</div>
 					{/if}
@@ -480,37 +443,15 @@ Administra accesos al sistema:
 			{/each}
 
 			{#if isLoading}
-				<div class="flex justify-start">
-					<div class="flex items-start space-x-2">
-						<div
-							class="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-r from-blue-500 to-blue-600 dark:from-blue-600 dark:to-blue-700"
-						>
-							<svg class="h-3 w-3 text-white" fill="currentColor" viewBox="0 0 24 24">
-								<path
-									d="M12 2C6.48 2 2 6.48 2 12c0 1.54.36 2.98.97 4.29L1 23l6.71-1.97C9.02 21.64 10.46 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"
-								/>
-							</svg>
-						</div>
-						<div
-							class="rounded-xl rounded-tl-md border border-gray-100 bg-white p-4 shadow-sm dark:border-gray-600 dark:bg-gray-700"
-						>
-							<div class="flex items-center space-x-1">
-								<span class="text-sm text-gray-600 dark:text-gray-300"
-									>Buscando en manual</span
-								>
-								<div class="flex space-x-1">
-									<div
-										class="h-1.5 w-1.5 animate-bounce rounded-full bg-blue-500"
-									></div>
-									<div
-										class="h-1.5 w-1.5 animate-bounce rounded-full bg-blue-500"
-										style="animation-delay: 0.1s;"
-									></div>
-									<div
-										class="h-1.5 w-1.5 animate-bounce rounded-full bg-blue-500"
-										style="animation-delay: 0.2s;"
-									></div>
-								</div>
+				<div class="doc-chatbot-message-row" style="justify-content: flex-start">
+					<div class="doc-chatbot-bot-avatar">
+						<svg class="h-3 w-3" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.54.36 2.98.97 4.29L1 23l6.71-1.97C9.02 21.64 10.46 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>
+					</div>
+					<div class="doc-chatbot-bubble bot">
+						<div style="display:flex; align-items:center; gap:0.5rem; font-size:0.875rem;">
+							<span style="opacity:0.8;">Buscando</span>
+							<div class="doc-chatbot-dots">
+								<div></div><div></div><div></div>
 							</div>
 						</div>
 					</div>
@@ -519,61 +460,253 @@ Administra accesos al sistema:
 		</div>
 
 		<!-- Input -->
-		<div
-			class="border-t border-gray-100 bg-white p-3 md:p-4 dark:border-gray-600 dark:bg-gray-800"
-		>
-			<div class="flex space-x-2 md:space-x-3">
-				<div class="relative flex-1">
-					<textarea
-						bind:value={currentMessage}
-						onkeydown={handleKeyDown}
-						placeholder="Pregúntame sobre el software..."
-						class="w-full resize-none rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-900 placeholder-gray-500 transition-all focus:border-transparent focus:bg-white focus:ring-2 focus:ring-blue-500 focus:outline-none md:px-4 md:py-3 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100 dark:placeholder-gray-400 dark:focus:bg-gray-600"
-						rows="1"
-						disabled={isLoading}
-					></textarea>
-				</div>
-				<button
-					onclick={sendMessage}
-					disabled={!currentMessage.trim() || isLoading}
-					class="rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 px-3 py-2 text-white shadow-sm transition-all duration-200 hover:from-blue-700 hover:to-blue-800 hover:shadow-md disabled:cursor-not-allowed disabled:from-gray-300 disabled:to-gray-300 md:px-4 md:py-3 dark:from-blue-700 dark:to-blue-800 dark:hover:from-blue-800 dark:hover:to-blue-900 dark:disabled:from-gray-600 dark:disabled:to-gray-600"
-				>
-					{#if isLoading}
-						<svg class="h-4 w-4 animate-spin" fill="currentColor" viewBox="0 0 24 24">
-							<path
-								d="M12 2v4m0 12v4m10-10h-4M6 12H2m15.364-6.364l-2.828 2.828M9.464 14.536l-2.828 2.828m9.9-2.828l-2.828-2.828M9.464 9.464L6.636 6.636"
-							/>
-						</svg>
-					{:else}
-						<svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
-							<path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
-						</svg>
-					{/if}
-				</button>
-			</div>
+		<div class="doc-chatbot-input-area">
+			<textarea
+				bind:value={currentMessage}
+				onkeydown={handleKeyDown}
+				placeholder="Pregunta algo sobre el software..."
+				class="doc-chatbot-textarea"
+				rows="1"
+				disabled={isLoading}
+			></textarea>
+			<button
+				onclick={sendMessage}
+				disabled={!currentMessage.trim() || isLoading}
+				class="doc-chatbot-send-btn"
+			>
+				{#if isLoading}
+					<svg class="h-4 w-4 animate-spin" fill="currentColor" viewBox="0 0 24 24">
+						<path d="M12 2v4m0 12v4m10-10h-4M6 12H2m15.364-6.364l-2.828 2.828M9.464 14.536l-2.828 2.828m9.9-2.828l-2.828-2.828M9.464 9.464L6.636 6.636"/>
+					</svg>
+				{:else}
+					<svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+				{/if}
+			</button>
 		</div>
 	</div>
 {/if}
 
 <style>
-	:global(*::-webkit-scrollbar) {
-		width: 4px;
+	/* Chatbot Custom CSS */
+	.doc-chatbot-btn {
+		position: fixed;
+		right: 1.5rem;
+		bottom: 1.5rem;
+		z-index: 50;
+		border-radius: 50%;
+		background: linear-gradient(135deg, #ef4444, #dc2626);
+		padding: 1rem;
+		color: #ffffff;
+		box-shadow: 0 10px 25px -5px rgba(220,38,38,0.4), 0 8px 10px -6px rgba(220,38,38,0.2);
+		transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+		border: none;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.doc-chatbot-btn:hover {
+		transform: scale(1.05) translateY(-5px);
+		box-shadow: 0 20px 25px -5px rgba(0,0,0,0.3), 0 8px 10px -6px rgba(0,0,0,0.1);
+	}
+	.doc-chatbot-status-dot {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 12px;
+		width: 12px;
+		background: #4ade80;
+		border-radius: 50%;
+		border: 2px solid var(--color-bg);
+		animation: pulse 2s infinite cubic-bezier(0.4, 0, 0.6, 1);
+	}
+	
+	.doc-chatbot-window {
+		position: fixed;
+		bottom: 1.5rem;
+		right: 1.5rem;
+		z-index: 50;
+		width: 380px;
+		height: 600px;
+		max-height: calc(100vh - 3rem);
+		max-width: calc(100vw - 3rem);
+		display: flex;
+		flex-direction: column;
+		background: var(--color-bg);
+		border-radius: 16px;
+		box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+		border: 1px solid var(--color-border);
+		overflow: hidden;
+		animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 	}
 
-	:global(*::-webkit-scrollbar-track) {
-		background: #f1f1f1;
+	.doc-chatbot-header {
+		background: var(--color-primary);
+		color: #ffffff;
+		padding: 1rem 1.25rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-shrink: 0;
+	}
+	.doc-chatbot-avatar {
+		display: flex;
+		height: 2rem;
+		width: 2rem;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		background: rgba(255, 255, 255, 0.2);
+	}
+	.doc-chatbot-close {
+		padding: 0.5rem;
+		border-radius: 8px;
+		transition: background 0.2s;
+		color: rgba(255,255,255,0.8);
+		border: none;
+		background: transparent;
+		cursor: pointer;
+	}
+	.doc-chatbot-close:hover {
+		background: rgba(255,255,255,0.2);
+		color: white;
 	}
 
-	:global(.dark *::-webkit-scrollbar-track) {
-		background: #374151;
+	.doc-chatbot-messages {
+		flex: 1;
+		overflow-y: auto;
+		background: var(--color-bg-subtle);
+		padding: 1.25rem;
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+	.doc-chatbot-message-row {
+		display: flex;
+		width: 100%;
+		gap: 0.5rem;
+	}
+	.doc-chatbot-bot-avatar {
+		margin-top: 0.25rem;
+		flex-shrink: 0;
+		height: 1.75rem;
+		width: 1.75rem;
+		border-radius: 50%;
+		background: var(--color-primary);
+		color: white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.doc-chatbot-bubble {
+		max-width: 85%;
+		padding: 0.875rem 1rem;
+		box-shadow: var(--shadow-sm);
+	}
+	.doc-chatbot-bubble.bot {
+		background: var(--color-bg);
+		border: 1px solid var(--color-border);
+		border-radius: 12px 12px 12px 2px;
+		color: var(--color-text);
+	}
+	.doc-chatbot-bubble.user {
+		background: var(--color-primary);
+		color: #ffffff;
+		border-radius: 12px 12px 2px 12px;
+	}
+	.doc-chatbot-time {
+		margin-top: 0.5rem;
+		font-size: 0.7rem;
+	}
+	.doc-chatbot-time.bot-time { color: var(--color-text-muted); }
+	.doc-chatbot-time.user-time { color: rgba(255,255,255,0.8); text-align: right; }
+
+	.doc-chatbot-input-area {
+		padding: 1rem;
+		background: var(--color-bg);
+		border-top: 1px solid var(--color-border);
+		display: flex;
+		gap: 0.75rem;
+		align-items: flex-end;
+	}
+	.doc-chatbot-textarea {
+		flex: 1;
+		resize: none;
+		border-radius: 12px;
+		border: 1px solid var(--color-border);
+		background: var(--color-bg-subtle);
+		color: var(--color-text);
+		padding: 0.75rem 1rem;
+		font-size: 0.875rem;
+		outline: none;
+		transition: all 0.2s;
+		font-family: inherit;
+		max-height: 120px;
+	}
+	.doc-chatbot-textarea:focus {
+		border-color: var(--color-primary);
+		background: var(--color-bg);
+		box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1);
+	}
+	.doc-chatbot-send-btn {
+		border-radius: 12px;
+		background: var(--color-primary);
+		color: white;
+		border: none;
+		padding: 0.75rem;
+		cursor: pointer;
+		transition: transform 0.2s, background 0.2s;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.doc-chatbot-send-btn:hover:not(:disabled) {
+		transform: translateY(-2px);
+		box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+	}
+	.doc-chatbot-send-btn:disabled {
+		background: var(--color-border);
+		cursor: not-allowed;
+		transform: none;
 	}
 
-	:global(*::-webkit-scrollbar-thumb) {
-		background: #c1c1c1;
+	.doc-chatbot-dots { display: flex; gap: 4px; }
+	.doc-chatbot-dots div {
+		width: 6px; height: 6px;
+		background: var(--color-text-muted);
+		border-radius: 50%;
+		animation: dotFade 1.4s infinite ease-in-out both;
+	}
+	.doc-chatbot-dots div:nth-child(1) { animation-delay: -0.32s; }
+	.doc-chatbot-dots div:nth-child(2) { animation-delay: -0.16s; }
+
+	@keyframes slideUp {
+		from { opacity: 0; transform: translateY(20px) scale(0.95); }
+		to { opacity: 1; transform: translateY(0) scale(1); }
+	}
+	@keyframes dotFade {
+		0%, 80%, 100% { opacity: 0.2; }
+		40% { opacity: 1; }
+	}
+
+	/* Scrollbars */
+	.doc-chatbot-messages::-webkit-scrollbar { width: 4px; }
+	.doc-chatbot-messages::-webkit-scrollbar-track { background: transparent; }
+	.doc-chatbot-messages::-webkit-scrollbar-thumb {
+		background: var(--color-border);
 		border-radius: 4px;
 	}
 
-	:global(.dark *::-webkit-scrollbar-thumb) {
-		background: #6b7280;
+	@media (max-width: 768px) {
+		.doc-chatbot-window {
+			bottom: 0; right: 0;
+			width: 100vw; height: 100vh;
+			max-width: 100vw; max-height: 100vh;
+			border-radius: 0;
+			border: none;
+		}
+		.doc-chatbot-btn {
+			bottom: 1rem; right: 1rem;
+		}
 	}
 </style>
