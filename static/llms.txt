@@ -1,5 +1,5 @@
 # PaxaPOS LLM Index
-# Updated: 2026-03-23T20:43:44.829Z
+# Updated: 2026-06-18T12:59:47.922Z
 https://doc.paxapos.com/llms/index.txt
 https://doc.paxapos.com/llms/11-introduccion.txt
 https://doc.paxapos.com/llms/12-iniciar-sesion.txt
