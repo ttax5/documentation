@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T12:59:48.288Z",
+  "generated_at": "2026-06-18T14:28:03.673Z",
   "total_files": 23,
   "files": [
     "11-introduccion.txt",
@@ -32,161 +32,161 @@
       "original_md": "11-Introduccion",
       "title": "Introduccion",
       "slug": "introduccion",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/10-Comenzamos/11-Introduccion.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\10-Comenzamos\\11-Introduccion.md"
     },
     {
       "txt_file": "12-iniciar-sesion.txt",
       "original_md": "12-Iniciar-sesión",
       "title": "Iniciar sesión",
       "slug": "iniciar-sesion",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/10-Comenzamos/12-Iniciar-sesión.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\10-Comenzamos\\12-Iniciar-sesión.md"
     },
     {
       "txt_file": "21-agregar-personal.txt",
       "original_md": "21-Agregar-Personal",
       "title": "Agregar Personal",
       "slug": "agregar-personal",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/20-Primeros Pasos/21-Agregar-Personal.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\20-Primeros Pasos\\21-Agregar-Personal.md"
     },
     {
       "txt_file": "23-crear-usuarios.txt",
       "original_md": "23-Crear-Usuarios",
       "title": "Crear Usuarios",
       "slug": "crear-usuarios",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/20-Primeros Pasos/23-Crear-Usuarios.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\20-Primeros Pasos\\23-Crear-Usuarios.md"
     },
     {
       "txt_file": "24-configuracion-de-impresoras.txt",
       "original_md": "24-Configuración-de-Impresoras",
       "title": "Configuración de Impresoras",
       "slug": "configuracion-de-impresoras",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/20-Primeros Pasos/24-Configuración-de-Impresoras.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\20-Primeros Pasos\\24-Configuración-de-Impresoras.md"
     },
     {
       "txt_file": "25-menu.txt",
       "original_md": "25-Menú",
       "title": "Menú",
       "slug": "menu",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/20-Primeros Pasos/25-Menú.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\20-Primeros Pasos\\25-Menú.md"
     },
     {
       "txt_file": "26-permisos-por-rol.txt",
       "original_md": "26-Permisos-por-rol",
       "title": "Permisos por rol",
       "slug": "permisos-por-rol",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/20-Primeros Pasos/26-Permisos-por-rol.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\20-Primeros Pasos\\26-Permisos-por-rol.md"
     },
     {
       "txt_file": "31-dashboard-home.txt",
       "original_md": "31-Dashboard-Home",
       "title": "Dashboard Home",
       "slug": "dashboard-home",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/30-Módulos Principales/31-Dashboard-Home.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Módulos Principales\\31-Dashboard-Home.md"
     },
     {
       "txt_file": "32-salon.txt",
       "original_md": "32-Salón",
       "title": "Salón",
       "slug": "salon",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/30-Módulos Principales/32-Salón.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Módulos Principales\\32-Salón.md"
     },
     {
       "txt_file": "33-comandero.txt",
       "original_md": "33-Comandero",
       "title": "Comandero",
       "slug": "comandero",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/30-Módulos Principales/33-Comandero.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Módulos Principales\\33-Comandero.md"
     },
     {
       "txt_file": "34-contabilidad.txt",
       "original_md": "34-Contabilidad",
       "title": "Contabilidad",
       "slug": "contabilidad",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/30-Módulos Principales/34-Contabilidad.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Módulos Principales\\34-Contabilidad.md"
     },
     {
       "txt_file": "35-arqueos.txt",
       "original_md": "35-Arqueos",
       "title": "Arqueos",
       "slug": "arqueos",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/30-Módulos Principales/35-Arqueos.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Módulos Principales\\35-Arqueos.md"
     },
     {
       "txt_file": "36-compras-y-stock.txt",
       "original_md": "36-Compras-y-Stock",
       "title": "Compras y Stock",
       "slug": "compras-y-stock",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/30-Módulos Principales/36-Compras-y-Stock.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Módulos Principales\\36-Compras-y-Stock.md"
     },
     {
       "txt_file": "37-arca-y-facturacion.txt",
       "original_md": "37-ARCA-y-Facturación",
       "title": "ARCA y Facturación",
       "slug": "arca-y-facturacion",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/30-Módulos Principales/37-ARCA-y-Facturación.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Módulos Principales\\37-ARCA-y-Facturación.md"
     },
     {
       "txt_file": "38-reportes.txt",
       "original_md": "38-Reportes",
       "title": "Reportes",
       "slug": "reportes",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/30-Módulos Principales/38-Reportes.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Módulos Principales\\38-Reportes.md"
     },
     {
       "txt_file": "41-biblioteca-de-drivers.txt",
       "original_md": "41-Biblioteca-de-Drivers",
       "title": "Biblioteca de Drivers",
       "slug": "biblioteca-de-drivers",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/40-Biblioteca-de-Drivers/41-Biblioteca-de-Drivers.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Biblioteca-de-Drivers\\41-Biblioteca-de-Drivers.md"
     },
     {
       "txt_file": "42-sam4s-giant-100.txt",
       "original_md": "42-Sam4s-Giant-100",
       "title": "Sam4s Giant 100",
       "slug": "sam4s-giant-100",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/40-Biblioteca-de-Drivers/42-Sam4s-Giant-100.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Biblioteca-de-Drivers\\42-Sam4s-Giant-100.md"
     },
     {
       "txt_file": "43-citizen-ct-s310ii.txt",
       "original_md": "43-citizen-ct-s310II",
       "title": "citizen ct s310II",
       "slug": "citizen-ct-s310ii",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/40-Biblioteca-de-Drivers/43-citizen-ct-s310II.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Biblioteca-de-Drivers\\43-citizen-ct-s310II.md"
     },
     {
       "txt_file": "44-epson-tm-t20.txt",
       "original_md": "44-Epson-TM-T20",
       "title": "Epson TM T20",
       "slug": "epson-tm-t20",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/40-Biblioteca-de-Drivers/44-Epson-TM-T20.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Biblioteca-de-Drivers\\44-Epson-TM-T20.md"
     },
     {
       "txt_file": "45-drivers-genericos.txt",
       "original_md": "45-Drivers-Genericos",
       "title": "Drivers Genericos",
       "slug": "drivers-genericos",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/40-Biblioteca-de-Drivers/45-Drivers-Genericos.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Biblioteca-de-Drivers\\45-Drivers-Genericos.md"
     },
     {
       "txt_file": "46-epson-tm-t88.txt",
       "original_md": "46-Epson-TM-T88",
       "title": "Epson TM T88",
       "slug": "epson-tm-t88",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/40-Biblioteca-de-Drivers/46-Epson-TM-T88.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Biblioteca-de-Drivers\\46-Epson-TM-T88.md"
     },
     {
       "txt_file": "51-preguntas-frecuentes.txt",
       "original_md": "51-Preguntas-Frecuentes",
       "title": "Preguntas Frecuentes",
       "slug": "preguntas-frecuentes",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/50-Extra/51-Preguntas-Frecuentes.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\50-Extra\\51-Preguntas-Frecuentes.md"
     },
     {
       "txt_file": "52-buchon-bot.txt",
       "original_md": "52-Buchón-Bot",
       "title": "Buchón Bot",
       "slug": "buchon-bot",
-      "generated_from": "/home/moncho/Projects/pppaxapos/documentation/src/routes/user-guide/Manual-Usuario/50-Extra/52-Buchón-Bot.md"
+      "generated_from": "C:\\Users\\augus\\Escritorio\\ppPaxapos\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\50-Extra\\52-Buchón-Bot.md"
     }
   ]
 }

@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { getModuleCategories } from '$lib/utils/markdownDetector';
 
 export const prerender = true;
@@ -67,7 +66,7 @@ export async function load() {
 			moduleCategories,
 		};
 	} catch (error) {
-		console.error('Error cargando módulos:', error);
+		console.error('Error cargando módulos en el servidor:', error);
 		return {
 			modulesList: [],
 			moduleCategories: [],

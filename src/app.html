@@ -9,19 +9,27 @@
 		<link rel="icon" href="%sveltekit.assets%/favicon.png?v=2025" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="color-scheme" content="light dark" />
+
+		<!-- Google Fonts: Inter -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400&family=JetBrains+Mono:wght@400;500&display=swap"
+			rel="stylesheet"
+		/>
+
 		<script>
 			// Detección y aplicación inmediata del tema para evitar flash
 			(function () {
 				function setTheme() {
 					const html = document.documentElement;
-
-					// Detectar preferencia del usuario/sistema
+					const stored = localStorage.getItem('theme');
 					const prefersDark =
+						!stored &&
 						window.matchMedia &&
 						window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-					// Aplicar clase dark si prefiere modo oscuro
-					if (prefersDark) {
+					if (stored === 'dark' || prefersDark) {
 						html.classList.add('dark');
 						html.style.colorScheme = 'dark';
 					} else {
@@ -29,24 +37,19 @@
 						html.style.colorScheme = 'light';
 					}
 				}
-
-				// Aplicar tema inmediatamente
 				setTheme();
 
-				// Escuchar cambios en las preferencias del sistema
 				if (window.matchMedia) {
-					const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-					// Para navegadores modernos
-					if (mediaQuery.addEventListener) {
-						mediaQuery.addEventListener('change', setTheme);
-					}
-					// Para navegadores más antiguos
-					else if (mediaQuery.addListener) {
-						mediaQuery.addListener(setTheme);
+					const mq = window.matchMedia('(prefers-color-scheme: dark)');
+					if (mq.addEventListener) {
+						mq.addEventListener('change', () => {
+							if (!localStorage.getItem('theme')) setTheme();
+						});
 					}
 				}
 			})();
 		</script>
+
 		<!-- Cargar configuración de variables de entorno en runtime -->
 		<script src="%sveltekit.assets%/config.js"></script>
 		%sveltekit.head%
