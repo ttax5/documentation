@@ -2,45 +2,9 @@
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
+	import DocIcon from '$lib/components/DocIcon.svelte';
 
 	let { data } = $props<{ data: any }>();
-
-	// Category icons
-	const catIcons: Record<string, string> = {
-		'Primeros Pasos': '🚀',
-		'Configuración': '⚙️',
-		'Operaciones': '🍽️',
-		'Biblioteca de Drivers': '🖨️',
-		'Extra': '🔧',
-		'Otros': '📄',
-	};
-
-	// Module icons (from +layout.server.js mapping)
-	const modIcons: Record<string, string> = {
-		introduccion: '🚀',
-		'iniciar-sesion': '🔐',
-		'crear-usuarios': '👥',
-		'tipos-de-pago': '💳',
-		'agregar-personal': '👨‍💼',
-		'configuracion-de-impresoras': '🖨️',
-		menu: '🍽️',
-		salon: '🏪',
-		'kitchen-display-system-kds': '👨‍🍳',
-		contabilidad: '📊',
-		arqueos: '💰',
-		'compras-y-stock': '📦',
-		'arca-y-facturacion': '🏛️',
-		estadisticas: '📈',
-		'business-intelligence': '🧠',
-		'buchon-bot': '🤖',
-		'biblioteca-de-drivers': '🖨️',
-		'sam4s-giant-100': '🖨️',
-		'citizen-ct-s310ii': '🖨️',
-		'epson-tm-t20': '🖨️',
-		'epson-tm-t88': '🖨️',
-		'drivers-genericos': '🖨️',
-		'preguntas-frecuentes': '❓',
-	};
 </script>
 
 <SEOHead
@@ -66,8 +30,8 @@
 		{#each data.moduleCategories as category}
 			<section class="doc-index-section">
 				<h2 class="doc-index-section-title">
-					{catIcons[category.title] || '📄'}
-					{category.title}
+					<DocIcon name={category.title} size={16} class="doc-cat-icon" />
+					<span>{category.title}</span>
 				</h2>
 
 				<div class="doc-module-grid">
@@ -77,7 +41,7 @@
 							onclick={() => goto(`${base}/user-guide/${module.slug}`)}
 						>
 							<span class="doc-module-card-icon">
-								{modIcons[module.slug] || catIcons[category.title] || '📄'}
+								<DocIcon name={module.slug} size={20} />
 							</span>
 							<div class="doc-module-card-text">
 								<div class="doc-module-card-title">{module.title}</div>

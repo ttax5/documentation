@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
+	import DocIcon from '$lib/components/DocIcon.svelte';
 
 	let {
 		categories,
@@ -12,16 +13,6 @@
 		}>;
 		currentSlug: string;
 	}>();
-
-	// Category icons map (same as +page.js)
-	const categoryIcons: Record<string, string> = {
-		'Primeros Pasos': '🚀',
-		'Configuración': '⚙️',
-		'Operaciones': '🍽️',
-		'Biblioteca de Drivers': '🖨️',
-		'Extra': '🔧',
-		'Otros': '📄',
-	};
 </script>
 
 <!-- ── Desktop Sidebar ──────────────────────────────────────── -->
@@ -29,8 +20,8 @@
 	{#each categories as category}
 		<div class="doc-sidebar-section">
 			<div class="doc-sidebar-category">
-				{categoryIcons[category.title] || '📄'}
-				{category.title}
+				<DocIcon name={category.title} size={15} class="sidebar-category-icon" />
+				<span>{category.title}</span>
 			</div>
 			{#each category.modules as module}
 				<a
