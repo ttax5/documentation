@@ -1,8 +1,9 @@
 # PaxaPOS LLM Index
-# Updated: 2026-07-30T01:15:18.204Z
+# Updated: 2026-08-14T12:32:15.659Z
 https://doc.paxapos.com/llms/index.txt
 https://doc.paxapos.com/llms/11-introduccion.txt
 https://doc.paxapos.com/llms/12-iniciar-sesion.txt
+https://doc.paxapos.com/llms/13-recuperar-contrasena.txt
 https://doc.paxapos.com/llms/13-recuperar-contrasena.txt
 https://doc.paxapos.com/llms/101-resumen-general.txt
 https://doc.paxapos.com/llms/102-ventas-por-mozo.txt
@@ -65,6 +66,8 @@ https://doc.paxapos.com/llms/35-reembolsos-payway.txt
 https://doc.paxapos.com/llms/36-anulaciones-payway.txt
 https://doc.paxapos.com/llms/37-cierres-payway.txt
 https://doc.paxapos.com/llms/38-transacciones-macroclick.txt
+https://doc.paxapos.com/llms/33-comandero.txt
+https://doc.paxapos.com/llms/50-agregar-producto.txt
 https://doc.paxapos.com/llms/41-menu.txt
 https://doc.paxapos.com/llms/42-categorias.txt
 https://doc.paxapos.com/llms/43-variantes-grupo-sabores.txt
