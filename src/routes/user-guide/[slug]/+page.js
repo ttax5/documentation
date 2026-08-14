@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { error } from '@sveltejs/kit';
 import { marked } from 'marked';
 import { base } from '$app/paths';

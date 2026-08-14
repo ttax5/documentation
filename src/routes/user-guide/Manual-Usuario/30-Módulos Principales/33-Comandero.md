@@ -29,6 +29,17 @@ De esta forma, el barman no se distrae con las milanesas que se preparan en la c
 
 ---
 
+## 💡 Guía corta de uso por sub-sección
+
+- **[Comandas Activas (KDS)](/user-guide/comandas-activas)**: Pantalla interactiva en tiempo real para cocina y barra. Monitoreá pedidos, controlá tiempos por color y marchá o finalizá platos notificando al mozo.
+- **[Comandas Terminadas](/user-guide/comandas-terminadas)**: Historial de pedidos finalizados en el turno. Auditá tiempos de despacho de cocina y reabrí comandas enviadas por error para devolverlas al KDS.
+- **[Sectores de Comanda](/user-guide/sectores-de-comanda)**: Administración de áreas de producción (Cocina, Barra, Fríos). Definí el ruteo automático de pedidos e impresiones por tipo de producto.
+- **[Puestos de Comanda](/user-guide/puestos-de-comanda)**: Vinculación de pantallas, monitores o tablets KDS físicas con cada sector de preparación para operar en cada estación.
+- **[Estados de Comanda](/user-guide/estados-de-comanda)**: Personalización del flujo y las etapas globales de los pedidos (*Ingresada*, *En Marcha*, *Listo*, *Entregado*) con códigos de color visuales.
+- **[Estados de Ítems](/user-guide/estados-de-items)**: Control individual plato por plato. Marcá productos específicos como listos mientras el resto de la comanda de la mesa continúa en cocina.
+
+---
+
 ## Configuración y uso en el local
 
 Para poner en marcha el Comandero y coordinar el trabajo entre la cocina y el salón, seguí estos pasos sencillos:

@@ -188,14 +188,31 @@ export async function load() {
 			'buchon-bot': 'lucide:bot',
 		};
 
+		const moduleDescriptions = {
+			'comandas-activas':
+				'Pantalla KDS en tiempo real para cocina y barra. Monitoreá pedidos, controlá tiempos por color y marchá o finalizá platos notificando al mozo.',
+			'comandas-terminadas':
+				'Historial de pedidos finalizados en el turno. Auditá los tiempos de despacho de cocina y reabrí comandas enviadas por error para devolverlas al KDS.',
+			'sectores-de-comanda':
+				'Administración de áreas de producción (Cocina, Barra, Parrilla, Fríos). Definí el ruteo automático de pedidos e impresiones por tipo de producto.',
+			'puestos-de-comanda':
+				'Vinculación de pantallas, monitores o tablets KDS físicas con cada sector de preparación para visualizar y operar los pedidos de cada estación.',
+			'estados-de-comanda':
+				'Personalización del flujo y las etapas globales de las comandas (Ingresada, En Marcha, Listo, Entregado) con códigos de color visuales.',
+			'estados-de-items':
+				'Control individual plato por plato. Marcá productos específicos como listos o emplatados mientras el resto de la orden continúa en preparación.',
+		};
+
 		moduleCategories.forEach((category) => {
 			category.modules.forEach((module) => {
 				const icon = moduleIcons[module.slug] || categoryIcons[category.title] || 'lucide:file-text';
+				const description =
+					moduleDescriptions[module.slug] || `Guía completa sobre ${module.title.toLowerCase()}`;
 
 				modulesList.push({
 					slug: module.slug,
 					title: module.title,
-					description: `Guía completa sobre ${module.title.toLowerCase()}`,
+					description: description,
 					category: category.title,
 					icon: icon,
 					id: module.fileName.replace('.md', '').toLowerCase(),
