@@ -2,751 +2,763 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://doc.paxapos.com/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/llms/index.txt</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/introduccion</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/iniciar-sesion</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/recuperar-contrasena</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://doc.paxapos.com/user-guide/recuperar-contrasena</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/resumen-general</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/ventas-por-mozo</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/ventas-por-tipo-de-pago</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/reporte-anual</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/reporte-de-propinas</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/productos-mas-vendidos</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/proyeccion-de-ventas</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/ventas-por-turnos</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/compras-por-mercaderia</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/rentabilidad-subproductos</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/info-fiscal-comercio</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/arca-y-facturacion</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/config-del-comercio</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/config-avanzada</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/archivos-multimedia</loc>
-    <lastmod>2026-07-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://doc.paxapos.com/user-guide/app-store-modulos</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/modulo-delivery</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/inteligencia-artificial</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/configuracion-email</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/impresoras</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/configuracion-impresion</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/perfiles-de-impresion</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/usuarios-del-sistema</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/usuarios-con-pin</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/token-jwt-api</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/roles</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/permisos-por-rol</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/mis-sesiones-activas</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/tipos-de-jornada</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/turnos-mesa</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/mozos</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/tipos-de-pago</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/tipos-de-documento</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/clasificacion-de-gastos</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/rubros-de-compras</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/centros-de-costo</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/unidades-de-medida</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/tipos-de-impuesto</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/biblioteca-de-drivers</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/sam4s-giant-100</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/citizen-ct-s310ii</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/epson-tm-t20</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/drivers-genericos</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/epson-tm-t88</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/preguntas-frecuentes</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/buchon-bot</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/salon-de-ventas</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/caja-rapida</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/mapa-de-mesas</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/chat-del-salon</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/clientes</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/descuentos</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/nueva-reserva</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/listado-de-reservas</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/configuracion-procesadores</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/instrumentos-pago-manual</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/terminales-payway</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/transacciones-payway</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/reembolsos-payway</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/anulaciones-payway</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/cierres-payway</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/transacciones-macroclick</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://doc.paxapos.com/user-guide/comandero</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://doc.paxapos.com/user-guide/agregar-producto</loc>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/menu</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/categorias</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/variantes-grupo-sabores</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/maestro-de-productos</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/subproductos-elaborados</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/recetas</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/tags-de-productos</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/analisis-duplicados</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/notas-de-comanda</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/notas-de-producto</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/flujo-de-compras</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/todas-las-ordenes-compra</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/crear-orden-compra</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/pedir-mercaderia</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/pendientes-de-compra</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/mercaderias</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/mercaderias-sin-rubro</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/proveedores</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/historial-de-compras</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/resumen-de-stock</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/stock-mercaderias</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/stock-subproductos</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/movimientos-de-stock</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/produccion-subproductos</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/desperdicios</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/depositos</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/stock-valorizado</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/stock-cerrados</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/sugerencias-compra-ia</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/arqueos-de-caja</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/traspasos-de-caja</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/listado-de-cajas</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/transacciones-de-cobro</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/digitalizar-factura-gasto</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/gasto-manual</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/resumen-de-deuda</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/pagos-egresos</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/historial-de-gastos</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/digitalizacion-ocr</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/historico-de-mesas</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/tickets-fiscales</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/puntos-de-venta-pdv</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/cierres-contables</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/comandas-activas</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/comandas-terminadas</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/sectores-de-comanda</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/puestos-de-comanda</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/estados-de-comanda</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/estados-de-items</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/empleados</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/empleados-trabajando</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/registro-diario-fichaje</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/reporte-mensual-fichaje</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/departamentos</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/turnos-y-horarios-fichaje</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/sueldos-y-jornales</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://doc.paxapos.com/user-guide/datos-de-acceso-app</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
