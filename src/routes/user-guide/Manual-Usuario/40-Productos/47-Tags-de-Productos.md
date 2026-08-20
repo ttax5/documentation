@@ -1,43 +1,58 @@
-# Tags y Etiquetas de Productos
+# Tags
 
-> **¿Dónde está en el sistema?:** Menú principal → **Productos** → **Gestión Avanzada** → **Tags**  
-> **¿Quién lo usa?:** Encargados de Menú  
-
----
-
-## 🎯 ¿Qué es y para qué sirve esta pantalla?
-
-Permite asignar etiquetas informativas o de alérgenos a los platos del menú (ejemplo: *Sin TACC, Apto Vegano, Picante, Recomendado del Chef*):
-
-1. **Filtros e íconos en carta:** Muestra distintivos visuales en la carta digital y en la comandería.
+> **Dónde está:** Productos → **Tags**
+> **Para qué sirve:** etiquetas para agrupar y filtrar productos con fines estadísticos.
+> **Quién lo usa:** administradores.
 
 ---
 
-## 🔑 Requisitos para empezar a usarlo
+## 🧭 Antes de entrar acá
 
-- Tener el permiso de **Gestión de Tags y Alérgenos** configurado en [Permisos por Rol](/user-guide/permisos-por-rol).
-
----
-
-## 🎨 Botones y Pantallas: ¿Qué es cada cosa?
-
-| Botón / Campo | ¿Dónde está? | ¿Qué hace al tocarlo? |
-|---|---|---|
-| ➕ **Nuevo Tag** | Esquina superior | Registra una nueva etiqueta o alérgeno. |
+Los tags no afectan la carta, el precio, la comanda ni el stock. **Sirven únicamente para fines estadísticos** — para poder agrupar y medir productos después en la sección Reportes. Es un módulo chico y opcional.
 
 ---
 
-## 📑 Guía Paso a Paso: ¿Cómo se usa?
+## 📋 El listado
 
-### Paso 1: Crear y asignar un tag
-1. Tocá el botón **Nuevo Tag**.
-2. Escribí el nombre (ejemplo: *Vegetariano*) y seleccioná un ícono/color.
-3. Asigná el tag a los platos correspondientes desde la ficha del producto.
+![Listado de Tags](images/productos/47-tags/01-listado.webp)
+
+*"Etiquetas para agrupar y filtrar productos"*
+
+| Columna | Qué es |
+|---|---|
+| **#** | El ID del tag. |
+| **Nombre** | El nombre de la etiqueta. |
+| **Creado** | Fecha de alta. |
+| **Acciones** | ✏️ Editar · 🗑️ Borrar. |
 
 ---
 
-## ⚠️ ¿Qué hacer si algo no sale bien? (Problemas Comunes)
+## 📝 Crear Tag
 
-| ¿Qué te pasa? | ¿Por qué puede ser? | ¿Cómo se soluciona? |
-|---|---|---|
-| El tag no aparece en la carta del cliente. | No está marcado como visible al público. | Editá el tag y activá la casilla **Mostrar en Menú Digital**. |
+![Formulario Crear Tag](images/productos/47-tags/02-crear-tag.webp)
+
+| Campo | Qué es |
+|---|---|
+| **Nombre** | El nombre del tag. |
+| **Seleccionar los productos que usan este Tag** | Lista con checkbox de **todos** los productos del [Maestro](/user-guide/maestro-de-productos), de cualquier tipo. |
+
+Se guarda con **Agregar**.
+
+> 💡 Un tag también se puede asignar **desde el propio alta del producto**, en el campo Tag del formulario del [Maestro de Productos](/user-guide/maestro-de-productos).
+
+---
+
+## 🔗 Cómo se conecta con el resto
+
+**Alimenta a:**
+- La sección **Reportes** → agrupación y estadísticas por tag
+
+---
+
+## ❓ Preguntas frecuentes
+
+**¿Un tag cambia el precio o la visibilidad de un producto?**
+No. Es puramente estadístico, no toca ninguna otra parte del sistema.
+
+**¿Un producto puede tener más de un tag?**
+Sí, no hay límite: podés marcarlo en tantos tags como necesites para tus reportes.
