@@ -7,36 +7,40 @@
 
 ## Descripcion General
 
-Los Estados de Comanda definen las etapas por las que transita un pedido completo dentro del flujo de trabajo del sistema de comandas. Cada estado representa una fase del proceso de preparacion y despacho, desde que la orden ingresa al sistema hasta que es entregada al cliente.
+Los Estados de Comanda definen las etapas por las que transita un pedido completo (el pedido de una mesa) dentro del flujo de trabajo del sistema de comandas. Cada estado representa una fase del proceso de preparacion y despacho, avanzando secuencialmente de izquierda a derecha.
 
-Los estados predeterminados del sistema incluyen etapas como *Ingresada*, *En Preparacion*, *Lista* y *Entregada*, aunque pueden ser personalizados segun las necesidades operativas del establecimiento. Esta seccion permite configurar el nombre, el color visual y el comportamiento de notificaciones de cada estado, adaptando el flujo de trabajo a la operatoria particular de cada cocina.
+El flujo tipico comprende estados como *Pendiente* (1 de 5), *Confirmada* (2 de 5), *Marchando* (3 de 5), *Saliendo* (4 de 5) y *Listo* (5 de 5). Esta configuracion permite definir el nombre, su posicion relativa en la secuencia y los colores representativos.
+
+![Flujo de Estados de Comanda](images/comandero/estados-flujo.png)
+_Diagrama secuencial del ciclo de vida de una comanda en el sistema_
 
 ---
 
 ## Requisitos Previos
 
 - El usuario debe contar con permisos de administracion del sistema.
-- Se recomienda definir previamente el flujo operativo deseado para la cocina antes de modificar los estados predeterminados.
+- Se recomienda definir previamente el flujo operativo deseado para la cocina antes de crear o modificar los estados.
 
 ---
 
 ## Guia de Uso
 
-### Consulta de estados existentes
+### Visualizacion del flujo de estados
 
-Al ingresar a la seccion, el sistema presenta el listado completo de estados de comanda configurados, mostrando su nombre, color asociado y configuracion de notificaciones. Los estados se presentan en el orden secuencial en que se aplican durante el ciclo de vida de un pedido.
+Al ingresar a la seccion, el sistema presenta la representacion grafica del flujo con las tarjetas de cada estado ordenadas cronologicamente (1 de N, 2 de N, etc.) con sus respectivos colores identificatorios.
 
-### Modificacion de un estado
+### Agregar un nuevo estado al flujo
 
-1. Seleccionar el estado que se desea modificar haciendo clic sobre su nombre en el listado.
-2. En el campo **Nombre**, ajustar la denominacion de la etapa segun la terminologia utilizada en el establecimiento (por ejemplo: cambiar "Lista" por "Despachar" o "En Preparacion" por "En Coccion").
-3. En el selector de **Color**, definir el color de resalte que se aplicara a la tarjeta de comanda en la pantalla KDS cuando el pedido se encuentre en este estado. Se recomienda utilizar colores distinguibles entre si para facilitar la identificacion visual rapida.
-4. En la seccion de **Alertas**, activar o desactivar las notificaciones automaticas al mozo que se generan cuando un pedido ingresa a este estado.
-5. Presionar **Guardar** para aplicar los cambios en todas las pantallas KDS del sistema.
+1. Presionar el boton **+ Agregar Estado** ubicado en la esquina superior derecha.
+2. En el formulario modal:
+   - **Nombre:** Ingresar la denominacion del estado (por ejemplo: "En Preparacion", "Marchando").
+   - **Estado anterior:** Seleccionar que estado precede al nuevo estado dentro del flujo.
+   - **Estado posterior:** Seleccionar que estado le sigue en la transicion.
+   - **Colores:** Seleccionar o ingresar el color distintivo para identificar visualmente este estado en la pantalla KDS.
+3. Presionar **Guardar** para confirmar e incorporar el estado al flujo.
 
-### Configuracion de notificaciones
-
-Cada estado permite activar el envio de avisos automaticos al mozo asignado al pedido. Esta funcionalidad resulta especialmente util en estados como *Listo* o *Despachar*, donde el mozo necesita ser informado para proceder al retiro de los platos.
+![Formulario para agregar estado de comanda](images/comandero/estados-agregar.png)
+_Modal de configuracion de nuevo estado de comanda_
 
 ---
 
@@ -44,9 +48,9 @@ Cada estado permite activar el envio de avisos automaticos al mozo asignado al p
 
 | Accion | Descripcion |
 |---|---|
-| **Editar Estado** | Permite modificar el nombre, color visual y configuracion de alertas del estado seleccionado. |
-| **Asignar Color** | Define el color de fondo o borde de la tarjeta de comanda en la pantalla KDS para el estado seleccionado. |
-| **Activar Notificacion al Mozo** | Habilita el envio de avisos automaticos al salon cuando un pedido alcanza este estado. |
+| **+ Agregar Estado** | Abre el formulario para intercalar o anadir una nueva etapa al ciclo de vida de la comanda. |
+| **Definir Transiciones** | Permite enlazar el estado anterior y posterior para estructurar el orden del flujo. |
+| **Asignar Colores** | Configura el color visual de la tarjeta de estado para rapida identificacion en cocina. |
 
 ---
 

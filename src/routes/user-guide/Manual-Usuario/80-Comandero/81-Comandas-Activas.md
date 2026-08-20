@@ -7,9 +7,12 @@
 
 ## Descripcion General
 
-La pantalla de Comandas Activas funciona como un sistema de visualizacion de cocina (KDS, por sus siglas en ingles: Kitchen Display System). Su proposito principal es reemplazar el uso de comandas impresas en papel, centralizando la recepcion y gestion de pedidos en una interfaz digital e interactiva.
+La pantalla de Comandas Activas funciona como un sistema de visualizacion de cocina (KDS - Kitchen Display System). Su proposito principal es centralizar la recepcion y gestion de pedidos en una interfaz digital interactiva en tiempo real.
 
-Cada vez que un mozo envia una orden desde el salon, esta se refleja automaticamente en la pantalla del sector de preparacion correspondiente. El sistema organiza los pedidos por orden de llegada y permite al personal de cocina o barra gestionar el flujo de trabajo de manera visual, desde la recepcion del pedido hasta su despacho al salon.
+Cada comanda enviada desde el salon se muestra como una tarjeta con el nombre del mozo, la mesa, la hora, el identificador del pedido, el detalle de los productos y sus respectivos estados. En la barra superior es posible filtrar por un sector especifico o visualizar **Todos los sectores**.
+
+![Pantalla KDS de Comandas Activas](images/comandero/kds-pantalla-activas.png)
+_Pantalla KDS en tiempo real con tarjetas de pedidos y acciones de cambio de estado_
 
 ---
 
@@ -23,27 +26,22 @@ Cada vez que un mozo envia una orden desde el salon, esta se refleja automaticam
 
 ## Guia de Uso
 
-### Recepcion de pedidos
+### Recepcion de pedidos y visualizacion
 
-Al enviar una orden desde el Salon de Ventas, el pedido ingresa automaticamente a la pantalla de Comandas Activas. El sistema emite una alerta auditiva para notificar al personal de cocina y presenta la orden en formato de tarjeta, organizada cronologicamente segun el momento de ingreso.
+Al ingresar una comanda, esta aparece inmediatamente en la pantalla KDS. En el encabezado de cada tarjeta se puede observar:
+- **Mozo asignado** y **Mesa** (ej: "Mozo Omar", mesa "Jsjsj").
+- **Hora y N° de orden** (ej: `21:01 13/12 #7`).
+- **Estado actual** de la comanda (ej: *MARCHANDO*, *SALIENDO*).
 
-### Inicio de preparacion
+### Avance de estados de la comanda
 
-Para indicar que un pedido comenzo a prepararse, presionar el boton **Iniciar Preparacion** en la tarjeta correspondiente. Esta accion cambia el estado del pedido a *En Proceso* y activa el cronometro de seguimiento.
+Cada tarjeta dispone de un boton inferior dinamico que permite avanzar la comanda al siguiente estado configurado en el flujo:
+- Por ejemplo, presionar **CAMBIAR A SALIENDO** o **CAMBIAR A LISTO** para avanzar el ciclo del pedido.
+- El color de la cabecera de la tarjeta refleja el estado actual del pedido.
 
-### Seguimiento de tiempos
+### Gestion de ítems individuales
 
-Cada tarjeta de comanda incluye un indicador visual de tiempo transcurrido que cambia de color segun la demora acumulada:
-
-| Indicador | Significado |
-|---|---|
-| **Verde** | El pedido se encuentra dentro del tiempo normal de preparacion. |
-| **Amarillo** | El pedido se aproxima al limite de espera configurado. |
-| **Rojo** | El pedido ha superado el tiempo esperado y se considera demorado. |
-
-### Finalizacion y despacho
-
-Una vez completada la preparacion del pedido, presionar el boton **Terminar** o **Marchar**. Esta accion produce dos efectos simultaneos: la tarjeta se remueve de la pantalla de Comandas Activas y se envia una notificacion automatica al mozo responsable para que proceda al retiro del pedido desde el sector de preparacion.
+Los productos individuales dentro de la tarjeta muestran su propio estado (por ejemplo, etiqueta **LISTO**), permitiendo al personal de cocina marcar productos que ya estan listos antes de despachar la orden completa.
 
 ---
 
@@ -51,10 +49,10 @@ Una vez completada la preparacion del pedido, presionar el boton **Terminar** o 
 
 | Elemento | Descripcion |
 |---|---|
-| **Tarjeta de Comanda** | Presenta la informacion del pedido: numero de mesa, mozo asignado, detalle de los items solicitados y observaciones especiales del cliente (por ejemplo: "sin sal", "bien cocido", "sin TACC"). |
-| **Iniciar Preparacion** | Cambia el estado del pedido a *En Proceso* y activa el registro de tiempo de preparacion. |
-| **Terminar / Marchar** | Marca el pedido como *Listo para retirar* y notifica al mozo correspondiente. |
-| **Llamar Mozo** | Envia una alerta directa al mozo para solicitar el retiro de los platos desde el sector de preparacion. |
+| **Selector de Sector** | Menu desplegable en la barra superior ("Todos los sectores", "cocina", etc.) para filtrar los pedidos segun la estacion. |
+| **Tarjeta de Comanda** | Contenedor principal con mozo, mesa, hora, numero de comanda y lista de productos solicitados. |
+| **Boton de Cambio de Estado** | Boton de accion rapida (ej: "CAMBIAR A SALIENDO", "CAMBIAR A LISTO") para avanzar la comanda en el flujo. |
+| **Indicador de Item** | Etiqueta de estado individual para cada plato o bebida dentro de la comanda. |
 
 ---
 
