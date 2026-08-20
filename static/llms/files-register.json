@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T12:55:19.810Z",
+  "generated_at": "2026-08-20T13:04:41.176Z",
   "total_files": 124,
   "files": [
     "101-resumen-general.txt",
@@ -133,868 +133,868 @@
       "original_md": "11-Introduccion",
       "title": "Introduccion",
       "slug": "introduccion",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\10-Comenzamos\\11-Introduccion.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\10-Comenzamos\\11-Introduccion.md"
     },
     {
       "txt_file": "12-iniciar-sesion.txt",
       "original_md": "12-Iniciar-sesión",
       "title": "Iniciar sesión",
       "slug": "iniciar-sesion",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\10-Comenzamos\\12-Iniciar-sesión.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\10-Comenzamos\\12-Iniciar-sesión.md"
     },
     {
       "txt_file": "13-recuperar-contrasena.txt",
       "original_md": "13-Recuperar-contraseña",
       "title": "Recuperar contraseña",
       "slug": "recuperar-contrasena",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\10-Comenzamos\\13-Recuperar-contraseña.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\10-Comenzamos\\13-Recuperar-contraseña.md"
     },
     {
       "txt_file": "101-resumen-general.txt",
       "original_md": "101-Resumen-General",
       "title": "Resumen General",
       "slug": "resumen-general",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\101-Resumen-General.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\101-Resumen-General.md"
     },
     {
       "txt_file": "102-ventas-por-mozo.txt",
       "original_md": "102-Ventas-por-Mozo",
       "title": "Ventas por Mozo",
       "slug": "ventas-por-mozo",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\102-Ventas-por-Mozo.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\102-Ventas-por-Mozo.md"
     },
     {
       "txt_file": "103-ventas-por-tipo-de-pago.txt",
       "original_md": "103-Ventas-por-Tipo-de-Pago",
       "title": "Ventas por Tipo de Pago",
       "slug": "ventas-por-tipo-de-pago",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\103-Ventas-por-Tipo-de-Pago.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\103-Ventas-por-Tipo-de-Pago.md"
     },
     {
       "txt_file": "104-reporte-anual.txt",
       "original_md": "104-Reporte-Anual",
       "title": "Reporte Anual",
       "slug": "reporte-anual",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\104-Reporte-Anual.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\104-Reporte-Anual.md"
     },
     {
       "txt_file": "105-reporte-de-propinas.txt",
       "original_md": "105-Reporte-de-Propinas",
       "title": "Reporte de Propinas",
       "slug": "reporte-de-propinas",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\105-Reporte-de-Propinas.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\105-Reporte-de-Propinas.md"
     },
     {
       "txt_file": "106-productos-mas-vendidos.txt",
       "original_md": "106-Productos-Mas-Vendidos",
       "title": "Productos Mas Vendidos",
       "slug": "productos-mas-vendidos",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\106-Productos-Mas-Vendidos.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\106-Productos-Mas-Vendidos.md"
     },
     {
       "txt_file": "107-proyeccion-de-ventas.txt",
       "original_md": "107-Proyeccion-de-Ventas",
       "title": "Proyeccion de Ventas",
       "slug": "proyeccion-de-ventas",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\107-Proyeccion-de-Ventas.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\107-Proyeccion-de-Ventas.md"
     },
     {
       "txt_file": "108-ventas-por-turnos.txt",
       "original_md": "108-Ventas-por-Turnos",
       "title": "Ventas por Turnos",
       "slug": "ventas-por-turnos",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\108-Ventas-por-Turnos.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\108-Ventas-por-Turnos.md"
     },
     {
       "txt_file": "109-compras-por-mercaderia.txt",
       "original_md": "109-Compras-por-Mercaderia",
       "title": "Compras por Mercaderia",
       "slug": "compras-por-mercaderia",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\109-Compras-por-Mercaderia.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\109-Compras-por-Mercaderia.md"
     },
     {
       "txt_file": "110-rentabilidad-subproductos.txt",
       "original_md": "110-Rentabilidad-Subproductos",
       "title": "Rentabilidad Subproductos",
       "slug": "rentabilidad-subproductos",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\110-Rentabilidad-Subproductos.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\100-Reportes\\110-Rentabilidad-Subproductos.md"
     },
     {
       "txt_file": "111-info-fiscal-comercio.txt",
       "original_md": "111-Info-Fiscal-Comercio",
       "title": "Info Fiscal Comercio",
       "slug": "info-fiscal-comercio",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\111-Info-Fiscal-Comercio.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\111-Info-Fiscal-Comercio.md"
     },
     {
       "txt_file": "112-arca-y-facturacion.txt",
       "original_md": "112-ARCA-y-Facturación",
       "title": "ARCA y Facturación",
       "slug": "arca-y-facturacion",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\112-ARCA-y-Facturación.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\112-ARCA-y-Facturación.md"
     },
     {
       "txt_file": "113-config-del-comercio.txt",
       "original_md": "113-Config-del-Comercio",
       "title": "Config del Comercio",
       "slug": "config-del-comercio",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\113-Config-del-Comercio.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\113-Config-del-Comercio.md"
     },
     {
       "txt_file": "114-config-avanzada.txt",
       "original_md": "114-Config-Avanzada",
       "title": "Config Avanzada",
       "slug": "config-avanzada",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\114-Config-Avanzada.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\114-Config-Avanzada.md"
     },
     {
       "txt_file": "115-archivos-multimedia.txt",
       "original_md": "115-Archivos-Multimedia",
       "title": "Archivos Multimedia",
       "slug": "archivos-multimedia",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\115-Archivos-Multimedia.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\115-Archivos-Multimedia.md"
     },
     {
       "txt_file": "117-modulo-delivery.txt",
       "original_md": "117-Modulo-Delivery",
       "title": "Modulo Delivery",
       "slug": "modulo-delivery",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\117-Modulo-Delivery.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\117-Modulo-Delivery.md"
     },
     {
       "txt_file": "118-inteligencia-artificial.txt",
       "original_md": "118-Inteligencia-Artificial",
       "title": "Inteligencia Artificial",
       "slug": "inteligencia-artificial",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\118-Inteligencia-Artificial.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\118-Inteligencia-Artificial.md"
     },
     {
       "txt_file": "119-configuracion-email.txt",
       "original_md": "119-Configuracion-Email",
       "title": "Configuracion Email",
       "slug": "configuracion-email",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\119-Configuracion-Email.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\119-Configuracion-Email.md"
     },
     {
       "txt_file": "120-impresoras.txt",
       "original_md": "120-Impresoras",
       "title": "Impresoras",
       "slug": "impresoras",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\120-Impresoras.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\120-Impresoras.md"
     },
     {
       "txt_file": "121-configuracion-impresion.txt",
       "original_md": "121-Configuracion-Impresion",
       "title": "Configuracion Impresion",
       "slug": "configuracion-impresion",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\121-Configuracion-Impresion.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\121-Configuracion-Impresion.md"
     },
     {
       "txt_file": "122-perfiles-de-impresion.txt",
       "original_md": "122-Perfiles-de-Impresion",
       "title": "Perfiles de Impresion",
       "slug": "perfiles-de-impresion",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\122-Perfiles-de-Impresion.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\122-Perfiles-de-Impresion.md"
     },
     {
       "txt_file": "123-usuarios-del-sistema.txt",
       "original_md": "123-Usuarios-del-Sistema",
       "title": "Usuarios del Sistema",
       "slug": "usuarios-del-sistema",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\123-Usuarios-del-Sistema.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\123-Usuarios-del-Sistema.md"
     },
     {
       "txt_file": "124-usuarios-con-pin.txt",
       "original_md": "124-Usuarios-con-PIN",
       "title": "Usuarios con PIN",
       "slug": "usuarios-con-pin",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\124-Usuarios-con-PIN.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\124-Usuarios-con-PIN.md"
     },
     {
       "txt_file": "125-token-jwt-api.txt",
       "original_md": "125-Token-JWT-API",
       "title": "Token JWT API",
       "slug": "token-jwt-api",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\125-Token-JWT-API.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\125-Token-JWT-API.md"
     },
     {
       "txt_file": "126-roles.txt",
       "original_md": "126-Roles",
       "title": "Roles",
       "slug": "roles",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\126-Roles.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\126-Roles.md"
     },
     {
       "txt_file": "127-permisos-por-rol.txt",
       "original_md": "127-Permisos-por-Rol",
       "title": "Permisos por Rol",
       "slug": "permisos-por-rol",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\127-Permisos-por-Rol.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\127-Permisos-por-Rol.md"
     },
     {
       "txt_file": "128-mis-sesiones-activas.txt",
       "original_md": "128-Mis-Sesiones-Activas",
       "title": "Mis Sesiones Activas",
       "slug": "mis-sesiones-activas",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\128-Mis-Sesiones-Activas.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\128-Mis-Sesiones-Activas.md"
     },
     {
       "txt_file": "129-tipos-de-jornada.txt",
       "original_md": "129-Tipos-de-Jornada",
       "title": "Tipos de Jornada",
       "slug": "tipos-de-jornada",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\129-Tipos-de-Jornada.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\129-Tipos-de-Jornada.md"
     },
     {
       "txt_file": "130-turnos-mesa.txt",
       "original_md": "130-Turnos-Mesa",
       "title": "Turnos Mesa",
       "slug": "turnos-mesa",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\130-Turnos-Mesa.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\130-Turnos-Mesa.md"
     },
     {
       "txt_file": "131-mozos.txt",
       "original_md": "131-Mozos",
       "title": "Mozos",
       "slug": "mozos",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\131-Mozos.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\131-Mozos.md"
     },
     {
       "txt_file": "132-tipos-de-pago.txt",
       "original_md": "132-Tipos-de-Pago",
       "title": "Tipos de Pago",
       "slug": "tipos-de-pago",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\132-Tipos-de-Pago.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\132-Tipos-de-Pago.md"
     },
     {
       "txt_file": "133-tipos-de-documento.txt",
       "original_md": "133-Tipos-de-Documento",
       "title": "Tipos de Documento",
       "slug": "tipos-de-documento",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\133-Tipos-de-Documento.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\133-Tipos-de-Documento.md"
     },
     {
       "txt_file": "134-clasificacion-de-gastos.txt",
       "original_md": "134-Clasificacion-de-Gastos",
       "title": "Clasificacion de Gastos",
       "slug": "clasificacion-de-gastos",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\134-Clasificacion-de-Gastos.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\134-Clasificacion-de-Gastos.md"
     },
     {
       "txt_file": "135-rubros-de-compras.txt",
       "original_md": "135-Rubros-de-Compras",
       "title": "Rubros de Compras",
       "slug": "rubros-de-compras",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\135-Rubros-de-Compras.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\135-Rubros-de-Compras.md"
     },
     {
       "txt_file": "136-centros-de-costo.txt",
       "original_md": "136-Centros-de-Costo",
       "title": "Centros de Costo",
       "slug": "centros-de-costo",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\136-Centros-de-Costo.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\136-Centros-de-Costo.md"
     },
     {
       "txt_file": "137-unidades-de-medida.txt",
       "original_md": "137-Unidades-de-Medida",
       "title": "Unidades de Medida",
       "slug": "unidades-de-medida",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\137-Unidades-de-Medida.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\137-Unidades-de-Medida.md"
     },
     {
       "txt_file": "138-tipos-de-impuesto.txt",
       "original_md": "138-Tipos-de-Impuesto",
       "title": "Tipos de Impuesto",
       "slug": "tipos-de-impuesto",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\138-Tipos-de-Impuesto.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\110-Configuracion\\138-Tipos-de-Impuesto.md"
     },
     {
       "txt_file": "141-biblioteca-de-drivers.txt",
       "original_md": "141-Biblioteca-de-Drivers",
       "title": "Biblioteca de Drivers",
       "slug": "biblioteca-de-drivers",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\140-Biblioteca-de-Drivers\\141-Biblioteca-de-Drivers.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\140-Biblioteca-de-Drivers\\141-Biblioteca-de-Drivers.md"
     },
     {
       "txt_file": "142-sam4s-giant-100.txt",
       "original_md": "142-Sam4s-Giant-100",
       "title": "Sam4s Giant 100",
       "slug": "sam4s-giant-100",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\140-Biblioteca-de-Drivers\\142-Sam4s-Giant-100.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\140-Biblioteca-de-Drivers\\142-Sam4s-Giant-100.md"
     },
     {
       "txt_file": "143-citizen-ct-s310ii.txt",
       "original_md": "143-citizen-ct-s310II",
       "title": "citizen ct s310II",
       "slug": "citizen-ct-s310ii",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\140-Biblioteca-de-Drivers\\143-citizen-ct-s310II.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\140-Biblioteca-de-Drivers\\143-citizen-ct-s310II.md"
     },
     {
       "txt_file": "144-epson-tm-t20.txt",
       "original_md": "144-Epson-TM-T20",
       "title": "Epson TM T20",
       "slug": "epson-tm-t20",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\140-Biblioteca-de-Drivers\\144-Epson-TM-T20.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\140-Biblioteca-de-Drivers\\144-Epson-TM-T20.md"
     },
     {
       "txt_file": "145-drivers-genericos.txt",
       "original_md": "145-Drivers-Genericos",
       "title": "Drivers Genericos",
       "slug": "drivers-genericos",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\140-Biblioteca-de-Drivers\\145-Drivers-Genericos.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\140-Biblioteca-de-Drivers\\145-Drivers-Genericos.md"
     },
     {
       "txt_file": "146-epson-tm-t88.txt",
       "original_md": "146-Epson-TM-T88",
       "title": "Epson TM T88",
       "slug": "epson-tm-t88",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\140-Biblioteca-de-Drivers\\146-Epson-TM-T88.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\140-Biblioteca-de-Drivers\\146-Epson-TM-T88.md"
     },
     {
       "txt_file": "151-preguntas-frecuentes.txt",
       "original_md": "151-Preguntas-Frecuentes",
       "title": "Preguntas Frecuentes",
       "slug": "preguntas-frecuentes",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\150-Extra\\151-Preguntas-Frecuentes.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\150-Extra\\151-Preguntas-Frecuentes.md"
     },
     {
       "txt_file": "152-buchon-bot.txt",
       "original_md": "152-Buchón-Bot",
       "title": "Buchón Bot",
       "slug": "buchon-bot",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\150-Extra\\152-Buchón-Bot.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\150-Extra\\152-Buchón-Bot.md"
     },
     {
       "txt_file": "21-salon-de-ventas.txt",
       "original_md": "21-Salon-de-Ventas",
       "title": "Salon de Ventas",
       "slug": "salon-de-ventas",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\20-Ventas\\21-Salon-de-Ventas.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\20-Ventas\\21-Salon-de-Ventas.md"
     },
     {
       "txt_file": "22-caja-rapida.txt",
       "original_md": "22-Caja-Rapida",
       "title": "Caja Rapida",
       "slug": "caja-rapida",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\20-Ventas\\22-Caja-Rapida.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\20-Ventas\\22-Caja-Rapida.md"
     },
     {
       "txt_file": "23-mapa-de-mesas.txt",
       "original_md": "23-Mapa-de-Mesas",
       "title": "Mapa de Mesas",
       "slug": "mapa-de-mesas",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\20-Ventas\\23-Mapa-de-Mesas.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\20-Ventas\\23-Mapa-de-Mesas.md"
     },
     {
       "txt_file": "24-chat-del-salon.txt",
       "original_md": "24-Chat-del-Salon",
       "title": "Chat del Salon",
       "slug": "chat-del-salon",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\20-Ventas\\24-Chat-del-Salon.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\20-Ventas\\24-Chat-del-Salon.md"
     },
     {
       "txt_file": "25-clientes.txt",
       "original_md": "25-Clientes",
       "title": "Clientes",
       "slug": "clientes",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\20-Ventas\\25-Clientes.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\20-Ventas\\25-Clientes.md"
     },
     {
       "txt_file": "26-descuentos.txt",
       "original_md": "26-Descuentos",
       "title": "Descuentos",
       "slug": "descuentos",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\20-Ventas\\26-Descuentos.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\20-Ventas\\26-Descuentos.md"
     },
     {
       "txt_file": "27-nueva-reserva.txt",
       "original_md": "27-Nueva-Reserva",
       "title": "Nueva Reserva",
       "slug": "nueva-reserva",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\20-Ventas\\27-Nueva-Reserva.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\20-Ventas\\27-Nueva-Reserva.md"
     },
     {
       "txt_file": "28-listado-de-reservas.txt",
       "original_md": "28-Listado-de-Reservas",
       "title": "Listado de Reservas",
       "slug": "listado-de-reservas",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\20-Ventas\\28-Listado-de-Reservas.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\20-Ventas\\28-Listado-de-Reservas.md"
     },
     {
       "txt_file": "31-configuracion-procesadores.txt",
       "original_md": "31-Configuracion-Procesadores",
       "title": "Configuracion Procesadores",
       "slug": "configuracion-procesadores",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\31-Configuracion-Procesadores.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\31-Configuracion-Procesadores.md"
     },
     {
       "txt_file": "32-instrumentos-pago-manual.txt",
       "original_md": "32-Instrumentos-Pago-Manual",
       "title": "Instrumentos Pago Manual",
       "slug": "instrumentos-pago-manual",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\32-Instrumentos-Pago-Manual.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\32-Instrumentos-Pago-Manual.md"
     },
     {
       "txt_file": "33-terminales-payway.txt",
       "original_md": "33-Terminales-Payway",
       "title": "Terminales Payway",
       "slug": "terminales-payway",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\33-Terminales-Payway.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\33-Terminales-Payway.md"
     },
     {
       "txt_file": "34-transacciones-payway.txt",
       "original_md": "34-Transacciones-Payway",
       "title": "Transacciones Payway",
       "slug": "transacciones-payway",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\34-Transacciones-Payway.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\34-Transacciones-Payway.md"
     },
     {
       "txt_file": "35-reembolsos-payway.txt",
       "original_md": "35-Reembolsos-Payway",
       "title": "Reembolsos Payway",
       "slug": "reembolsos-payway",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\35-Reembolsos-Payway.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\35-Reembolsos-Payway.md"
     },
     {
       "txt_file": "36-anulaciones-payway.txt",
       "original_md": "36-Anulaciones-Payway",
       "title": "Anulaciones Payway",
       "slug": "anulaciones-payway",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\36-Anulaciones-Payway.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\36-Anulaciones-Payway.md"
     },
     {
       "txt_file": "37-cierres-payway.txt",
       "original_md": "37-Cierres-Payway",
       "title": "Cierres Payway",
       "slug": "cierres-payway",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\37-Cierres-Payway.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\37-Cierres-Payway.md"
     },
     {
       "txt_file": "38-transacciones-macroclick.txt",
       "original_md": "38-Transacciones-MacroClick",
       "title": "Transacciones MacroClick",
       "slug": "transacciones-macroclick",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\38-Transacciones-MacroClick.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\38-Transacciones-MacroClick.md"
     },
     {
       "txt_file": "33-comandero.txt",
       "original_md": "33-Comandero",
       "title": "Comandero",
       "slug": "comandero",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Módulos Principales\\33-Comandero.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\30-Módulos Principales\\33-Comandero.md"
     },
     {
       "txt_file": "50-agregar-producto.txt",
       "original_md": "50-Agregar-Producto",
       "title": "Agregar Producto",
       "slug": "agregar-producto",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\41-Menu\\50-Agregar-Producto.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\41-Menu\\50-Agregar-Producto.md"
     },
     {
       "txt_file": "60-configurar-menu.txt",
       "original_md": "60-Configurar-Menu",
       "title": "Configurar Menu",
       "slug": "configurar-menu",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\41-Menu\\60-Configurar-Menu.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\41-Menu\\60-Configurar-Menu.md"
     },
     {
       "txt_file": "41-menu.txt",
       "original_md": "41-Menu",
       "title": "Menu",
       "slug": "menu",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\41-Menu.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\41-Menu.md"
     },
     {
       "txt_file": "42-categorias.txt",
       "original_md": "42-Categorias",
       "title": "Categorias",
       "slug": "categorias",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\42-Categorias.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\42-Categorias.md"
     },
     {
       "txt_file": "43-variantes-grupo-sabores.txt",
       "original_md": "43-Variantes-Grupo-Sabores",
       "title": "Variantes Grupo Sabores",
       "slug": "variantes-grupo-sabores",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\43-Variantes-Grupo-Sabores.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\43-Variantes-Grupo-Sabores.md"
     },
     {
       "txt_file": "44-maestro-de-productos.txt",
       "original_md": "44-Maestro-de-Productos",
       "title": "Maestro de Productos",
       "slug": "maestro-de-productos",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\44-Maestro-de-Productos.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\44-Maestro-de-Productos.md"
     },
     {
       "txt_file": "45-subproductos-elaborados.txt",
       "original_md": "45-Subproductos-Elaborados",
       "title": "Subproductos Elaborados",
       "slug": "subproductos-elaborados",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\45-Subproductos-Elaborados.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\45-Subproductos-Elaborados.md"
     },
     {
       "txt_file": "46-recetas.txt",
       "original_md": "46-Recetas",
       "title": "Recetas",
       "slug": "recetas",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\46-Recetas.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\46-Recetas.md"
     },
     {
       "txt_file": "47-tags-de-productos.txt",
       "original_md": "47-Tags-de-Productos",
       "title": "Tags de Productos",
       "slug": "tags-de-productos",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\47-Tags-de-Productos.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\47-Tags-de-Productos.md"
     },
     {
       "txt_file": "48-analisis-duplicados.txt",
       "original_md": "48-Analisis-Duplicados",
       "title": "Analisis Duplicados",
       "slug": "analisis-duplicados",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\48-Analisis-Duplicados.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\48-Analisis-Duplicados.md"
     },
     {
       "txt_file": "49-notas-de-comanda.txt",
       "original_md": "49-Notas-de-Comanda",
       "title": "Notas de Comanda",
       "slug": "notas-de-comanda",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\49-Notas-de-Comanda.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\49-Notas-de-Comanda.md"
     },
     {
       "txt_file": "50-notas-de-producto.txt",
       "original_md": "50-Notas-de-Producto",
       "title": "Notas de Producto",
       "slug": "notas-de-producto",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\50-Notas-de-Producto.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\40-Productos\\50-Notas-de-Producto.md"
     },
     {
       "txt_file": "51-flujo-de-compras.txt",
       "original_md": "51-Flujo-de-Compras",
       "title": "Flujo de Compras",
       "slug": "flujo-de-compras",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\51-Flujo-de-Compras.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\51-Flujo-de-Compras.md"
     },
     {
       "txt_file": "52-todas-las-ordenes-compra.txt",
       "original_md": "52-Todas-las-Ordenes-Compra",
       "title": "Todas las Ordenes Compra",
       "slug": "todas-las-ordenes-compra",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\52-Todas-las-Ordenes-Compra.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\52-Todas-las-Ordenes-Compra.md"
     },
     {
       "txt_file": "53-crear-orden-compra.txt",
       "original_md": "53-Crear-Orden-Compra",
       "title": "Crear Orden Compra",
       "slug": "crear-orden-compra",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\53-Crear-Orden-Compra.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\53-Crear-Orden-Compra.md"
     },
     {
       "txt_file": "54-pedir-mercaderia.txt",
       "original_md": "54-Pedir-Mercaderia",
       "title": "Pedir Mercaderia",
       "slug": "pedir-mercaderia",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\54-Pedir-Mercaderia.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\54-Pedir-Mercaderia.md"
     },
     {
       "txt_file": "55-pendientes-de-compra.txt",
       "original_md": "55-Pendientes-de-Compra",
       "title": "Pendientes de Compra",
       "slug": "pendientes-de-compra",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\55-Pendientes-de-Compra.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\55-Pendientes-de-Compra.md"
     },
     {
       "txt_file": "56-mercaderias.txt",
       "original_md": "56-Mercaderias",
       "title": "Mercaderias",
       "slug": "mercaderias",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\56-Mercaderias.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\56-Mercaderias.md"
     },
     {
       "txt_file": "57-mercaderias-sin-rubro.txt",
       "original_md": "57-Mercaderias-sin-Rubro",
       "title": "Mercaderias sin Rubro",
       "slug": "mercaderias-sin-rubro",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\57-Mercaderias-sin-Rubro.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\57-Mercaderias-sin-Rubro.md"
     },
     {
       "txt_file": "58-proveedores.txt",
       "original_md": "58-Proveedores",
       "title": "Proveedores",
       "slug": "proveedores",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\58-Proveedores.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\58-Proveedores.md"
     },
     {
       "txt_file": "59-historial-de-compras.txt",
       "original_md": "59-Historial-de-Compras",
       "title": "Historial de Compras",
       "slug": "historial-de-compras",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\59-Historial-de-Compras.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\50-Compras\\59-Historial-de-Compras.md"
     },
     {
       "txt_file": "61-resumen-de-stock.txt",
       "original_md": "61-Resumen-de-Stock",
       "title": "Resumen de Stock",
       "slug": "resumen-de-stock",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\61-Resumen-de-Stock.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\61-Resumen-de-Stock.md"
     },
     {
       "txt_file": "62-stock-mercaderias.txt",
       "original_md": "62-Stock-Mercaderias",
       "title": "Stock Mercaderias",
       "slug": "stock-mercaderias",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\62-Stock-Mercaderias.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\62-Stock-Mercaderias.md"
     },
     {
       "txt_file": "63-stock-subproductos.txt",
       "original_md": "63-Stock-Subproductos",
       "title": "Stock Subproductos",
       "slug": "stock-subproductos",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\63-Stock-Subproductos.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\63-Stock-Subproductos.md"
     },
     {
       "txt_file": "64-movimientos-de-stock.txt",
       "original_md": "64-Movimientos-de-Stock",
       "title": "Movimientos de Stock",
       "slug": "movimientos-de-stock",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\64-Movimientos-de-Stock.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\64-Movimientos-de-Stock.md"
     },
     {
       "txt_file": "65-produccion-subproductos.txt",
       "original_md": "65-Produccion-Subproductos",
       "title": "Produccion Subproductos",
       "slug": "produccion-subproductos",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\65-Produccion-Subproductos.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\65-Produccion-Subproductos.md"
     },
     {
       "txt_file": "66-desperdicios.txt",
       "original_md": "66-Desperdicios",
       "title": "Desperdicios",
       "slug": "desperdicios",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\66-Desperdicios.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\66-Desperdicios.md"
     },
     {
       "txt_file": "67-depositos.txt",
       "original_md": "67-Depositos",
       "title": "Depositos",
       "slug": "depositos",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\67-Depositos.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\67-Depositos.md"
     },
     {
       "txt_file": "68-stock-valorizado.txt",
       "original_md": "68-Stock-Valorizado",
       "title": "Stock Valorizado",
       "slug": "stock-valorizado",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\68-Stock-Valorizado.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\68-Stock-Valorizado.md"
     },
     {
       "txt_file": "69-stock-cerrados.txt",
       "original_md": "69-Stock-Cerrados",
       "title": "Stock Cerrados",
       "slug": "stock-cerrados",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\69-Stock-Cerrados.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\69-Stock-Cerrados.md"
     },
     {
       "txt_file": "70-sugerencias-compra-ia.txt",
       "original_md": "70-Sugerencias-Compra-IA",
       "title": "Sugerencias Compra IA",
       "slug": "sugerencias-compra-ia",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\70-Sugerencias-Compra-IA.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\60-Stock\\70-Sugerencias-Compra-IA.md"
     },
     {
       "txt_file": "71-arqueos-de-caja.txt",
       "original_md": "71-Arqueos-de-Caja",
       "title": "Arqueos de Caja",
       "slug": "arqueos-de-caja",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\71-Arqueos-de-Caja.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\71-Arqueos-de-Caja.md"
     },
     {
       "txt_file": "72-traspasos-de-caja.txt",
       "original_md": "72-Traspasos-de-Caja",
       "title": "Traspasos de Caja",
       "slug": "traspasos-de-caja",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\72-Traspasos-de-Caja.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\72-Traspasos-de-Caja.md"
     },
     {
       "txt_file": "73-listado-de-cajas.txt",
       "original_md": "73-Listado-de-Cajas",
       "title": "Listado de Cajas",
       "slug": "listado-de-cajas",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\73-Listado-de-Cajas.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\73-Listado-de-Cajas.md"
     },
     {
       "txt_file": "74-transacciones-de-cobro.txt",
       "original_md": "74-Transacciones-de-Cobro",
       "title": "Transacciones de Cobro",
       "slug": "transacciones-de-cobro",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\74-Transacciones-de-Cobro.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\74-Transacciones-de-Cobro.md"
     },
     {
       "txt_file": "75-digitalizar-factura-gasto.txt",
       "original_md": "75-Digitalizar-Factura-Gasto",
       "title": "Digitalizar Factura Gasto",
       "slug": "digitalizar-factura-gasto",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\75-Digitalizar-Factura-Gasto.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\75-Digitalizar-Factura-Gasto.md"
     },
     {
       "txt_file": "76-gasto-manual.txt",
       "original_md": "76-Gasto-Manual",
       "title": "Gasto Manual",
       "slug": "gasto-manual",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\76-Gasto-Manual.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\76-Gasto-Manual.md"
     },
     {
       "txt_file": "77-resumen-de-deuda.txt",
       "original_md": "77-Resumen-de-Deuda",
       "title": "Resumen de Deuda",
       "slug": "resumen-de-deuda",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\77-Resumen-de-Deuda.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\77-Resumen-de-Deuda.md"
     },
     {
       "txt_file": "78-pagos-egresos.txt",
       "original_md": "78-Pagos-Egresos",
       "title": "Pagos Egresos",
       "slug": "pagos-egresos",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\78-Pagos-Egresos.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\78-Pagos-Egresos.md"
     },
     {
       "txt_file": "79-historial-de-gastos.txt",
       "original_md": "79-Historial-de-Gastos",
       "title": "Historial de Gastos",
       "slug": "historial-de-gastos",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\79-Historial-de-Gastos.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\79-Historial-de-Gastos.md"
     },
     {
       "txt_file": "80-digitalizacion-ocr.txt",
       "original_md": "80-Digitalizacion-OCR",
       "title": "Digitalizacion OCR",
       "slug": "digitalizacion-ocr",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\80-Digitalizacion-OCR.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\80-Digitalizacion-OCR.md"
     },
     {
       "txt_file": "81-historico-de-mesas.txt",
       "original_md": "81-Historico-de-Mesas",
       "title": "Historico de Mesas",
       "slug": "historico-de-mesas",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\81-Historico-de-Mesas.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\81-Historico-de-Mesas.md"
     },
     {
       "txt_file": "82-tickets-fiscales.txt",
       "original_md": "82-Tickets-Fiscales",
       "title": "Tickets Fiscales",
       "slug": "tickets-fiscales",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\82-Tickets-Fiscales.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\82-Tickets-Fiscales.md"
     },
     {
       "txt_file": "83-puntos-de-venta-pdv.txt",
       "original_md": "83-Puntos-de-Venta-PDV",
       "title": "Puntos de Venta PDV",
       "slug": "puntos-de-venta-pdv",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\83-Puntos-de-Venta-PDV.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\83-Puntos-de-Venta-PDV.md"
     },
     {
       "txt_file": "84-cierres-contables.txt",
       "original_md": "84-Cierres-Contables",
       "title": "Cierres Contables",
       "slug": "cierres-contables",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\84-Cierres-Contables.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\70-Finanzas\\84-Cierres-Contables.md"
     },
     {
       "txt_file": "81-comandas-activas.txt",
       "original_md": "81-Comandas-Activas",
       "title": "Comandas Activas",
       "slug": "comandas-activas",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\80-Comandero\\81-Comandas-Activas.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\80-Comandero\\81-Comandas-Activas.md"
     },
     {
       "txt_file": "82-comandas-terminadas.txt",
       "original_md": "82-Comandas-Terminadas",
       "title": "Comandas Terminadas",
       "slug": "comandas-terminadas",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\80-Comandero\\82-Comandas-Terminadas.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\80-Comandero\\82-Comandas-Terminadas.md"
     },
     {
       "txt_file": "83-sectores-de-comanda.txt",
       "original_md": "83-Sectores-de-Comanda",
       "title": "Sectores de Comanda",
       "slug": "sectores-de-comanda",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\80-Comandero\\83-Sectores-de-Comanda.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\80-Comandero\\83-Sectores-de-Comanda.md"
     },
     {
       "txt_file": "84-puestos-de-comanda.txt",
       "original_md": "84-Puestos-de-Comanda",
       "title": "Puestos de Comanda",
       "slug": "puestos-de-comanda",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\80-Comandero\\84-Puestos-de-Comanda.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\80-Comandero\\84-Puestos-de-Comanda.md"
     },
     {
       "txt_file": "85-estados-de-comanda.txt",
       "original_md": "85-Estados-de-Comanda",
       "title": "Estados de Comanda",
       "slug": "estados-de-comanda",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\80-Comandero\\85-Estados-de-Comanda.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\80-Comandero\\85-Estados-de-Comanda.md"
     },
     {
       "txt_file": "86-estados-de-items.txt",
       "original_md": "86-Estados-de-Items",
       "title": "Estados de Items",
       "slug": "estados-de-items",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\80-Comandero\\86-Estados-de-Items.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\80-Comandero\\86-Estados-de-Items.md"
     },
     {
       "txt_file": "91-empleados.txt",
       "original_md": "91-Empleados",
       "title": "Empleados",
       "slug": "empleados",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\90-RRHH\\91-Empleados.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\90-RRHH\\91-Empleados.md"
     },
     {
       "txt_file": "92-empleados-trabajando.txt",
       "original_md": "92-Empleados-Trabajando",
       "title": "Empleados Trabajando",
       "slug": "empleados-trabajando",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\90-RRHH\\92-Empleados-Trabajando.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\90-RRHH\\92-Empleados-Trabajando.md"
     },
     {
       "txt_file": "93-registro-diario-fichaje.txt",
       "original_md": "93-Registro-Diario-Fichaje",
       "title": "Registro Diario Fichaje",
       "slug": "registro-diario-fichaje",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\90-RRHH\\93-Registro-Diario-Fichaje.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\90-RRHH\\93-Registro-Diario-Fichaje.md"
     },
     {
       "txt_file": "94-reporte-mensual-fichaje.txt",
       "original_md": "94-Reporte-Mensual-Fichaje",
       "title": "Reporte Mensual Fichaje",
       "slug": "reporte-mensual-fichaje",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\90-RRHH\\94-Reporte-Mensual-Fichaje.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\90-RRHH\\94-Reporte-Mensual-Fichaje.md"
     },
     {
       "txt_file": "95-departamentos.txt",
       "original_md": "95-Departamentos",
       "title": "Departamentos",
       "slug": "departamentos",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\90-RRHH\\95-Departamentos.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\90-RRHH\\95-Departamentos.md"
     },
     {
       "txt_file": "96-turnos-y-horarios-fichaje.txt",
       "original_md": "96-Turnos-y-Horarios-Fichaje",
       "title": "Turnos y Horarios Fichaje",
       "slug": "turnos-y-horarios-fichaje",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\90-RRHH\\96-Turnos-y-Horarios-Fichaje.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\90-RRHH\\96-Turnos-y-Horarios-Fichaje.md"
     },
     {
       "txt_file": "97-sueldos-y-jornales.txt",
       "original_md": "97-Sueldos-y-Jornales",
       "title": "Sueldos y Jornales",
       "slug": "sueldos-y-jornales",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\90-RRHH\\97-Sueldos-y-Jornales.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\90-RRHH\\97-Sueldos-y-Jornales.md"
     },
     {
       "txt_file": "98-datos-de-acceso-app.txt",
       "original_md": "98-Datos-de-Acceso-App",
       "title": "Datos de Acceso App",
       "slug": "datos-de-acceso-app",
-      "generated_from": "C:\\Dev\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\90-RRHH\\98-Datos-de-Acceso-App.md"
+      "generated_from": "C:\\Dev\\documentation\\.claude\\worktrees\\paxapos-user-manual-products-df002c\\src\\routes\\user-guide\\Manual-Usuario\\90-RRHH\\98-Datos-de-Acceso-App.md"
     }
   ]
 }
