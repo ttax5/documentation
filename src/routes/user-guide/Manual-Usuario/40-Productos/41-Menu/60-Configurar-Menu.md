@@ -12,6 +12,8 @@ Esta pantalla edita el menú en sí, no un producto puntual. No hay requisitos p
 
 ---
 
+![Formulario Configurar Menú](images/productos/41-menu-configurar/01-configurar-menu-completo.webp)
+
 ## 📄 Información General
 
 | Campo | Qué es |

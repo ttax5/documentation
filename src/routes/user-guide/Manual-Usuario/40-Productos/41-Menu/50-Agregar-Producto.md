@@ -6,6 +6,8 @@
 
 ---
 
+![El formulario completo, con sus 3 pasos](images/productos/41-menu-agregar-producto/04-formulario-completo.webp)
+
 ## 🧭 Antes de entrar acá
 
 Este formulario es la vía principal para **crear un producto de venta**. Se completa en tres pasos, y el sistema los muestra numerados en pantalla.
@@ -21,6 +23,8 @@ Conviene tener listo:
 ---
 
 ## ▶️ Paso 1: Información Básica (obligatoria)
+
+![Paso 1: Información Básica](images/productos/41-menu-agregar-producto/01-paso1-informacion-basica.webp)
 
 > "Completá estos campos para poder agregar el producto al menú"
 
@@ -38,6 +42,8 @@ Conviene tener listo:
 
 ## ▶️ Paso 2: Variantes del producto
 
+![Paso 2: Variantes del producto](images/productos/41-menu-agregar-producto/02-paso2-variantes.webp)
+
 Las variantes son las opciones que el cliente puede elegir al pedir este producto: sabores, tamaños, agregados.
 
 Marcá las variantes que apliquen. Si te falta alguna, se crea desde [Variantes](/user-guide/variantes-grupo-sabores) y después volvés acá.
@@ -45,6 +51,8 @@ Marcá las variantes que apliquen. Si te falta alguna, se crea desde [Variantes]
 ---
 
 ## ▶️ Paso 3: Configuración Operativa
+
+![Paso 3: Configuración Operativa](images/productos/41-menu-agregar-producto/03-paso3-configuracion-operativa.webp)
 
 Define por dónde se despacha el producto:
 

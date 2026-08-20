@@ -25,6 +25,8 @@ Si no tenés nada de esto todavía, igual podés cargar productos y completarlo 
 
 ## 📋 El selector de menú
 
+![Selector de menú y barra de herramientas](images/productos/41-menu/01-barra-menus.webp)
+
 Arriba a la izquierda de la barra de herramientas está **Menú: Default ▾**. Es un desplegable con **todos los menús disponibles**.
 
 | Elemento | Qué hace |
@@ -39,6 +41,8 @@ Podés crear **tantos menús como necesites**. Los motivos los define cada comer
 ---
 
 ## 🎛️ La barra de herramientas
+
+![Barra de herramientas del menú](images/productos/41-menu/02-acciones-menu.webp)
 
 Al lado del selector de menú tenés estos botones:
 
@@ -70,6 +74,8 @@ Sirve tanto para **aumentar como para disminuir** los precios de varios producto
 ---
 
 ## 📊 La tabla de productos
+
+![Tabla de productos del menú](images/productos/41-menu/03-tabla-productos.webp)
 
 Cada fila es un producto publicado en este menú. Varias columnas se **editan directamente en la tabla**: hacés clic sobre el campo, lo modificás, y confirmás con **✓** o descartás con **✗**.
 
@@ -127,9 +133,11 @@ Arriba de la tabla tenés además un **buscador de productos** y el botón **Fil
 
 | Botón | Qué hace |
 |---|---|
-| 👁️ **Ver** | Abre la vista detallada del producto. Se explica en el apartado siguiente. |
-| ✏️ **Editar** | Edita los parámetros con los que se cargó el producto, **y también el producto maestro**. Usa el mismo formulario que **Agregar Producto**. |
-| 🗑️ **Eliminar** | Borra el producto **de forma permanente**. |
+| 👁️ **Ver producto** | Abre la vista detallada del producto. Se explica en el apartado siguiente. |
+| ✏️ **Editar producto** | Edita los parámetros con los que se cargó el producto, **y también el producto maestro**. Usa el mismo formulario que **Agregar Producto**. |
+| 🗑️ **Quitar del Menú** | Desvincula el producto **de este menú puntual**. No lo borra del sistema: sigue existiendo en el [Maestro de Productos](/user-guide/maestro-de-productos) y en cualquier otro menú donde esté publicado. |
+
+> 💡 **Esto no es lo mismo que borrar el producto.** Para eliminarlo definitivamente del sistema hay que entrar a su ficha (👁️ **Ver producto**) y usar el botón **Borrar** que está ahí — esa sí es una acción permanente.
 
 ---
 
@@ -137,7 +145,7 @@ Arriba de la tabla tenés además un **buscador de productos** y el botón **Fil
 
 ![Cómo se vende este producto](images/productos/41-menu/12-ver-producto.webp)
 
-Al tocar el **ojo 👁️** entrás a la ficha del producto. Lo principal que vas a encontrar:
+Al tocar el **ojo 👁️** entrás a la ficha del producto: es la vista del [Maestro de Productos](/user-guide/maestro-de-productos), no del menú. Ahí arriba tenés **Tipo de Producto** y las acciones **Editar**, **Agregar Costo (P. Unitario)**, **Agregar Receta** y **Borrar** (esta última sí es el borrado permanente). Lo principal que vas a encontrar más abajo:
 
 **🛒 Cómo se vende este producto**
 Un bloque por **cada menú** donde el producto está publicado, con su precio de venta, categoría, nombre abreviado e impuesto. Desde acá podés:
@@ -213,8 +221,8 @@ No hace falta crear el producto de nuevo: es el mismo producto con otro precio.
 > ⚠️ **Aplicar precios futuros afecta a todos los productos a la vez.**
 > Esa acción aplica **todos** los precios futuros cargados, no solo el que estás mirando. Antes de tocarla, revisá la columna **Precio Futuro** completa.
 
-> ⚠️ **Eliminar es permanente.**
-> El tacho rojo borra el producto de forma definitiva. Si solo querés dejar de venderlo por un tiempo, marcalo **Sin Stock**.
+> ⚠️ **"Quitar del Menú" saca al producto solo de esta carta.**
+> Si lo que querés es que deje de venderse un tiempo sin sacarlo del menú, usá **Sin Stock** en vez de quitarlo. Y si lo que buscás es borrarlo del sistema por completo, esa acción está en la ficha del producto (👁️ Ver producto → **Borrar**), no en esta tabla.
 
 ---
 
