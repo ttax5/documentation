@@ -7,9 +7,10 @@
 
 ## Descripcion General
 
-La seccion de Puestos de Comanda permite registrar y administrar los dispositivos fisicos que funcionan como terminales de visualizacion del sistema KDS (Kitchen Display System). Estos dispositivos pueden ser monitores, tablets o computadoras instalados en las distintas areas de preparacion del establecimiento, como la cocina o la barra.
+La seccion de Puestos de Comanda permite registrar y administrar las estaciones de trabajo y puestos de preparacion del local (como "vegetales", "parrilla", "horno", etc.). Cada puesto se vincula a un sector de produccion y define su capacidad operativa y sus estados de flujo de trabajo.
 
-Cada puesto de comanda se vincula a uno o varios sectores de produccion, lo que determina que pedidos se mostraran en cada pantalla. De este modo, es posible configurar, por ejemplo, que una tablet ubicada en la cocina muestre unicamente los pedidos correspondientes a los sectores de "Cocina Caliente" y "Parrilla", mientras que el monitor de la barra visualice exclusivamente los pedidos de "Tragos" y "Cafeteria".
+![Listado de Puestos](images/comandero/puestos-listado.png)
+_Tabla de puestos registrados con su capacidad, unidad de medida, sector y estados asociados_
 
 ---
 
@@ -17,7 +18,6 @@ Cada puesto de comanda se vincula a uno o varios sectores de produccion, lo que 
 
 - El usuario debe contar con permisos de administracion del sistema.
 - Los sectores de comanda deben estar previamente creados (ver seccion **Sectores de Comanda**).
-- Se debe disponer de los dispositivos fisicos (monitores, tablets o computadoras) que funcionaran como terminales KDS, conectados a la red del establecimiento.
 
 ---
 
@@ -25,18 +25,22 @@ Cada puesto de comanda se vincula a uno o varios sectores de produccion, lo que 
 
 ### Registro de un nuevo puesto
 
-1. Presionar el boton **Nuevo Puesto** ubicado en la parte superior de la pantalla.
-2. En el campo **Nombre**, ingresar una denominacion que identifique al dispositivo de forma clara (por ejemplo: "Monitor Cocina Principal", "Tablet Barra 1", "Pantalla Pasteleria").
-3. En la seccion de **Sectores**, seleccionar los sectores de preparacion cuyos pedidos se visualizaran en este puesto. Es posible asignar uno o varios sectores a un mismo puesto.
-4. Presionar **Guardar** para confirmar el registro.
+1. Presionar el boton **Crear Puesto** ubicado en la esquina superior derecha.
+2. En el modal emergente completar los campos requeridos:
+   - **Nombre:** Denominacion del puesto (por ejemplo: "vegetales", "Platos Calientes", "Barra").
+   - **Capacidad:** Cantidad maxima de produccion simultanea estimada (por ejemplo: `1`).
+   - **Unidad de Medida:** Unidad utilizada para medir la carga de trabajo (por ejemplo: "Atado", "Unidad", "Porcion").
+   - **Sector:** Seleccionar el sector al que pertenece el puesto (por ejemplo: radio `cocina`).
+3. Presionar **Guardar** para confirmar el registro.
 
-### Conexion del dispositivo al puesto
+![Modal de creacion de Puesto](images/comandero/puestos-crear.png)
+_Formulario para dar de alta un nuevo puesto de comanda_
 
-Una vez registrado el puesto en el sistema, acceder al dispositivo fisico correspondiente (tablet, monitor o computadora), iniciar sesion en el sistema y seleccionar el puesto configurado. A partir de ese momento, el dispositivo comenzara a recibir y mostrar las comandas de los sectores asignados.
+### Acciones sobre puestos existentes
 
-### Modificacion de sectores asignados
-
-Para agregar o quitar sectores de un puesto existente, seleccionar el puesto en el listado, modificar la seleccion de sectores y presionar **Guardar**. Los cambios se aplicaran de forma inmediata en la pantalla del dispositivo vinculado.
+- **Editar:** Permite actualizar el nombre, capacidad o unidad de medida del puesto.
+- **Borrar:** Elimina el puesto si no tiene dependencias activas.
+- **Agregar Estado:** Permite anadir un nuevo estado directamente al flujo de este puesto de trabajo.
 
 ---
 
@@ -44,9 +48,10 @@ Para agregar o quitar sectores de un puesto existente, seleccionar el puesto en 
 
 | Accion | Descripcion |
 |---|---|
-| **Nuevo Puesto** | Registra un nuevo dispositivo en el sistema y permite asociarlo a uno o varios sectores de preparacion. |
-| **Configurar Sectores** | Permite modificar los sectores de preparacion cuyas comandas se mostraran en la pantalla del puesto seleccionado. |
-| **Eliminar Puesto** | Remueve el registro del dispositivo del sistema. |
+| **Crear Puesto** | Abre el formulario para dar de alta una nueva estacion de preparacion. |
+| **Editar** | Modifica los datos del puesto (nombre, capacidad, unidad). |
+| **Borrar** | Elimina el puesto del sistema. |
+| **Agregar Estado** | Crea e incorpora un nuevo estado al flujo especifico del puesto. |
 
 ---
 

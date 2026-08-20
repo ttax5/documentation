@@ -7,9 +7,10 @@
 
 ## Descripcion General
 
-La seccion de Comandas Terminadas constituye el registro historico de todos los pedidos que fueron finalizados y despachados desde la pantalla de cocina (KDS). Su funcion principal es proporcionar una herramienta de consulta y auditoria que permite revisar el desempeno operativo del sector de preparacion, verificar tiempos de despacho y, en caso de ser necesario, corregir finalizaciones realizadas por error.
+La seccion de Comandas Terminadas (o Historico de Comandas) constituye el registro de todos los pedidos finalizados y despachados desde la pantalla de cocina (KDS). Su funcion principal es proporcionar una herramienta de consulta, control y auditoria que permite revisar el desempeno operativo, verificar que pedidos se despacharon y realizar busquedas puntuales.
 
-Las comandas que se muestran en esta seccion corresponden al turno o arqueo actualmente en curso. Para consultar pedidos de turnos anteriores, es necesario utilizar los filtros de fecha disponibles.
+![Historico de Comandas Terminadas](images/comandero/historico-comandas-terminadas.png)
+_Cabecera y filtros de busqueda en el Historico de Comandas Finalizadas_
 
 ---
 
@@ -24,11 +25,15 @@ Las comandas que se muestran en esta seccion corresponden al turno o arqueo actu
 
 ### Consulta de comandas finalizadas
 
-Al ingresar a la seccion, el sistema presenta un listado de todas las comandas que fueron marcadas como terminadas durante el turno actual. Cada registro incluye la informacion basica del pedido: numero de mesa, mozo responsable, productos solicitados y datos de tiempos.
+Al ingresar a la seccion, el sistema presenta el contador total de comandas finalizadas (ej: "1 Comandas - Pagina 1 de 1") y el listado de pedidos completados con su detalle.
 
 ### Busqueda y filtrado
 
-Para localizar una comanda especifica, utilizar los filtros disponibles en la parte superior de la pantalla. Es posible filtrar por numero de mesa, nombre del mozo o numero de pedido. Esta funcionalidad resulta especialmente util en momentos de alta demanda, cuando el volumen de pedidos finalizados es elevado.
+Para localizar una comanda especifica rapidamente:
+1. **N° Mesa:** Ingresar el numero o nombre de la mesa correspondiente.
+2. **Selector de Sectores / Filtro:** Filtrar por un sector o estado especifico ("Todos", "cocina", etc.).
+3. **Producto:** Escribir el nombre del producto para encontrar ordenes que contengan dicho articulo.
+4. Presionar el boton **🔍 Buscar** para ejecutar la consulta.
 
 ### Consulta de tiempos de preparacion
 
@@ -44,7 +49,9 @@ En caso de que un pedido haya sido finalizado de manera accidental, es posible r
 
 | Accion | Descripcion |
 |---|---|
-| **Ver Detalle** | Despliega la informacion completa del pedido: productos incluidos, hora de ingreso al sistema y hora de despacho al salon. |
+| **Buscar** | Filtra los registros historicos segun mesa, sector y producto especificado. |
+| **Paginador** | Permite navegar entre las diferentes paginas del historico de comandas. |
+| **Ver Detalle** | Despliega la composicion del pedido despachado con sus respectivos horarios. |
 | **Reabrir Comanda** | Devuelve el pedido a la pantalla de Comandas Activas (KDS), restableciendo su estado para que pueda ser gestionado nuevamente por el personal de cocina. |
 
 ---

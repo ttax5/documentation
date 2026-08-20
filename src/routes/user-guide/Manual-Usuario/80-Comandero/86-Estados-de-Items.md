@@ -7,37 +7,40 @@
 
 ## Descripcion General
 
-Los Estados de Items de Comanda permiten gestionar el ciclo de vida individual de cada producto dentro de una misma comanda. A diferencia de los Estados de Comanda, que aplican al pedido completo de una mesa, los estados de items operan a nivel de cada plato o bebida por separado.
+Los Estados de Items (o Estados por Puesto) permiten gestionar el flujo de preparacion individual de cada producto segun la estacion o puesto de trabajo asignado (cocina, parrilla, barra, vegetales, etc.). Cuando un ítem llega a la pantalla KDS de su puesto, avanza por estos estados de izquierda a derecha.
 
-Esta funcionalidad resulta especialmente util en establecimientos donde los tiempos de preparacion varian significativamente entre productos. Por ejemplo, una entrada fria puede estar lista mucho antes que un plato principal de coccion prolongada. Mediante los estados de items, el personal de cocina puede notificar al mozo que determinados productos estan listos para ser retirados sin necesidad de esperar a que se complete la totalidad del pedido.
+Esta funcionalidad asegura un control detallado y granular del despacho en cocina. Por ejemplo, en el puesto *Vegetales*, el flujo puede avanzar secuencialmente por: *Pendiente* (1 de 4) → *Elaborando* (2 de 4) → *Listo* (3 de 4) → *Saliendo* (4 de 4).
 
-Los estados de item tipicos incluyen etapas como *Recibido*, *En Coccion*, *Emplatado*, *Listo* y *Anulado*.
+![Flujo de Estados por Puesto](images/comandero/estados-puesto-flujo.png)
+_Vista del flujo de estados configurado para cada puesto de trabajo_
 
 ---
 
 ## Requisitos Previos
 
 - El usuario debe contar con permisos de administracion del sistema.
-- Se recomienda contar con el flujo de estados de comanda previamente configurado (ver seccion **Estados de Comanda**) antes de definir los estados individuales de items.
+- Los puestos de comanda deben encontrarse previamente definidos (ver seccion **Puestos de Comanda**).
 
 ---
 
 ## Guia de Uso
 
-### Creacion de un nuevo estado de item
+### Creacion de un nuevo estado para un puesto
 
-1. Presionar el boton **Nuevo Estado de Item** ubicado en la parte superior de la pantalla.
-2. En el campo **Nombre**, ingresar la denominacion de la etapa que se desea registrar (por ejemplo: "En Coccion", "Listo para Emplatar", "Marchando").
-3. Configurar la opcion de **Notificacion al Mozo**, indicando si el ingreso de un item a este estado debe generar un aviso automatico al mozo asignado. Se recomienda activar esta opcion en estados que indiquen que un producto esta listo para ser retirado.
-4. Presionar **Guardar** para registrar el estado en el sistema.
+1. Presionar el boton **+ Agregar estado** ubicado dentro de la tarjeta del puesto correspondiente o en el encabezado general.
+2. En el modal emergente completar los siguientes campos:
+   - **Nombre:** Denominacion del estado, pudiendo incluir emojis para distincion visual rápida (por ejemplo: "⏳ Pendiente", "🍳 Elaborando", "✅ Listo").
+   - **Puesto:** Seleccionar el puesto de trabajo al que pertenece este estado (cocina, barra, vegetales, etc.).
+   - **Estado anterior:** Indicar la etapa previa en la secuencia (o dejar en blanco / "Seleccione" si sera el primer estado del flujo).
+   - **Color del estado:** Elegir la tonalidad visual que identificara este estado en la pantalla KDS (por ejemplo: Gris — Pendiente, Verde — Listo, etc.).
+3. Presionar **Guardar** para registrar el estado en el puesto correspondiente.
 
-### Edicion de un estado existente
+![Formulario para agregar estado por puesto](images/comandero/estados-puesto-agregar.png)
+_Modal de creacion y asignacion de estado a un puesto de trabajo_
 
-Seleccionar el estado en el listado, realizar las modificaciones necesarias en su nombre o configuracion de notificaciones, y presionar **Guardar** para confirmar los cambios.
+### Seguimiento y actualizacion en KDS
 
-### Uso en la pantalla KDS
-
-Una vez configurados los estados de items, el personal de cocina puede actualizar el estado de cada producto de forma individual desde la tarjeta de comanda en la pantalla KDS. Al cambiar el estado de un item a una etapa que tenga notificaciones habilitadas, el sistema enviara automaticamente un aviso al mozo para que proceda al retiro parcial del pedido.
+Una vez definidos los flujos por puesto, los operarios de cada estacion pueden avanzar el estado de los platos de forma independiente a medida que avanza su preparacion.
 
 ---
 
@@ -45,9 +48,9 @@ Una vez configurados los estados de items, el personal de cocina puede actualiza
 
 | Accion | Descripcion |
 |---|---|
-| **Nuevo Estado de Item** | Registra una nueva etapa en el ciclo de vida individual de los productos dentro de una comanda. |
-| **Editar Estado de Item** | Permite modificar el nombre del estado y su configuracion de notificaciones. |
-| **Activar Notificacion por Item** | Habilita el envio de avisos automaticos al mozo cuando un producto individual alcanza este estado, permitiendo el retiro parcial de platos. |
+| **+ Agregar estado** | Abre el formulario para registrar un nuevo estado asignado a un puesto especifico. |
+| **Organizar Secuencia** | Configura la correlatividad de los estados (estado anterior y posterior) por estacion. |
+| **Identificacion Cromatica** | Asigna colores y etiquetas visuales a los estados para visualizacion rapida en KDS. |
 
 ---
 

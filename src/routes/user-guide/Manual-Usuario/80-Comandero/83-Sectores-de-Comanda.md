@@ -11,12 +11,15 @@ Los Sectores de Comanda representan las areas fisicas de produccion dentro del e
 
 La configuracion de sectores determina hacia que pantalla KDS o impresora se dirige cada producto del menu al momento de enviar una comanda. Una correcta definicion de sectores garantiza que cada pedido llegue al area de preparacion correspondiente, evitando confusiones operativas y optimizando el flujo de trabajo en cocina.
 
+![Listado de Sectores de Comanda](images/comandero/sectores-listado.png)
+_Pantalla principal de Sectores de Comanda con listado y opciones de administracion_
+
 ---
 
 ## Requisitos Previos
 
 - El usuario debe contar con permisos de administracion del sistema.
-- Es recomendable tener previamente identificadas las estaciones de trabajo fisicas del local y sus respectivos dispositivos de salida (pantallas KDS o impresoras).
+- Es recomendable tener previamente identificadas las estaciones de trabajo fisicas del local.
 
 ---
 
@@ -24,18 +27,21 @@ La configuracion de sectores determina hacia que pantalla KDS o impresora se dir
 
 ### Creacion de un nuevo sector
 
-1. Presionar el boton **Nuevo Sector** ubicado en la parte superior de la pantalla.
-2. En el campo **Nombre**, ingresar la denominacion que identifica al area de produccion (por ejemplo: "Barra de Tragos", "Cocina Caliente", "Pasteleria").
-3. Seleccionar el dispositivo de salida correspondiente: la pantalla KDS o la impresora fisica donde se recibiran los pedidos de este sector.
-4. Presionar **Guardar** para confirmar la configuracion.
+1. Presionar el boton **Crear Sector** ubicado en la esquina superior derecha de la pantalla.
+2. En el modal emergente, ingresar en el campo **Nombre** la denominacion que identifica al area de produccion (por ejemplo: "cocina", "Barra", "Parrilla").
+3. Presionar **Guardar** para confirmar la creacion del sector.
 
-### Edicion de un sector existente
+![Formulario para crear sector](images/comandero/sectores-crear.png)
+_Ventana modal para el ingreso del nombre del nuevo sector_
 
-Para modificar la denominacion o el dispositivo de salida asociado a un sector, seleccionar el sector en el listado y realizar los ajustes necesarios. Confirmar los cambios presionando **Guardar**.
+### Edicion y eliminacion de un sector existente
+
+- **Editar:** Presionar el boton **Editar** junto al sector en la tabla para modificar su nombre.
+- **Borrar:** Presionar el boton **Borrar** para remover un sector que ya no este en uso (asegurarse de que no tenga productos asociados).
 
 ### Vinculacion de productos a sectores
 
-Una vez creados los sectores, es necesario vincular cada producto o categoria del menu al sector de preparacion que le corresponde. Esta asignacion se realiza desde la ficha del producto en el Maestro de Productos, seleccionando el sector adecuado en el campo correspondiente.
+Una vez creados los sectores, es necesario vincular cada producto o categoria del menu al sector de preparacion que le corresponde desde la ficha del producto en el Maestro de Productos.
 
 ---
 
@@ -43,9 +49,9 @@ Una vez creados los sectores, es necesario vincular cada producto o categoria de
 
 | Accion | Descripcion |
 |---|---|
-| **Nuevo Sector** | Registra una nueva area de produccion en el sistema y permite asociarle un dispositivo de salida. |
-| **Editar Sector** | Permite modificar el nombre del sector o cambiar la impresora o pantalla KDS asociada. |
-| **Eliminar Sector** | Remueve un sector del sistema. Solo es posible si no tiene productos asociados. |
+| **Crear Sector** | Abre la ventana modal para registrar una nueva area de produccion en el sistema. |
+| **Editar** | Permite modificar el nombre del sector seleccionado. |
+| **Borrar** | Elimina el sector del sistema siempre que no posea productos vinculados. |
 
 ---
 
