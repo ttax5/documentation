@@ -23,16 +23,14 @@ Si no tenés nada de esto todavía, igual podés cargar productos y completarlo 
 
 ---
 
-## 📋 La barra de menús
+## 📋 El selector de menú
 
-![Barra de menús y botón Nuevo Menú](images/productos/41-menu/01-barra-menus.webp)
+Arriba a la izquierda de la barra de herramientas está **Menú: Default ▾**. Es un desplegable con **todos los menús disponibles**.
 
-Arriba de todo hay una barra horizontal con **todos los menús disponibles**. El menú abierto queda resaltado en azul.
-
-| # | Elemento | Qué hace |
-|---|---|---|
-| 1 | **Menú activo** (ej. *Default*) | Muestra los productos y precios de ese menú. Hacé clic en cualquier otro para cambiar. |
-| 2 | **+ Nuevo Menú** | Crea un menú nuevo, vacío. |
+| Elemento | Qué hace |
+|---|---|
+| **Menú activo** (ej. *Default*) | Muestra los productos y precios de ese menú. Elegí otro de la lista para cambiar. |
+| **+ Nuevo Menú** | Al final del desplegable. Crea un menú nuevo, vacío. |
 
 **Cada menú tiene sus propios productos y sus propios precios.** Un mismo producto puede estar en varios menús con precio distinto en cada uno.
 
@@ -40,34 +38,32 @@ Podés crear **tantos menús como necesites**. Los motivos los define cada comer
 
 ---
 
-## 🎛️ Las cuatro acciones del menú
+## 🎛️ La barra de herramientas
 
-![Los cuatro botones de acción](images/productos/41-menu/02-acciones-menu.webp)
+Al lado del selector de menú tenés estos botones:
 
-| # | Botón | Qué hace |
-|---|---|---|
-| 1 | ➕ **Agregar Producto** | Añade un producto nuevo a este menú. Es la vía principal para crear productos de venta. → guía completa: [Agregar Producto al Menú](/user-guide/agregar-producto) |
-| 2 | ✏️ **Configurar Menú** | Edita los parámetros con los que se creó el menú: nombre, imagen, visibilidad y opciones. |
-| 3 | ⬇️ **Exportar Productos** | Descarga la lista de productos en formato CSV/Excel. |
-| 4 | ⬆️ **Importar Productos** | Carga productos desde CSV, Excel u otro PaxaPos. |
-
-Abajo a la derecha del bloque está **🗑️ Eliminar Menú**, que borra el menú completo.
+| Botón | Qué hace |
+|---|---|
+| ➕ **Agregar Producto** | Añade un producto nuevo a este menú. Es la vía principal para crear productos de venta. → guía completa: [Agregar Producto al Menú](/user-guide/agregar-producto) |
+| ⬆️ **Importar** | Carga productos desde CSV, Excel u otro PaxaPos. |
+| ⬇️ **Exportar** | Descarga la lista de productos en formato CSV/Excel. |
+| ⚙️ **Configurar** | Edita los parámetros del menú: nombre, alias público, carrito, pago online, tipos de servicio, imagen y usuarios con acceso. → guía completa: [Configurar Menú](/user-guide/configurar-menu) |
+| **?** | Ayuda contextual de la pantalla. |
+| **⋯** | Abre dos acciones más: **Aplicar precios futuros** y **Eliminar Menú**. |
 
 ---
 
 ## 💰 Los dos precios
 
-![Cómo funcionan los precios](images/productos/41-menu/10-como-funcionan-precios.webp)
-
-Tu carta tiene **dos columnas de precios** que se comportan distinto:
+Tu carta tiene **dos columnas de precios** que se comportan distinto: **Precio** y **Precio Futuro**.
 
 | | ⚡ **Precio** | 📅 **Precio Futuro** |
 |---|---|---|
 | Cuándo se aplica | **Al instante** | Cuando vos lo decidís |
 | Para qué sirve | corregir un precio puntual | preparar un cambio de precios sin tocar la carta |
-| Cómo se activa | se guarda y ya está | con el botón **▶ Aplicar Precios Futuros Ahora** |
+| Cómo se activa | se guarda y ya está | desde **⋯ → Aplicar precios futuros** |
 
-El **Precio Futuro** te deja cargar tranquilo los precios nuevos de todos los productos que quieras. Mientras tanto la carta sigue vendiendo con los precios viejos. Cuando tocás **Aplicar Precios Futuros Ahora**, se aplican de una sola vez **todos los productos que tengan un precio futuro configurado**.
+El **Precio Futuro** te deja cargar tranquilo los precios nuevos de todos los productos que quieras. Mientras tanto la carta sigue vendiendo con los precios viejos. Cuando aplicás los precios futuros, se cambian de una sola vez **todos los productos que tengan un precio futuro configurado**.
 
 Sirve tanto para **aumentar como para disminuir** los precios de varios productos a la vez.
 
@@ -75,25 +71,24 @@ Sirve tanto para **aumentar como para disminuir** los precios de varios producto
 
 ## 📊 La tabla de productos
 
-![Tabla de productos del menú](images/productos/41-menu/03-tabla-productos.webp)
-
 Cada fila es un producto publicado en este menú. Varias columnas se **editan directamente en la tabla**: hacés clic sobre el campo, lo modificás, y confirmás con **✓** o descartás con **✗**.
 
 ### Las columnas
 
+En orden de izquierda a derecha:
+
 | Columna | Qué es | Editable |
 |---|---|---|
-| **Seleccionar** | Marca el producto para aplicarle acciones en conjunto. | — |
-| **Foto** | La imagen que se cargó al dar de alta el producto. | — |
+| **Seleccionar** | Casilla para marcar el producto y aplicarle acciones en conjunto. | — |
+| **Producto** | La foto y el **nombre interno**: cómo figura dentro del sistema PaxaPos, el que ven los mozos al buscarlo. | ✅ (el nombre) |
 | **Stock** | Marca si el producto está disponible. Al hacer clic se elige entre **Con Stock** y **Sin Stock**. | ✅ |
-| **Nombre Interno** | Cómo figura el producto **dentro del sistema PaxaPos**. Es el que ven los mozos al buscarlo. | ✅ |
-| **Nombre en Ticket** | Cómo figura el producto **en el ticket que recibe el cliente**. Puede ser más largo y descriptivo que el interno. | ✅ |
-| **Impresoras** | Dónde se **imprime la comanda** de este producto (Cocina, Barra, Parrilla…). | — |
+| **Ticket** | El nombre **en el ticket que recibe el cliente**. Puede ser más largo y descriptivo que el interno. | ✅ |
 | **Puesto** | En qué **KDS** (pantalla de cocina) aparece el pedido. | — |
 | **Categoría** | Agrupa el producto dentro de la carta. Se elige entre las categorías ya configuradas en [Categorías](/user-guide/categorias). | ✅ |
-| **Precio de Venta** | El precio **por unidad** que se le cobra al cliente y que aparece en el ticket. | ✅ |
-| **Precio Futuro** | El precio que se aplicará al tocar **Aplicar Precios Futuros Ahora**. | ✅ |
-| **Cant. Variantes** | Cuántas variantes tiene asignadas el producto. Se configuran en [Variantes](/user-guide/variantes-grupo-sabores). | — |
+| **Impresoras** | Dónde se **imprime la comanda** de este producto (Cocina, Barra, Parrilla…). | — |
+| **Precio** | El precio **por unidad** que se le cobra al cliente y que aparece en el ticket. | ✅ |
+| **Precio Futuro** | El precio que se aplicará desde **⋯ → Aplicar precios futuros**. | ✅ |
+| **Variantes** | Cuántas variantes tiene asignadas el producto. Se configuran en [Variantes](/user-guide/variantes-grupo-sabores). | — |
 | **Orden** | Orden de aparición en el ticket. **Menor número = aparece primero.** | ✅ |
 | **Impuesto** | La alícuota de IVA configurada para el producto. | — |
 | **Acciones** | Ver, editar o eliminar el producto. Se explican más abajo. | — |
@@ -106,7 +101,7 @@ Cada fila es un producto publicado en este menú. Varias columnas se **editan di
 
 ![Editar el stock](images/productos/41-menu/04-columna-stock.webp)
 
-**Nombre Interno** y **Nombre en Ticket** — se escriben libremente:
+**Producto** (nombre interno) y **Ticket** — se escriben libremente:
 
 ![Editar el nombre interno](images/productos/41-menu/05-nombre-interno.webp)
 
@@ -116,13 +111,13 @@ Cada fila es un producto publicado en este menú. Varias columnas se **editan di
 
 ![Editar la categoría](images/productos/41-menu/07-categoria.webp)
 
-**Precio de Venta** y **Precio Futuro** — se cargan como importe:
+**Precio** y **Precio Futuro** — se cargan como importe:
 
 ![Editar el precio de venta](images/productos/41-menu/08-precio-venta.webp)
 
 ![Editar el precio futuro](images/productos/41-menu/09-precio-futuro.webp)
 
-Arriba de la tabla tenés además un **buscador de productos** y los botones **Filtros** y **Selección**.
+Arriba de la tabla tenés además un **buscador de productos** y el botón **Filtros**.
 
 ---
 
@@ -165,7 +160,7 @@ Tres solapas:
 ### Cambiar el precio de un producto ahora
 
 1. Buscá el producto en la tabla.
-2. Hacé clic sobre el importe de la columna **Precio de Venta**.
+2. Hacé clic sobre el importe de la columna **Precio**.
 3. Escribí el precio nuevo.
 4. Confirmá con **✓**.
 
@@ -176,7 +171,7 @@ El cambio es inmediato: la próxima venta ya sale con el precio nuevo.
 1. Hacé clic en la columna **Precio Futuro** de cada producto que quieras modificar.
 2. Cargá el precio nuevo y confirmá con **✓**. La carta **sigue vendiendo al precio viejo**.
 3. Repetí con todos los productos que necesites.
-4. Cuando llegue el momento, tocá **▶ Aplicar Precios Futuros Ahora**.
+4. Cuando llegue el momento, abrí **⋯ → Aplicar precios futuros**.
 
 Todos los productos con precio futuro cargado pasan a su precio nuevo al mismo tiempo.
 
@@ -215,8 +210,8 @@ No hace falta crear el producto de nuevo: es el mismo producto con otro precio.
 > ⚠️ **La edición en la tabla no pide confirmación extra.**
 > Apenas tocás **✓**, el cambio queda guardado y se aplica a las próximas ventas. No hay un botón "Guardar" general ni un aviso previo.
 
-> ⚠️ **Aplicar Precios Futuros afecta a todos los productos a la vez.**
-> El botón aplica **todos** los precios futuros cargados, no solo el que estás mirando. Antes de tocarlo, revisá la columna **Precio Futuro** completa.
+> ⚠️ **Aplicar precios futuros afecta a todos los productos a la vez.**
+> Esa acción aplica **todos** los precios futuros cargados, no solo el que estás mirando. Antes de tocarla, revisá la columna **Precio Futuro** completa.
 
 > ⚠️ **Eliminar es permanente.**
 > El tacho rojo borra el producto de forma definitiva. Si solo querés dejar de venderlo por un tiempo, marcalo **Sin Stock**.
@@ -229,7 +224,7 @@ No hace falta crear el producto de nuevo: es el mismo producto con otro precio.
 |---|---|---|
 | El mozo no encuentra un producto. | No está publicado en el menú que ese usuario tiene asignado, o está **Sin Stock**. | Verificá la columna Stock y que el producto esté en el menú correcto. |
 | La comanda no sale en cocina. | El producto tiene la impresora **Sin asignar**. | Editá el producto y asigná la impresora del sector que corresponda. |
-| Cambié un precio y sigue cobrando el anterior. | Cargaste el importe en **Precio Futuro** en lugar de en **Precio**. | Movelo a la columna Precio, o tocá **Aplicar Precios Futuros Ahora**. |
+| Cambié un precio y sigue cobrando el anterior. | Cargaste el importe en **Precio Futuro** en lugar de en **Precio**. | Movelo a la columna Precio, o abrí **⋯ → Aplicar precios futuros**. |
 | Los productos aparecen desordenados en el ticket. | La columna **Orden** está vacía o repetida. | Asigná números distintos: menor número aparece primero. |
 | Un producto no se agrupa con los demás. | No tiene categoría asignada (aparece como `/`). | Asignale una categoría desde la tabla. |
 
@@ -240,8 +235,8 @@ No hace falta crear el producto de nuevo: es el mismo producto con otro precio.
 **¿Puedo tener el mismo producto a distinto precio en dos menús?**
 Sí. Es justamente para eso que sirven los menús múltiples. Usá **Agregar a otro menú** desde la ficha del producto y poné el precio que corresponda a esa carta.
 
-**¿Cuál es la diferencia entre Nombre Interno y Nombre en Ticket?**
-El **interno** es el que ves vos y el personal dentro del sistema, suele ser corto para encontrarlo rápido. El **de ticket** es el que lee el cliente y puede ser más largo y descriptivo. Por ejemplo, interno `Empanada Carne Cuchillo` y en ticket `Empanada de Carne Cortada a Cuchillo`.
+**¿Cuál es la diferencia entre el nombre del Producto y el de Ticket?**
+El de la columna **Producto** es el que ves vos y el personal dentro del sistema, suele ser corto para encontrarlo rápido. El de **Ticket** es el que lee el cliente y puede ser más largo y descriptivo. Por ejemplo, `Empanada Carne Cuchillo` en el sistema y `Empanada de Carne Cortada a Cuchillo` en el ticket.
 
 **¿Qué diferencia hay entre Impresora y Puesto?**
 La impresora saca la **comanda en papel** en un sector. El puesto la muestra en una **pantalla KDS** en cocina. Son dos canales distintos y podés usar los dos a la vez.

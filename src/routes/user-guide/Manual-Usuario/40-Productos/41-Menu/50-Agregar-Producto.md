@@ -22,15 +22,17 @@ Conviene tener listo:
 
 ## ▶️ Paso 1: Información Básica (obligatoria)
 
-Son los datos mínimos para poder agregar el producto:
+> "Completá estos campos para poder agregar el producto al menú"
 
 | Campo | Qué es |
 |---|---|
-| **Producto** | El producto que estás agregando. Si venís desde el maestro, viene precargado y no se puede cambiar acá. |
+| **Nombre del Producto** ⃰ | Buscá un producto que ya exista en el maestro, o escribí un nombre nuevo para crearlo. |
 | **Categoría** ⃰ | Dónde aparecerá dentro del menú. |
 | **Precio de Venta** ⃰ | Cuánto se le cobra al cliente. |
-| **Moneda** | La moneda del precio (por defecto, Peso argentino). |
+| **Moneda** | Por defecto, Peso argentino. |
 | **Impuesto / IVA** | La alícuota impositiva del producto (0%, 2,5%, 5%, 10,5%, 21%, 27%). |
+
+> 💡 **El campo Nombre del Producto busca y crea a la vez.** Si escribís el nombre de un producto que ya existe en el [Maestro de Productos](/user-guide/maestro-de-productos), lo seleccionás de la lista y usás ese. Si escribís un nombre que no existe, el sistema lo crea nuevo al guardar. No hace falta pasar primero por el Maestro.
 
 ---
 
@@ -53,12 +55,11 @@ Define por dónde se despacha el producto:
 
 ---
 
-## ⚙️ Opciones adicionales y avanzadas
+## ⚙️ Opciones adicionales
 
-Al pie del formulario hay dos bloques que se despliegan tocándolos:
+Al pie del formulario hay un bloque **Opcional** que se despliega tocándolo, con el **Orden** de aparición y el **Nombre en Ticket**.
 
-- **Opciones Adicionales:** el **Orden** de aparición y el **Nombre en Ticket**.
-- **Modificar Producto Maestro:** editá los datos de fondo del producto (nombre, código de barras, imagen, stock, descripción) sin salir de esta pantalla.
+> Si en cambio entrás a este mismo formulario desde el botón **Editar** de un producto que ya está en el menú, aparece además un bloque **Avanzado** para modificar los datos de fondo del producto (nombre, código de barras, imagen, stock, descripción) sin salir de esta pantalla.
 
 ---
 
@@ -66,3 +67,4 @@ Al pie del formulario hay dos bloques que se despliegan tocándolos:
 
 - Vuelve a: [Menú](/user-guide/menu)
 - Depende de: [Categorías](/user-guide/categorias) y [Variantes](/user-guide/variantes-grupo-sabores)
+- Puede crear un producto nuevo en el [Maestro de Productos](/user-guide/maestro-de-productos), o reutilizar uno existente
