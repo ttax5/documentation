@@ -1,8 +1,8 @@
-# Preguntas Frecuentes
+﻿# Preguntas Frecuentes
 
 <div id="preguntas-frecuentes"></div>
 
-Esta sección contiene las consultas más comunes sobre {{BRAND_NAME}} y sus soluciones técnicas. Encontrarás tanto problemas resueltos como consultas donde necesitamos más información específica de tu configuración.
+Esta sección contiene las consultas más comunes sobre Paxapos y sus soluciones técnicas. Encontrarás tanto problemas resueltos como consultas donde necesitamos más información específica de tu configuración.
 
 ---
 
@@ -148,7 +148,7 @@ Esta sección contiene las consultas más comunes sobre {{BRAND_NAME}} y sus sol
 1. **Verificar asignación:** En _Productos → [Tu producto] → Editar_ asegurate de tener asignada la variante en **"Asignar Variante"**.
 2. **Revisar opciones:** Cada opción de la variante debe estar vinculada a un producto del Maestro (subproducto o producto en venta).
 3. **Probar desde el menú:** Ve al módulo de ventas y verificá que al seleccionar el producto aparezcan las opciones.
-4. **Reiniciar menú:** Cerrá y volvé a abrir {{BRAND_NAME}}.
+4. **Reiniciar menú:** Cerrá y volvé a abrir Paxapos.
 
 ---
 
@@ -181,7 +181,7 @@ Esta sección contiene las consultas más comunes sobre {{BRAND_NAME}} y sus sol
 
 ---
 
-### 11. **{{BRAND_NAME}} funciona lento en mi configuración**
+### 11. **Paxapos funciona lento en mi configuración**
 
 <div id="software-lento"></div>
 
