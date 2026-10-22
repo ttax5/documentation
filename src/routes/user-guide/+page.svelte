@@ -48,12 +48,12 @@
 />
 
 <div
-	class="mx-auto min-h-screen max-w-7xl overflow-x-hidden bg-white px-3 py-4 sm:px-4 md:px-6 lg:px-8 dark:bg-gray-900"
+	class="mx-auto min-h-screen max-w-7xl overflow-x-hidden bg-gray-100 px-3 py-4 sm:px-4 md:px-6 lg:px-8 dark:bg-gray-900"
 >
 	<div class="flex flex-col gap-4 sm:gap-6 md:gap-8 lg:flex-row">
 		<main class="w-full min-w-0 flex-1">
 			<div
-				class="overflow-x-hidden rounded-lg border border-gray-200 bg-white p-4 shadow-sm sm:p-5 md:p-6 lg:p-8 dark:border-gray-700 dark:bg-gray-800"
+				class="overflow-x-hidden rounded-xl border border-gray-900 bg-white p-4 shadow-sm sm:p-5 md:p-6 lg:p-8 dark:border-gray-700 dark:bg-gray-800"
 			>
 				<div class="max-w-none">
 					<!-- Header -->
@@ -81,7 +81,7 @@
 									{#if categoryIconsMap[categoryName]}
 										<Icon
 											icon={categoryIconsMap[categoryName]}
-											class="h-6 w-6 text-blue-600 sm:h-7 sm:w-7 dark:text-blue-400"
+											class="h-6 w-6 text-teal-600 sm:h-7 sm:w-7 dark:text-blue-400"
 										/>
 									{/if}
 									<span>{categoryName}</span>
@@ -93,7 +93,7 @@
 									{#each categoryModules as module}
 										<button
 											onclick={() => navigateToModule(module.slug)}
-											class="group flex min-h-[120px] w-full flex-col overflow-hidden rounded-lg border border-gray-200 bg-white p-4 text-left transition-all duration-200 hover:border-blue-300 hover:shadow-lg sm:p-6 dark:border-gray-700 dark:bg-gray-800 dark:hover:border-blue-600"
+											class="group flex min-h-[120px] w-full flex-col overflow-hidden rounded-xl border border-gray-900 bg-white p-4 text-left transition-colors duration-200 hover:border-teal-500 sm:p-6 dark:border-gray-700 dark:bg-gray-800 dark:hover:border-blue-500"
 										>
 											<div class="mb-3 flex items-start">
 												<div
@@ -102,7 +102,7 @@
 													{#if module.icon?.includes(':')}
 														<Icon
 															icon={module.icon}
-															class="h-6 w-6 text-blue-600 sm:h-7 sm:w-7 dark:text-blue-400"
+															class="h-6 w-6 text-teal-600 sm:h-7 sm:w-7 dark:text-blue-400"
 														/>
 													{:else}
 														{module.icon}
@@ -110,7 +110,7 @@
 												</div>
 												<div class="min-w-0 flex-1 overflow-hidden">
 													<h3
-														class="mb-2 truncate text-sm leading-tight font-semibold text-gray-900 group-hover:text-blue-600 sm:text-base dark:text-white dark:group-hover:text-blue-400"
+														class="mb-2 truncate text-sm leading-tight font-semibold text-gray-900 group-hover:text-teal-600 sm:text-base dark:text-white dark:group-hover:text-blue-400"
 													>
 														{module.title}
 													</h3>
@@ -125,7 +125,7 @@
 
 											<div class="mt-auto">
 												<div
-													class="inline-flex items-center text-sm font-medium text-blue-600 group-hover:text-blue-700 dark:text-blue-400 dark:group-hover:text-blue-300"
+													class="inline-flex items-center text-sm font-medium text-teal-600 group-hover:text-teal-700 dark:text-blue-400 dark:group-hover:text-blue-300"
 												>
 													Ver módulo
 													<svg
@@ -152,7 +152,7 @@
 
 					<!-- Footer informativo -->
 					<div class="mt-12 border-t border-gray-200 pt-8 dark:border-gray-700">
-						<div class="rounded-lg bg-blue-50 p-6 dark:bg-blue-900/20">
+						<div class="rounded-xl border border-gray-900 bg-teal-50/70 p-6 dark:border-gray-700 dark:bg-blue-900/20">
 							<div class="flex flex-col items-start sm:flex-row">
 								<div class="mb-3 flex-shrink-0 text-2xl sm:mr-4 sm:mb-0">
 									💡

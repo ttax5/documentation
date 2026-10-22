@@ -182,13 +182,13 @@
 {/if}
 
 <div
-	class="relative z-10 mx-auto min-h-screen max-w-7xl overflow-x-hidden bg-white px-2 py-2 sm:px-4 md:px-6 lg:px-8 dark:bg-gray-900"
+	class="relative z-10 mx-auto min-h-screen max-w-7xl overflow-x-hidden bg-gray-100 px-2 py-2 sm:px-4 md:px-6 lg:px-8 dark:bg-gray-900"
 >
 	<div class="flex flex-col gap-2 sm:gap-6 md:gap-8 lg:flex-row">
 		<!-- Sidebar responsivo -->
 		<aside class="relative z-20 flex-shrink-0 lg:w-64">
 			<div
-				class="rounded-lg border border-gray-200 bg-white p-2 shadow-sm sm:p-4 md:p-5 dark:border-gray-700 dark:bg-gray-800"
+				class="rounded-xl border border-gray-900 bg-white p-2 shadow-sm sm:p-4 md:p-5 dark:border-gray-700 dark:bg-gray-800"
 			>
 				<h3
 					class="mb-2 text-xs font-bold text-gray-900 sm:mb-4 sm:text-base md:text-lg dark:text-white"
@@ -199,7 +199,7 @@
 				<!-- Selector dropdown para móviles -->
 				<div class="mb-2 block sm:mb-4 lg:hidden">
 					<select
-						class="w-full rounded-md border border-gray-300 bg-white px-2 py-1.5 text-xs text-gray-900 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 sm:px-3 sm:py-2 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-white"
+						class="w-full rounded-md border border-gray-900 bg-white px-2 py-1.5 text-xs text-gray-900 transition-colors hover:border-blue-600 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 sm:px-3 sm:py-2 sm:text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-white"
 						value={currentSlug}
 						onchange={async (e) => {
 							const target = e.target as HTMLSelectElement;
@@ -260,8 +260,8 @@
 												href="{base}/user-guide/{module.slug}"
 												class="block flex-1 rounded-md px-2 py-1.5 text-left text-xs transition-colors duration-200 sm:px-3 sm:py-2 sm:text-sm {currentSlug ===
 												module.slug
-													? 'border-l-2 border-blue-500 bg-blue-100 font-medium text-blue-900 dark:bg-blue-900 dark:text-blue-100'
-													: 'text-gray-700 hover:bg-gray-50 dark:text-gray-200 dark:hover:bg-gray-700'}"
+													? 'border-l-2 border-teal-500 bg-teal-50 font-medium text-teal-900 dark:border-blue-500 dark:bg-blue-900 dark:text-blue-100'
+													: 'text-gray-700 hover:bg-teal-50 hover:text-teal-700 dark:text-gray-200 dark:hover:bg-gray-700'}"
 											>
 												{module.title}
 											</a>
@@ -300,8 +300,8 @@
 														href="{base}/user-guide/{child.slug}"
 														class="block w-full rounded-md px-2 py-1.5 text-left text-xs transition-colors duration-200 sm:px-3 sm:py-2 sm:text-sm {currentSlug ===
 														child.slug
-															? 'border-l-2 border-blue-500 bg-blue-100 font-medium text-blue-900 dark:bg-blue-900 dark:text-blue-100'
-															: 'text-gray-600 hover:bg-gray-50 dark:text-gray-300 dark:hover:bg-gray-700'}"
+															? 'border-l-2 border-teal-500 bg-teal-50 font-medium text-teal-900 dark:border-blue-500 dark:bg-blue-900 dark:text-blue-100'
+															: 'text-gray-600 hover:bg-teal-50 hover:text-teal-700 dark:text-gray-300 dark:hover:bg-gray-700'}"
 													>
 														{child.title}
 													</a>
@@ -320,11 +320,11 @@
 		<!-- Contenido principal -->
 		<main class="relative z-10 min-w-0 flex-1">
 			<article
-				class="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm dark:border-gray-700 dark:bg-gray-800"
+				class="overflow-hidden rounded-xl border border-gray-900 bg-white shadow-sm dark:border-gray-700 dark:bg-gray-800"
 			>
 				<!-- Header del módulo -->
 				<header
-					class="bg-gradient-to-r from-blue-500 to-purple-600 p-3 text-white sm:p-6 md:p-8"
+					class="bg-gradient-to-r from-teal-500 via-teal-600 to-cyan-500 p-3 text-white sm:p-6 md:p-8 dark:from-blue-600 dark:to-purple-700"
 				>
 					<h1 class="text-lg leading-tight font-bold sm:text-2xl md:text-3xl lg:text-4xl">
 						{data.title}
@@ -367,7 +367,7 @@
 					<div class="flex items-center justify-between">
 						<a
 							href="{base}/user-guide"
-							class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-600 transition-colors hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
+							class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 transition-colors hover:text-teal-600 dark:text-gray-400 dark:hover:text-white"
 						>
 							<svg
 								class="mr-2 h-4 w-4"
@@ -387,7 +387,7 @@
 
 						<button
 							onclick={openLLMPage}
-							class="inline-flex items-center rounded-md border border-blue-200 bg-blue-50 px-2 py-1 text-[10px] font-medium text-blue-600 transition-colors hover:bg-blue-100 sm:px-3 sm:py-1.5 sm:text-xs dark:border-blue-700 dark:bg-blue-900/20 dark:text-blue-400 dark:hover:bg-blue-900/30"
+							class="inline-flex items-center rounded-md border border-gray-900 bg-teal-50 px-2 py-1 text-[10px] font-medium text-teal-700 transition-colors hover:border-teal-600 hover:bg-teal-100 sm:px-3 sm:py-1.5 sm:text-xs dark:border-blue-700 dark:bg-blue-900/20 dark:text-blue-400 dark:hover:bg-blue-900/30"
 						>
 							<svg
 								class="mr-1 h-2.5 w-2.5 sm:mr-1.5 sm:h-3 sm:w-3"

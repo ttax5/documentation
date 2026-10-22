@@ -367,7 +367,7 @@ Administra accesos al sistema:
 {#if !isOpen}
 	<button
 		onclick={toggleChat}
-		class="group fixed right-4 bottom-4 z-50 rounded-full bg-gradient-to-r from-blue-600 to-blue-700 p-3 text-white shadow-xl transition-all duration-300 hover:from-blue-700 hover:to-blue-800 hover:shadow-2xl md:right-6 md:bottom-6 md:p-4"
+		class="group fixed right-4 bottom-4 z-50 rounded-full bg-gradient-to-r from-teal-500 to-cyan-600 p-3 text-white shadow-xl transition-all duration-300 hover:from-teal-600 hover:to-cyan-700 hover:shadow-2xl md:right-6 md:bottom-6 md:p-4 dark:from-blue-600 dark:to-blue-700 dark:hover:from-blue-700 dark:hover:to-blue-800"
 		aria-label="Abrir ChatBot de soporte"
 	>
 		<svg
@@ -388,11 +388,11 @@ Administra accesos al sistema:
 <!-- Ventana del chat -->
 {#if isOpen}
 	<div
-		class="fixed inset-4 z-50 flex flex-col overflow-hidden rounded-xl border border-gray-100 bg-white shadow-2xl md:inset-auto md:right-6 md:bottom-6 md:h-[600px] md:w-96 dark:border-gray-600 dark:bg-gray-800"
+		class="fixed inset-4 z-50 flex flex-col overflow-hidden rounded-xl border border-gray-900 bg-white shadow-2xl md:inset-auto md:right-6 md:bottom-6 md:h-[600px] md:w-96 dark:border-gray-600 dark:bg-gray-800"
 	>
 		<!-- Header -->
 		<div
-			class="flex items-center justify-between bg-gradient-to-r from-blue-600 to-blue-700 p-3 text-white md:p-4 dark:from-blue-700 dark:to-blue-800"
+			class="flex items-center justify-between bg-gradient-to-r from-teal-500 to-cyan-600 p-3 text-white md:p-4 dark:from-blue-700 dark:to-blue-800"
 		>
 			<div class="flex items-center space-x-2 md:space-x-3">
 				<div
@@ -520,7 +520,7 @@ Administra accesos al sistema:
 
 		<!-- Input -->
 		<div
-			class="border-t border-gray-100 bg-white p-3 md:p-4 dark:border-gray-600 dark:bg-gray-800"
+			class="border-t border-gray-900 bg-white p-3 md:p-4 dark:border-gray-600 dark:bg-gray-800"
 		>
 			<div class="flex space-x-2 md:space-x-3">
 				<div class="relative flex-1">
@@ -528,7 +528,7 @@ Administra accesos al sistema:
 						bind:value={currentMessage}
 						onkeydown={handleKeyDown}
 						placeholder="Pregúntame sobre el software..."
-						class="w-full resize-none rounded-xl border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-900 placeholder-gray-500 transition-all focus:border-transparent focus:bg-white focus:ring-2 focus:ring-blue-500 focus:outline-none md:px-4 md:py-3 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100 dark:placeholder-gray-400 dark:focus:bg-gray-600"
+						class="w-full resize-none rounded-xl border border-gray-900 bg-gray-50 px-3 py-2 text-sm text-gray-900 placeholder-gray-500 transition-all hover:border-teal-500 focus:border-teal-500 focus:bg-white focus:ring-2 focus:ring-teal-500/20 focus:outline-none md:px-4 md:py-3 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-100 dark:placeholder-gray-400 dark:hover:border-blue-400 dark:focus:bg-gray-600"
 						rows="1"
 						disabled={isLoading}
 					></textarea>
@@ -536,7 +536,7 @@ Administra accesos al sistema:
 				<button
 					onclick={sendMessage}
 					disabled={!currentMessage.trim() || isLoading}
-					class="rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 px-3 py-2 text-white shadow-sm transition-all duration-200 hover:from-blue-700 hover:to-blue-800 hover:shadow-md disabled:cursor-not-allowed disabled:from-gray-300 disabled:to-gray-300 md:px-4 md:py-3 dark:from-blue-700 dark:to-blue-800 dark:hover:from-blue-800 dark:hover:to-blue-900 dark:disabled:from-gray-600 dark:disabled:to-gray-600"
+					class="rounded-xl bg-gradient-to-r from-teal-500 to-cyan-600 px-3 py-2 text-white shadow-sm transition-all duration-200 hover:from-teal-600 hover:to-cyan-700 hover:shadow-md disabled:cursor-not-allowed disabled:from-gray-300 disabled:to-gray-300 md:px-4 md:py-3 dark:from-blue-700 dark:to-blue-800 dark:hover:from-blue-800 dark:hover:to-blue-900 dark:disabled:from-gray-600 dark:disabled:to-gray-600"
 				>
 					{#if isLoading}
 						<svg class="h-4 w-4 animate-spin" fill="currentColor" viewBox="0 0 24 24">

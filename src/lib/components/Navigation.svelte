@@ -6,6 +6,8 @@
 		type SearchableItem,
 		getSlugFromModuleId,
 	} from '$lib/helpers/constants';
+	import { toggleTheme, getIsDarkMode } from '$lib/stores/theme';
+	import { browser } from '$app/environment';
 
 	let searchQuery = $state('');
 	let showSearchResults = $state(false);
@@ -14,6 +16,12 @@
 	let searchInputDesktop: HTMLInputElement;
 	let searchInputMobile: HTMLInputElement;
 	let showMobileSearch = $state(false);
+	let isDark = $state(browser ? getIsDarkMode() : true);
+
+	function handleToggleTheme() {
+		toggleTheme();
+		isDark = getIsDarkMode();
+	}
 
 	const handleSearch = async (event: Event) => {
 		const target = event.target as HTMLInputElement;
@@ -94,7 +102,7 @@
 
 <!-- Search Navigation -->
 <nav
-	class="sticky top-0 z-50 border-b border-gray-200 bg-white/80 shadow-sm backdrop-blur-md dark:border-gray-700 dark:bg-gray-900/80"
+	class="sticky top-0 z-50 border-b border-gray-900 bg-white/95 shadow-sm backdrop-blur-md dark:border-gray-700 dark:bg-gray-900/80"
 >
 	<div class="mx-auto w-full max-w-7xl px-0 sm:px-4 lg:px-8">
 		<div class="flex h-16 w-full items-center justify-between px-4 sm:px-0">
@@ -115,7 +123,7 @@
 						bind:this={searchInputDesktop}
 						type="text"
 						placeholder="Buscar en el manual..."
-						class="w-full rounded-xl border border-gray-300 bg-white py-3 pr-4 pl-12 text-gray-900 placeholder-gray-500 shadow-sm focus:border-transparent focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400"
+						class="w-full rounded-xl border border-gray-900 bg-white py-3 pr-4 pl-12 text-gray-900 placeholder-gray-500 shadow-sm transition-colors hover:border-teal-500 focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400 dark:hover:border-blue-500"
 						bind:value={searchQuery}
 						oninput={handleSearch}
 						onfocus={handleSearchFocus}
@@ -203,7 +211,7 @@
 										<div class="font-semibold text-gray-900 dark:text-white">
 											{result.title}
 										</div>
-										<div class="text-sm text-blue-600 dark:text-blue-400">
+										<div class="text-sm text-teal-600 dark:text-blue-400">
 											{result.type}
 										</div>
 										{#if result.preview}
@@ -238,11 +246,32 @@
 				</div>
 			</div>
 
+			<!-- Theme Toggle Button -->
+			<button
+				type="button"
+				onclick={handleToggleTheme}
+				aria-label={isDark ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
+				title={isDark ? 'Modo claro' : 'Modo oscuro'}
+				class="ml-2 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg border border-gray-900 bg-white text-gray-900 transition-colors duration-200 hover:border-teal-500 hover:bg-teal-50 hover:text-teal-700 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:hover:border-blue-500 dark:hover:bg-gray-700 dark:hover:text-gray-200"
+			>
+				{#if isDark}
+					<!-- Sol (cambiar a claro) -->
+					<svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M17.657 17.657l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z" />
+					</svg>
+				{:else}
+					<!-- Luna (cambiar a oscuro) -->
+					<svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+					</svg>
+				{/if}
+			</button>
+
 			<!-- Mobile Search Button -->
 			<div class="flex items-center md:hidden">
 				<button
 					type="button"
-					class="inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded-xl p-3 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:ring-2 focus:ring-blue-500 focus:outline-none dark:text-gray-500 dark:hover:bg-gray-800 dark:hover:text-gray-400"
+					class="inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded-xl border border-gray-900 bg-white p-3 text-gray-900 transition-colors hover:border-teal-500 hover:bg-teal-50 hover:text-teal-700 focus:ring-2 focus:ring-teal-500 focus:outline-none dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:hover:border-blue-500 dark:hover:bg-gray-700 dark:hover:text-gray-200"
 					onclick={toggleMobileSearch}
 				>
 					<span class="sr-only">Buscar</span>
@@ -266,7 +295,7 @@
 						bind:this={searchInputMobile}
 						type="text"
 						placeholder="Buscar en el manual..."
-						class="w-full rounded-xl border border-gray-300 bg-white py-3 pr-4 pl-12 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-transparent focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400"
+						class="w-full rounded-xl border border-gray-900 bg-white py-3 pr-4 pl-12 text-base text-gray-900 placeholder-gray-500 shadow-sm transition-colors hover:border-teal-500 focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:placeholder-gray-400 dark:hover:border-blue-500"
 						bind:value={searchQuery}
 						oninput={handleSearch}
 						onfocus={handleSearchFocus}
@@ -355,7 +384,7 @@
 									<div class="font-medium text-gray-900 dark:text-white">
 										{result.title}
 									</div>
-									<div class="text-xs text-blue-600 dark:text-blue-400">
+									<div class="text-xs text-teal-600 dark:text-blue-400">
 										{result.type}
 									</div>
 									{#if result.preview}
