@@ -39,7 +39,6 @@ export async function load() {
 
 			// 20-Ventas
 			'salon-de-ventas': 'lucide:utensils-crossed',
-			salon: 'lucide:utensils-crossed',
 			'caja-rapida': 'lucide:zap',
 			'mapa-de-mesas': 'lucide:grid-3x3',
 			'chat-del-salon': 'lucide:message-square',
@@ -58,7 +57,6 @@ export async function load() {
 			'cierres-payway': 'lucide:lock-keyhole',
 			'transacciones-macroclick': 'lucide:mouse-pointer-click',
 			'tipos-de-pago': 'lucide:coins',
-			mercadopago: 'lucide:qr-code',
 
 			// 40-Productos
 			menu: 'lucide:book-open-check',
@@ -71,6 +69,8 @@ export async function load() {
 			'analisis-duplicados': 'lucide:copy-check',
 			'notas-de-comanda': 'lucide:notebook-pen',
 			'notas-de-producto': 'lucide:sticky-note',
+			'agregar-producto': 'lucide:plus-circle',
+			'configurar-menu': 'lucide:settings-2',
 
 			// 50-Compras
 			'flujo-de-compras': 'lucide:git-pull-request',
@@ -97,7 +97,6 @@ export async function load() {
 
 			// 70-Finanzas
 			'arqueos-de-caja': 'lucide:vault',
-			arqueos: 'lucide:vault',
 			'traspasos-de-caja': 'lucide:arrow-right-left',
 			'listado-de-cajas': 'lucide:layout-list',
 			'transacciones-de-cobro': 'lucide:receipt',
@@ -111,8 +110,6 @@ export async function load() {
 			'tickets-fiscales': 'lucide:ticket-check',
 			'puntos-de-venta-pdv': 'lucide:monitor-dot',
 			'cierres-contables': 'lucide:file-check-2',
-			contabilidad: 'lucide:calculator',
-			'arca-y-facturacion': 'lucide:landmark',
 
 			// 80-Comandero
 			'comandas-activas': 'lucide:flame',
@@ -121,8 +118,6 @@ export async function load() {
 			'puestos-de-comanda': 'lucide:monitor-smartphone',
 			'estados-de-comanda': 'lucide:activity',
 			'estados-de-items': 'lucide:list-checks',
-			'kitchen-display-system-kds': 'lucide:tv-minimal',
-			kds: 'lucide:tv-minimal',
 
 			// 90-RRHH
 			empleados: 'lucide:users-round',
@@ -133,29 +128,28 @@ export async function load() {
 			'turnos-y-horarios-fichaje': 'lucide:alarm-clock',
 			'sueldos-y-jornales': 'lucide:banknote',
 			'datos-de-acceso-app': 'lucide:shield-check',
-			'crear-usuarios': 'lucide:user-plus',
-			'agregar-personal': 'lucide:user-round-plus',
 
 			// 100-Reportes
 			'resumen-general': 'lucide:layout-dashboard',
 			'ventas-por-mozo': 'lucide:user-cog',
 			'ventas-por-tipo-de-pago': 'lucide:credit-card-select',
-			'reporte-de-gastos': 'lucide:file-minus',
 			'reporte-de-propinas': 'lucide:heart-handshake',
 			'productos-mas-vendidos': 'lucide:trophy',
 			'rentabilidad-subproductos': 'lucide:trending-up',
-			estadisticas: 'lucide:line-chart',
-			'business-intelligence': 'lucide:brain-circuit',
+			'reporte-anual': 'lucide:calendar-range',
+			'proyeccion-de-ventas': 'lucide:trending-up',
+			'ventas-por-turnos': 'lucide:clock',
+			'compras-por-mercaderia': 'lucide:package-search',
 
 			// 110-Configuración
 			'info-fiscal-comercio': 'lucide:file-badge',
-			'arca-afip': 'lucide:landmark',
+			'arca-y-facturacion': 'lucide:landmark',
+			'config-avanzada': 'lucide:wrench',
+			'archivos-multimedia': 'lucide:image',
 			'config-del-comercio': 'lucide:store',
-			'delvalle-qr': 'lucide:qr-code',
 			'modulo-delivery': 'lucide:bike',
 			'inteligencia-artificial': 'lucide:sparkles',
 			'configuracion-email': 'lucide:mail-search',
-			'configuracion-de-impresoras': 'lucide:printer-check',
 			impresoras: 'lucide:printer',
 			'configuracion-impresion': 'lucide:sliders',
 			'perfiles-de-impresion': 'lucide:sliders-horizontal',

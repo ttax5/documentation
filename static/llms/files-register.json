@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T12:19:41.021Z",
-  "total_files": 124,
+  "generated_at": "2026-11-05T13:17:32.836Z",
+  "total_files": 123,
   "files": [
     "101-resumen-general.txt",
     "102-ventas-por-mozo.txt",
@@ -60,7 +60,6 @@
     "28-listado-de-reservas.txt",
     "31-configuracion-procesadores.txt",
     "32-instrumentos-pago-manual.txt",
-    "33-comandero.txt",
     "33-terminales-payway.txt",
     "34-transacciones-payway.txt",
     "35-reembolsos-payway.txt",
@@ -575,13 +574,6 @@
       "title": "Transacciones MacroClick",
       "slug": "transacciones-macroclick",
       "generated_from": "D:\\laburos\\pexepes\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Medios-de-Pago\\38-Transacciones-MacroClick.md"
-    },
-    {
-      "txt_file": "33-comandero.txt",
-      "original_md": "33-Comandero",
-      "title": "Comandero",
-      "slug": "comandero",
-      "generated_from": "D:\\laburos\\pexepes\\documentation\\src\\routes\\user-guide\\Manual-Usuario\\30-Módulos Principales\\33-Comandero.md"
     },
     {
       "txt_file": "50-agregar-producto.txt",
