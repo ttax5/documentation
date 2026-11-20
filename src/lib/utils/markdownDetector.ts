@@ -38,10 +38,14 @@ interface MarkdownDetectorResult {
 
 let markdownCache: MarkdownDetectorResult | null = null;
 
+export function resetMarkdownCache(): void {
+	markdownCache = null;
+}
+
 // ─── Helpers ─────────────────────────────────────────────────
 
-function categorizeByFolder(path: string): { category: string; order: number } {
-	const match = path.match(/\/Manual-Usuario\/(\d+)-([^\/]+)\//);
+export function categorizeByFolder(path: string): { category: string; order: number } {
+	const match = path.match(/\/Manual-Usuario\/(\d+)-([^/]+)\//);
 	if (match) {
 		const order = parseInt(match[1], 10);
 		const rawName = match[2].replace(/-/g, ' ');
@@ -58,12 +62,12 @@ function categorizeByFolder(path: string): { category: string; order: number } {
  * Devuelve null para módulos de primer nivel.
  */
 function extractParentSlug(path: string): string | null {
-	const match = path.match(/\/Manual-Usuario\/\d+-[^\/]+\/(\d+-[^\/]+)\/[^\/]+\.md$/);
+	const match = path.match(/\/Manual-Usuario\/\d+-[^/]+\/(\d+-[^/]+)\/[^/]+\.md$/);
 	if (match) return fileNameToSlug(match[1]);
 	return null;
 }
 
-function generateSEO(
+export function generateSEO(
 	title: string,
 	content: string,
 	slug: string,

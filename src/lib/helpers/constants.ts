@@ -13,11 +13,15 @@ export interface SearchableItem {
 // Cache del índice de búsqueda (se carga una sola vez)
 let searchIndexCache: SearchableItem[] | null = null;
 
+export function resetSearchIndexCache(): void {
+	searchIndexCache = null;
+}
+
 /**
  * Carga el índice de búsqueda pre-generado en build time.
  * El archivo search-index.json se genera con: npm run generate:search
  */
-async function loadSearchIndex(): Promise<SearchableItem[]> {
+export async function loadSearchIndex(): Promise<SearchableItem[]> {
 	if (searchIndexCache) return searchIndexCache;
 
 	try {
@@ -101,7 +105,10 @@ export async function searchContent(query: string, limit: number = 8): Promise<S
 	results.sort((a, b) => b.score - a.score);
 
 	// Remover el score del resultado final
-	return results.slice(0, limit).map(({ score, ...item }) => item);
+	return results.slice(0, limit).map(({ score: _score, ...item }) => {
+		void _score;
+		return item;
+	});
 }
 
 /**
