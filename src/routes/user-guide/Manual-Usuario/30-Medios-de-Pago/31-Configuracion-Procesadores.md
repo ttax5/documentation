@@ -1,46 +1,58 @@
-# Configuración de Procesadores de Pago
+# Configuracion de Procesadores de Pago
 
-> **¿Dónde está en el sistema?:** Menú principal → **Medios de Pago** → **Configuración de Procesadores**  
-> **¿Quién lo usa?:** Administradores del Comercio  
-
----
-
-## 🎯 ¿Qué es y para qué sirve esta pantalla?
-
-Esta pantalla permite vincular y configurar las pasarelas y procesadores de pago digitales (ejemplo: *Prisma Payway, Mercado Pago, Macro Click*):
-
-1. **Conexión de pasarelas de pago:** Activación de credenciales para cobros integrados.
-2. **Habilitación de servicios:** Selección de procesadores activos para cobros presenciales o QR.
+> **Ubicacion en el sistema:** Menu principal → **Medios de Pago** → **Configuracion de Procesadores**  
+> **Usuarios habilitados:** Administradores del Comercio
 
 ---
 
-## 🔑 Requisitos para empezar a usarlo
+## Descripcion General
 
-- Tener el permiso de **Configuración de Pasarelas de Pago** configurado en [Permisos por Rol](/user-guide/permisos-por-rol).
+Este modulo permite vincular y configurar las pasarelas y procesadores de pago digitales disponibles en el sistema, incluyendo Prisma Payway, Mercado Pago y Macro Click de Pagos. Desde aqui el administrador gestiona las credenciales de acceso a cada plataforma, habilitando al comercio para recibir cobros integrados directamente desde la pantalla de venta.
 
----
+La configuracion de procesadores es el paso previo e indispensable para que los cajeros puedan operar con medios de pago electronicos. Sin las credenciales correctamente ingresadas y el procesador activo, las terminales y las pasarelas QR no podran comunicarse con las entidades financieras correspondientes.
 
-## 🎨 Botones y Campos: ¿Qué es cada cosa?
-
-| Botón / Campo | ¿Dónde está? | ¿Qué hace al tocarlo / completarlo? |
-|---|---|---|
-| ⚙️ **Configurar** | Al lado de cada procesador | Abre el panel de credenciales (API Keys, Secret Tokens). |
-| 🔘 **Activar / Desactivar** | Columna Estado | Habilita o deshabilita el procesador en la pantalla de cobro. |
+Cada procesador opera de forma independiente y puede activarse o desactivarse segun las necesidades del comercio, permitiendo habilitar unicamente los canales de cobro que se encuentren contratados y operativos en el local.
 
 ---
 
-## 📑 Guía Paso a Paso: ¿Cómo se usa?
+## Requisitos Previos
 
-### Paso 1: Activar un procesador de pago
-1. Buscá el procesador en la lista (ejemplo: *Payway*).
-2. Tocá **Configurar**.
-3. Ingresá las credenciales o claves otorgadas por la entidad financiera.
-4. Tocá **Guardar Cambios**.
+- Contar con el permiso de Configuracion de Pasarelas de Pago asignado al usuario.
+- Tener a disposicion las credenciales otorgadas por la entidad financiera o proveedor del procesador (API Keys, Secret Tokens u otros parametros de acceso).
 
 ---
 
-## ⚠️ ¿Qué hacer si algo no sale bien? (Problemas Comunes)
+## Guia de Uso
 
-| ¿Qué te pasa? | ¿Por qué puede ser? | ¿Cómo se soluciona? |
-|---|---|---|
-| Las credenciales dan error al guardar. | Se copió una clave vacía o incorrecta. | Revisá las claves obtenidas en el portal del proveedor de pagos. |
+### Activar y configurar un procesador de pago
+
+1. Ingresar al modulo desde Menu principal → **Medios de Pago** → **Configuracion de Procesadores**.
+2. Localizar el procesador deseado en la lista (por ejemplo: Payway, Mercado Pago o Macro Click).
+3. Tocar el boton **Configurar** correspondiente al procesador seleccionado.
+4. Ingresar las credenciales proporcionadas por la entidad financiera, tales como API Key, Secret Token u otros campos requeridos.
+5. Tocar **Guardar Cambios** para que el sistema registre y valide las credenciales ingresadas.
+6. Verificar que el procesador quede marcado como activo en la columna de Estado.
+
+### Desactivar un procesador de pago
+
+1. Localizar el procesador en la lista de procesadores configurados.
+2. Usar el toggle de la columna **Estado** para cambiarlo de Activo a Inactivo.
+3. El procesador dejara de aparecer como opcion disponible en la pantalla de cobro de forma inmediata.
+
+---
+
+## Acciones Disponibles
+
+| Accion | Descripcion |
+|---|---|
+| **Configurar** | Abre el panel de ingreso de credenciales del procesador seleccionado, donde se cargan las API Keys, Secret Tokens y demas parametros requeridos por la entidad financiera. |
+| **Activar / Desactivar** | Habilita o deshabilita el procesador en la pantalla de cobro sin eliminar las credenciales ya ingresadas. |
+
+---
+
+## Resolucion de Problemas
+
+| Situacion | Solucion |
+|---|---|
+| Las credenciales ingresadas generan error de autenticacion. | Verificar que las claves hayan sido copiadas correctamente y sin espacios adicionales. Ingresar al portal web del proveedor para confirmar que las credenciales esten vigentes y no hayan sido regeneradas. |
+| El procesador figura como activo pero no aparece en la pantalla de cobro. | Cerrar sesion y volver a ingresar al sistema. Si el problema persiste, verificar que el rol del cajero tenga habilitado el medio de pago correspondiente en la configuracion de perfiles de usuario. |

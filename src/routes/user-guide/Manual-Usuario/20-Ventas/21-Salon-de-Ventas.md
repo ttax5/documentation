@@ -1,62 +1,72 @@
-# Salón de Ventas (Adición)
+# Salon de Ventas
 
-> **¿Dónde está en el sistema?:** Menú principal → **Ventas** → **Salón de Ventas**  
-> **¿Quién lo usa?:** Cajeros, Mozos y Encargados de Salón  
-
----
-
-## 🎯 ¿Qué es y para qué sirve esta pantalla?
-
-El **Salón de Ventas** es la pantalla principal de atención donde se gestiona todo lo que ocurre con las mesas y los clientes en el local:
-
-1. **Abrir mesas y tomar pedidos:** Podés seleccionar la mesa ocupada, asignar un mozo y cargar los productos pedidos.
-2. **Imprimir comandas a cocina y barra:** Envía automáticamente las órdenes a los sectores de preparación.
-3. **Emitir pré-ticket y cobrar:** Podés cobrar en efectivo, tarjeta o Mercado Pago, aplicar descuentos y cerrar la mesa.
-4. **Gestionar Delivery y Mostrador:** Permite tomar pedidos para llevar o entregas a domicilio con datos del cliente.
+> **Ubicacion en el sistema:** Menu principal → **Ventas** → **Salon de Ventas**  
+> **Usuarios habilitados:** Cajeros, Mozos y Encargados de Salon
 
 ---
 
-## 🔑 Requisitos para empezar a usarlo
+## Descripcion General
 
-- Tener abierto un arqueo de caja activo para poder registrar cobranzas.
-- Contar con el permiso de **Operación de Salón y Adición** configurado en [Permisos por Rol](/user-guide/permisos-por-rol).
+El Salon de Ventas es la pantalla principal de operacion del local. Desde aqui se gestiona todo el ciclo de atencion de las mesas: apertura, toma de pedidos, envio de comandas a cocina y barra, impresion del pre-ticket, cobro y cierre. Es el punto de contacto central entre el personal de sala y el sistema, y concentra las acciones mas frecuentes del turno de trabajo.
 
----
+Cada mesa se representa como una tarjeta visual identificada por numero y mozo asignado. El color de la tarjeta indica el estado actual: verde para mesa libre, rojo para mesa ocupada con consumo activo, amarillo cuando el cliente ya pidio la cuenta. Esta codificacion permite al encargado de salon monitorear el estado del salon de un vistazo sin necesidad de desplazarse fisicamente por el local.
 
-## 🎨 Botones y Pantallas: ¿Qué es cada cosa?
+El modulo tambien integra la gestion de pedidos de Delivery y Mostrador, que aparecen como entradas diferenciadas dentro de la misma pantalla, permitiendo al personal atender simultaneamente clientes de mesa y pedidos para llevar desde una unica interfaz unificada.
 
-| Botón / Ícono | ¿Dónde está? | ¿Qué hace al tocarlo? |
-|---|---|---|
-| 🟩 **Mesa Libre** | Panel principal de mesas | Abre una mesa para comenzar a cargar productos. |
-| 🟥 **Mesa Abierta** | Panel principal de mesas | Muestra los productos cargados y permite adicionar o cobrar. |
-| 🖨️ **Adición / Pré-Ticket** | Dentro de la mesa abierta | Imprime la cuenta preliminar para entregar al cliente. |
-| 💵 **Cobrar** | Dentro de la mesa abierta | Abre la pantalla de cobro para seleccionar la forma de pago. |
-| 🔄 **Cambiar Mozo** | Menú de opciones de la mesa | Reasigna la mesa a otro compañero de trabajo. |
-| 🔀 **Dividir Mesa** | Menú de opciones de la mesa | Separa consumos para que cada cliente pague su parte. |
+![Vista del Salon de Ventas con mesas por mozo](images/ventas/salon-de-ventas.png)
+_Vista del Salon de Ventas organizada por mozo, con tarjetas de mesas y botones de apertura_
 
 ---
 
-## 📑 Guía Paso a Paso: ¿Cómo se usa?
+## Requisitos Previos
 
-### Paso 1: Abrir una mesa y cargar un pedido
-1. En la grilla principal, tocá el número de la mesa que se acaba de ocupar.
-2. Seleccioná el **Mozo** a cargo en la lista desplegable.
-3. En el catálogo de productos, tocá los productos que los clientes pidieron (ejemplo: Empanadas, Cerveza).
-4. Tocá **Enviar Comanda** para que se imprima la orden en la cocina o barra.
-
-### Paso 2: Imprimir la cuenta y cobrar
-1. Cuando el cliente pida la cuenta, abrí la mesa y tocá **Adición** para imprimir el pré-ticket.
-2. Una vez que el cliente entrega el dinero o tarjeta, tocá **Cobrar**.
-3. Seleccioná la forma de pago (Efectivo, Tarjeta de Débito/Crédito, Mercado Pago).
-4. Escribí el monto recibido en la casilla **Importe**.
-5. Tocá **Cerrar y Facturar**. La mesa volverá a quedar de color verde (disponible).
+- Tener un arqueo de caja activo y abierto para el turno correspondiente. Sin arqueo iniciado no es posible registrar cobranzas.
+- Contar con el permiso de Operacion de Salon y Adicion asignado al rol del usuario.
+- Tener configurados los sectores, mesas y mozos en el modulo de administracion antes de comenzar la operacion.
 
 ---
 
-## ⚠️ ¿Qué hacer si algo no sale bien? (Problemas Comunes)
+## Guia de Uso
 
-| ¿Qué te pasa? | ¿Por qué puede ser? | ¿Cómo se soluciona? |
-|---|---|---|
-| El sistema no te deja cobrar una mesa. | No hay ningún arqueo de caja abierto. | Abrí la caja desde el módulo de Arqueos antes de realizar cobros. |
-| La comanda no sale impresa en cocina. | La impresora está apagada o sin papel. | Revisá el estado de la impresora o la conexión de red. |
-| Te equivocaste al cargar un producto. | El producto ya fue enviado a cocina. | Tocá el producto en la mesa y presioná **Anular Item** indicando el motivo. |
+### Abrir una mesa y tomar el pedido
+
+1. En la pantalla del Salon de Ventas, localizar la tarjeta de la mesa deseada. El color verde indica que esta libre.
+2. Tocar la tarjeta de la mesa libre para abrirla.
+3. Asignar el mozo responsable de esa mesa desde el selector que aparece.
+4. Indicar la cantidad de comensales si el sistema lo solicita.
+5. Desde el catalogo de productos, seleccionar los items pedidos por el cliente y agregarlos al detalle de la mesa.
+6. Tocar **Enviar Comanda** para transmitir el pedido a cocina y/o barra segun la configuracion de impresoras. La tarjeta de mesa cambia de color a rojo, indicando que esta ocupada.
+
+### Cobrar y cerrar la mesa
+
+1. Cuando el cliente solicite la cuenta, tocar la tarjeta de la mesa ocupada para acceder al detalle de consumo.
+2. Tocar **Adicion** o **Pre-ticket** para imprimir la cuenta preliminar que se entrega al cliente.
+3. Tocar **Cobrar** para abrir la pantalla de cobro.
+4. Seleccionar la forma de pago: Efectivo, Tarjeta de debito o credito, o Mercado Pago.
+5. Ingresar el monto recibido o confirmar el importe total.
+6. Tocar **Cerrar y Facturar** para emitir el comprobante fiscal y liberar la mesa. La tarjeta vuelve a color verde.
+
+---
+
+## Acciones Disponibles
+
+| Accion | Descripcion |
+|---|---|
+| **Mesa Libre** | Abre una mesa disponible, permite asignar mozo y comenzar a cargar productos al consumo. |
+| **Mesa Abierta** | Accede al detalle de consumo activo de la mesa y permite adicionar productos o iniciar el proceso de cobro. |
+| **Adicion / Pre-ticket** | Imprime la cuenta preliminar del consumo actual para presentar al cliente antes del cobro definitivo. |
+| **Cobrar** | Abre la pantalla de cobro donde se selecciona el medio de pago y se registra la transaccion. |
+| **Cambiar Mozo** | Reasigna la mesa a otro mozo sin interrumpir el consumo activo ni perder los productos ya cargados. |
+| **Dividir Mesa** | Permite separar el consumo de una mesa en dos o mas cuentas independientes para cobrar por separado. |
+| **Enviar Comanda** | Transmite el pedido cargado a las impresoras de cocina y barra configuradas en el sistema. |
+
+---
+
+## Resolucion de Problemas
+
+| Situacion | Solucion |
+|---|---|
+| No es posible registrar el cobro o el boton Cobrar aparece desactivado. | Verificar que exista un arqueo de caja abierto para el turno. Ir al modulo de Caja y abrir el arqueo correspondiente antes de intentar cobrar nuevamente. |
+| La comanda no se imprime en cocina o barra. | Revisar que la impresora de destino este encendida y conectada a la red. Verificar la configuracion de impresoras en el modulo de Administracion. |
+| Se cargo un producto equivocado en la mesa. | Acceder al detalle de la mesa, seleccionar el item incorrecto y utilizar la opcion **Anular Item**. Puede requerir clave de supervisor segun la configuracion de permisos del rol. |
+| La mesa aparece ocupada pero el cliente ya se retiro sin cerrar el cobro. | Acceder a la mesa desde el Salon, revisar el consumo y proceder al cobro o anulacion segun corresponda para liberar la mesa y devolverla al estado verde. |

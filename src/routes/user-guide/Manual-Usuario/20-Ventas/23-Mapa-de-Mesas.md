@@ -1,55 +1,63 @@
 # Mapa de Mesas
 
-> **¿Dónde está en el sistema?:** Menú principal → **Ventas** → **Mapa de Mesas**  
-> **¿Quién lo usa?:** Encargados de Salón, Anfitriones (Hostess) y Mozos  
+> **Ubicacion en el sistema:** Menu principal → **Ventas** → **Mapa de Mesas**  
+> **Usuarios habilitados:** Encargados de Salon, Anfitriones y Mozos
 
 ---
 
-## 🎯 ¿Qué es y para qué sirve esta pantalla?
+## Descripcion General
 
-El **Mapa de Mesas** muestra la distribución gráfica y visual de los sectores del salón en tiempo real:
+El Mapa de Mesas ofrece una representacion grafica y visual de la distribucion del salon en tiempo real. A diferencia del listado de tarjetas del Salon de Ventas, esta pantalla muestra la disposicion fisica aproximada de las mesas dentro de cada sector del local, lo que facilita la lectura del estado de ocupacion de forma intuitiva y espacial.
 
-1. **Estado visual de la sala:** Podés ver qué mesas están libres, ocupadas, pidiendo la cuenta o reservadas con códigos de colores intuitivos.
-2. **Distribución por sectores:** Cambiá fácilmente entre sectores como *Salón Principal*, *Patio*, *Barra* o *Terraza*.
-3. **Control del tiempo de ocupación:** Muestra cuánto tiempo lleva abierta cada mesa para mejorar el flujo de atención.
+Cada mesa se representa con un icono o figura en su posicion dentro del plano del sector, coloreada segun su estado actual de ocupacion. Esta vista es especialmente util para los anfitriones y encargados que necesitan asignar mesas a clientes que ingresan al local, ya que pueden identificar de un vistazo cuales estan disponibles, cuales estan siendo atendidas y cuales ya solicitaron la cuenta.
 
----
-
-## 🔑 Requisitos para empezar a usarlo
-
-- Tener configurados los sectores y las mesas del local.
-- Poseer el permiso de **Visualización de Mapa de Salón** configurado en [Permisos por Rol](/user-guide/permisos-por-rol).
+El mapa se organiza en pestañas por sector, permitiendo cambiar rapidamente entre el Salon Principal, el Patio, la Barra, la Terraza u otros sectores que hayan sido configurados. Tambien muestra el tiempo de ocupacion de cada mesa activa, lo que permite al encargado detectar mesas con mucho tiempo de permanencia y coordinar el servicio en consecuencia.
 
 ---
 
-## 🎨 Botones y Pantallas: ¿Qué es cada cosa?
+## Requisitos Previos
 
-| Ícono / Color | ¿Qué representa? | ¿Qué hace al tocarlo? |
-|---|---|---|
-| 🟢 **Mesa Verde** | Mesa Libre / Disponible | Abre la mesa para ingresar comensales y seleccionar mozo. |
-| 🔴 **Mesa Roja** | Mesa Ocupada | Abre el detalle del consumo activo de los clientes. |
-| 🟡 **Mesa Amarilla** | Adicionada (Cuenta pedida) | Indica que el pré-ticket fue impreso y está lista para cobrar. |
-| 🔵 **Mesa Azul** | Reservada | Muestra los datos del cliente que realizó la reserva. |
-| 🏢 **Pestañas de Sector** | Parte superior del mapa | Cambia la vista gráfica entre Salón, Terraza, Patio, etc. |
+- Tener configurados los sectores y las mesas del local desde el modulo de Administracion de Mesas.
+- Contar con el permiso de Visualizacion de Mapa de Salon asignado al rol del usuario.
 
 ---
 
-## 📑 Guía Paso a Paso: ¿Cómo se usa?
+## Guia de Uso
 
-### Paso 1: Monitorear el salón
-1. Seleccioná la pestaña del **Sector** que querés visualizar (ejemplo: *Patio*).
-2. Observá los colores de las mesas para identificar el estado general de ocupación.
+### Monitorear el estado del salon
 
-### Paso 2: Abrir una mesa desde el mapa gráfico
-1. Tocá directamente sobre el ícono de la **Mesa Libre (Verde)** en el plano gráfico.
-2. Seleccioná el **Mozo** a cargo y la cantidad de comensales.
-3. El color de la mesa cambiará automáticamente a **Rojo (Ocupada)**.
+1. Ingresar al Mapa de Mesas desde el menu de Ventas.
+2. Seleccionar la pestaña del sector que se desea visualizar: Salon Principal, Patio, Barra, Terraza u otros.
+3. Observar los colores de las mesas para identificar su estado actual:
+   - Verde: mesa libre y disponible para ser asignada.
+   - Rojo: mesa ocupada con consumo activo en curso.
+   - Amarillo: mesa adicionada, el cliente ya solicito la cuenta y esta esperando el cobro.
+   - Azul: mesa con reserva asignada para un horario proximo.
+4. Cambiar entre pestañas de sectores segun sea necesario para tener una vision completa del local.
+
+### Abrir una mesa desde el mapa
+
+1. Localizar en el plano del sector una mesa con color verde (libre).
+2. Tocar el icono de la mesa para iniciar su apertura.
+3. Seleccionar el mozo responsable e indicar la cantidad de comensales.
+4. Confirmar la apertura. La mesa cambia a color rojo indicando que esta ocupada y activa.
 
 ---
 
-## ⚠️ ¿Qué hacer si algo no sale bien? (Problemas Comunes)
+## Acciones Disponibles
 
-| ¿Qué te pasa? | ¿Por qué puede ser? | ¿Cómo se soluciona? |
-|---|---|---|
-| No aparecen las mesas en la pantalla. | No se ha seleccionado un sector válido. | Seleccioná un sector de la barra superior. |
-| Una mesa aparece ocupada pero la gente ya se fue. | Faltó realizar el cobro y cierre de la mesa. | Tocá la mesa roja, presioná **Cobrar** y registrá el cierre. |
+| Accion | Descripcion |
+|---|---|
+| **Pestañas de Sector** | Cambia la vista entre los distintos sectores del local: Salon, Patio, Barra, Terraza u otros configurados. |
+| **Mesa Libre** | Al tocar una mesa verde, permite abrirla asignando mozo y cantidad de comensales. |
+| **Mesa Ocupada** | Al tocar una mesa roja o amarilla, muestra el detalle del consumo activo y da acceso a las acciones de adicion o cobro. |
+
+---
+
+## Resolucion de Problemas
+
+| Situacion | Solucion |
+|---|---|
+| No aparecen mesas en la pantalla del mapa. | Verificar que se haya seleccionado una pestaña de sector activa. Si ningun sector muestra mesas, confirmar que los sectores y mesas esten configurados correctamente en el modulo de Administracion. |
+| Una mesa aparece ocupada pero los clientes ya se retiraron del local. | El cobro de esa mesa no fue completado correctamente. Acceder a la mesa desde el Salon de Ventas o desde el propio mapa, revisar el consumo y proceder al cierre o anulacion correspondiente para liberar la mesa. |
+| El color de una mesa no refleja el estado real de ocupacion. | Recargar la pantalla del Mapa de Mesas. Si el problema persiste, verificar la conexion del dispositivo a la red local del sistema. |
